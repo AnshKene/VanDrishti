@@ -1,0 +1,3 @@
+patch_size,spatial_footprint_meters,patch_radius_meters,min_split_distance_gondkhari,patch_safety_status,recommendation
+15x15,450m x 450m,210.0m,391.9m,PASS (Radius 210m < Min Dist 391.9m),RECOMMENDED PATCH SIZE
+33x33,990m x 990m,480.0m,391.9m,FAIL (Radius 480m > Min Dist 391.9m),NOT RECOMMENDED (Spatial Leakage Risk)

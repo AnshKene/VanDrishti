@@ -1,0 +1,12 @@
+Item,Value
+Conclusion,A) TEMPORAL DELTA ADVANTAGE STATISTICALLY SUPPORTED
+Delta PR-AUC,0.3790722515417992
+Control PR-AUC,0.24289320201286418
+Paired AP Difference,0.136179049528935
+Bootstrap CI (AP diff),"[0.0185, 0.2798]"
+CI Excludes Zero,True
+Delta Wins (spatial blocks),7
+Control Wins (spatial blocks),1
+Ties,0
+Feature 8.3 comparison,CONDITIONAL — different test populations
+Cross-project claim,NOT ESTABLISHED — Feature 8.7-C required

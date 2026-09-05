@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CA LAND OVALI  (990.265 Ha).kml</name>
+	<Schema name="CA_LAND_OVALI__%28990" id="S_CA_LAND_OVALI___28990_SSIDIISSDDD">
+		<SimpleField type="long" name="OID_"><displayName>&lt;b&gt;OID_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FolderPath"><displayName>&lt;b&gt;FolderPath&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="SymbolID"><displayName>&lt;b&gt;SymbolID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="AltMode"><displayName>&lt;b&gt;AltMode&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Base"><displayName>&lt;b&gt;Base&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Clamped"><displayName>&lt;b&gt;Clamped&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Extruded"><displayName>&lt;b&gt;Extruded&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Snippet"><displayName>&lt;b&gt;Snippet&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PopupInfo"><displayName>&lt;b&gt;PopupInfo&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Leng"><displayName>&lt;b&gt;Shape_Leng&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Area"><displayName>&lt;b&gt;Shape_Area&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="area_ha"><displayName>&lt;b&gt;area_ha&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<IconStyle>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OID_</b></td><td>$[CA_LAND_OVALI__%28990/OID_]</td></tr>
+  <tr><td><b>Name</b></td><td>$[CA_LAND_OVALI__%28990/Name]</td></tr>
+  <tr><td><b>FolderPath</b></td><td>$[CA_LAND_OVALI__%28990/FolderPath]</td></tr>
+  <tr><td><b>SymbolID</b></td><td>$[CA_LAND_OVALI__%28990/SymbolID]</td></tr>
+  <tr><td><b>AltMode</b></td><td>$[CA_LAND_OVALI__%28990/AltMode]</td></tr>
+  <tr><td><b>Base</b></td><td>$[CA_LAND_OVALI__%28990/Base]</td></tr>
+  <tr><td><b>Clamped</b></td><td>$[CA_LAND_OVALI__%28990/Clamped]</td></tr>
+  <tr><td><b>Extruded</b></td><td>$[CA_LAND_OVALI__%28990/Extruded]</td></tr>
+  <tr><td><b>Snippet</b></td><td>$[CA_LAND_OVALI__%28990/Snippet]</td></tr>
+  <tr><td><b>PopupInfo</b></td><td>$[CA_LAND_OVALI__%28990/PopupInfo]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[CA_LAND_OVALI__%28990/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[CA_LAND_OVALI__%28990/Shape_Area]</td></tr>
+  <tr><td><b>area_ha</b></td><td>$[CA_LAND_OVALI__%28990/area_ha]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor1">
+		<IconStyle>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OID_</b></td><td>$[CA_LAND_OVALI__%28990/OID_]</td></tr>
+  <tr><td><b>Name</b></td><td>$[CA_LAND_OVALI__%28990/Name]</td></tr>
+  <tr><td><b>FolderPath</b></td><td>$[CA_LAND_OVALI__%28990/FolderPath]</td></tr>
+  <tr><td><b>SymbolID</b></td><td>$[CA_LAND_OVALI__%28990/SymbolID]</td></tr>
+  <tr><td><b>AltMode</b></td><td>$[CA_LAND_OVALI__%28990/AltMode]</td></tr>
+  <tr><td><b>Base</b></td><td>$[CA_LAND_OVALI__%28990/Base]</td></tr>
+  <tr><td><b>Clamped</b></td><td>$[CA_LAND_OVALI__%28990/Clamped]</td></tr>
+  <tr><td><b>Extruded</b></td><td>$[CA_LAND_OVALI__%28990/Extruded]</td></tr>
+  <tr><td><b>Snippet</b></td><td>$[CA_LAND_OVALI__%28990/Snippet]</td></tr>
+  <tr><td><b>PopupInfo</b></td><td>$[CA_LAND_OVALI__%28990/PopupInfo]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[CA_LAND_OVALI__%28990/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[CA_LAND_OVALI__%28990/Shape_Area]</td></tr>
+  <tr><td><b>area_ha</b></td><td>$[CA_LAND_OVALI__%28990/area_ha]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Placemark>
+		<name>CA LAND OVALI  (990.265 Ha)</name>
+		<styleUrl>#falseColor0</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_CA_LAND_OVALI___28990_SSIDIISSDDD">
+				<SimpleData name="OID_">0</SimpleData>
+				<SimpleData name="Name">CA LAND OVALI (990.265 Ha)</SimpleData>
+				<SimpleData name="FolderPath">CA LAND OVALI (990.265 Ha).kml</SimpleData>
+				<SimpleData name="SymbolID">0</SimpleData>
+				<SimpleData name="AltMode">0</SimpleData>
+				<SimpleData name="Base">0</SimpleData>
+				<SimpleData name="Clamped">-1</SimpleData>
+				<SimpleData name="Extruded">0</SimpleData>
+				<SimpleData name="Snippet"></SimpleData>
+				<SimpleData name="PopupInfo">Viillage: Ovali Tahsil: chiplun District : Ratnagiri Division : Ratnagiri (Chiplun) Range: Chiplun Round: Chiplun Beat: Kolkewadi Total Area: 990.265Ha. Survey No.: 422, 423, 424,425, 426, 427, 428, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444</SimpleData>
+				<SimpleData name="Shape_Leng">21043.2</SimpleData>
+				<SimpleData name="Shape_Area">9.90226e+06</SimpleData>
+				<SimpleData name="area_ha">990.226</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.72015323217353,17.52468994756873,0 73.71850576685624,17.52318172692084,0 73.7179875096266,17.52232666125636,0 73.71091930187046,17.52332759144945,0 73.71168929034496,17.52387699866873,0 73.71039591313135,17.52617160561415,0 73.71039247146381,17.52617771225079,0 73.71032982992392,17.52628884541218,0 73.71032890260238,17.52628877612013,0 73.71024958399791,17.52642735606477,0 73.6982920775945,17.52539043830043,0 73.6969830302674,17.52529274108775,0 73.68655924780222,17.52454146482176,0 73.68285483281414,17.524264210621,0 73.68285390585476,17.52423824988547,0 73.68209823000986,17.52387907913174,0 73.68304542206721,17.5224170945539,0 73.68281534340581,17.52226093068266,0 73.68278023931737,17.52196904464153,0 73.68328390055193,17.52023868963665,0 73.68327479869961,17.51956297657942,0 73.68409935476564,17.51917439173739,0 73.68480927005487,17.51905629588042,0 73.68565243212971,17.51873557257566,0 73.68698098446262,17.51864287764046,0 73.68694003524676,17.51848235119672,0 73.68653846097645,17.51772277979522,0 73.68668468895225,17.51765667989064,0 73.68670619805658,17.51749871867297,0 73.68541844541919,17.51739410404836,0 73.68517476645162,17.5179055309127,0 73.6852057473448,17.51814265255339,0 73.68508910058738,17.51814268271754,0 73.68457641831226,17.51761132581002,0 73.68418067678788,17.51751655494483,0 73.68411565535168,17.51700119669275,0 73.68246687087765,17.51577723288881,0 73.6812274565267,17.51742490243544,0 73.67928546593144,17.51769542877334,0 73.67859290874725,17.51800357777621,0 73.67780324686952,17.51865269374722,0 73.6774408891917,17.51843241787664,0 73.67694241587175,17.51774943513688,0 73.67709900465374,17.51743360273956,0 73.67795136271211,17.51628641073985,0 73.67869438454058,17.51559800931926,0 73.67760878897214,17.51434568355373,0 73.67662950856085,17.51366259476988,0 73.67671190854325,17.5133396668067,0 73.67693022326171,17.5132253358518,0 73.6767088133959,17.51255198330636,0 73.67643703340468,17.51277438272648,0 73.67614214211761,17.51228843523172,0 73.67536428741109,17.51196337010898,0 73.67399701768285,17.51304530902296,0 73.67393689397403,17.51164335618877,0 73.67349193001176,17.51185274903176,0 73.67106575669531,17.51229677891318,0 73.67106923545934,17.51286528631382,0 73.67122762693153,17.51285932897471,0 73.67119517614559,17.51378408699084,0 73.67157959433514,17.51385708194568,0 73.67153629095598,17.51390399087146,0 73.6702925303689,17.51419155523199,0 73.66955202898988,17.51417103604292,0 73.66836185624616,17.51402031305783,0 73.66603985117779,17.51426450783139,0 73.66565689234746,17.51347622188387,0 73.6640116291732,17.5151717959758,0 73.6644980502363,17.51591913402413,0 73.66351734786612,17.51773352256198,0 73.66328855315693,17.51766795511715,0 73.66107664189542,17.51928669304521,0 73.66130193073342,17.51451486883688,0 73.65972298667187,17.51262261758818,0 73.65946691810967,17.51302663122469,0 73.65826456668026,17.51168940101804,0 73.65794478043553,17.51199570967212,0 73.65739472767343,17.51137332411367,0 73.65714636666388,17.51083120202217,0 73.65983377144659,17.50831525691161,0 73.66043069873542,17.50709461970761,0 73.66177676210702,17.50738779708563,0 73.66393835810207,17.50586837412841,0 73.66752712247006,17.50468851272152,0 73.66829564984329,17.50406410397913,0 73.67110945303837,17.50335465040404,0 73.67246211016908,17.50165869770697,0 73.67582281993867,17.501073087142,0 73.68069786556397,17.50241699498206,0 73.68267884825458,17.50199254065725,0 73.68260078123058,17.50163525756278,0 73.68421765783346,17.50163468728715,0 73.69025895723048,17.50315762691372,0 73.69579950678887,17.50468590541399,0 73.70298934116033,17.50857737815907,0 73.70478240625562,17.51088291695815,0 73.70543675716404,17.51031460175149,0 73.70582953034442,17.50975309767642,0 73.70723887583053,17.51096897999485,0 73.70756184439966,17.51134533128342,0 73.70782165475141,17.5118067626638,0 73.70883425442524,17.51259669609779,0 73.71074057721007,17.51398942203437,0 73.71461309925951,17.51780636973299,0 73.71584558801931,17.51887069786338,0 73.71697595909269,17.52002254182651,0 73.71748359044788,17.52006916931191,0 73.71819494784455,17.51979449625768,0 73.71861196269381,17.51948250858883,0 73.71953801640149,17.52017914440554,0 73.72025156984381,17.51995327899964,0 73.72092183081759,17.51967023335796,0 73.72113648701483,17.5197352188326,0 73.72119945868516,17.52042438618834,0 73.72060785952861,17.52098696524472,0 73.72018364167229,17.52149091359329,0 73.7200868558224,17.52195535795138,0 73.72112699541141,17.52729340637279,0 73.72015323217353,17.52468994756873,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

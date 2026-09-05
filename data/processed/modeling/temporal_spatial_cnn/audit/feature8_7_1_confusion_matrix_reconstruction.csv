@@ -1,0 +1,4 @@
+Model,TN,FP,FN,TP
+Raw Temporal CNN,926,112,174,14
+Delta Temporal CNN,484,554,45,143
+Spatial-Only Ctrl,80,958,7,181

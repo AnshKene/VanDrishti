@@ -1,0 +1,19 @@
+project_id,project_name,year,processing_status,mean_ndvi,median_ndvi,min_ndvi,max_ndvi,std_ndvi,p10_ndvi,p25_ndvi,p75_ndvi,p90_ndvi,valid_pixel_count,masked_boundary_area_ha,provisional_threshold,vegetation_area_ha,vegetation_percentage,threshold_note
+MH-001,Gondkhari,2021,completed,0.2724,0.2654,-0.3009,0.6854,0.1129,0.1773,0.2150,0.3340,0.4038,9577,861.930,0.25,487.800,56.59,Provisional threshold; requires LULC/Dynamic World validation
+MH-001,Gondkhari,2022,completed,0.3066,0.3002,-0.2900,0.7344,0.1316,0.1967,0.2408,0.3784,0.4621,9577,861.930,0.25,613.170,71.14,Provisional threshold; requires LULC/Dynamic World validation
+MH-001,Gondkhari,2023,completed,0.2943,0.2840,-0.4022,0.7404,0.1351,0.1915,0.2348,0.3633,0.4501,9577,861.930,0.25,580.140,67.31,Provisional threshold; requires LULC/Dynamic World validation
+MH-001,Gondkhari,2024,completed,0.3028,0.2966,-0.2670,0.7351,0.1184,0.1928,0.2367,0.3702,0.4489,9577,861.930,0.25,598.590,69.45,Provisional threshold; requires LULC/Dynamic World validation
+MH-001,Gondkhari,2025,completed,0.2880,0.2748,-0.3093,0.7458,0.1158,0.1779,0.2193,0.3511,0.4272,9577,861.930,0.25,521.910,60.55,Provisional threshold; requires LULC/Dynamic World validation
+MH-001,Gondkhari,2026,partial_current_year,0.2464,0.2356,-0.3234,0.7476,0.1115,0.1551,0.1954,0.2975,0.3677,9577,861.930,0.25,364.500,42.29,Provisional threshold; requires LULC/Dynamic World validation
+MH-002,Gadchiroli,2021,completed,0.4422,0.4597,0.1268,0.6718,0.1059,0.2814,0.3598,0.5261,0.5694,10423,938.070,0.25,896.400,95.56,Provisional threshold; requires LULC/Dynamic World validation
+MH-002,Gadchiroli,2022,completed,0.5014,0.5232,-0.0092,0.6922,0.0959,0.3608,0.4356,0.5768,0.6095,10423,938.070,0.25,930.240,99.17,Provisional threshold; requires LULC/Dynamic World validation
+MH-002,Gadchiroli,2023,completed,0.4520,0.4684,0.0132,0.6782,0.1137,0.2894,0.3616,0.5460,0.5925,10423,938.070,0.25,898.110,95.74,Provisional threshold; requires LULC/Dynamic World validation
+MH-002,Gadchiroli,2024,completed,0.4263,0.4448,0.0424,0.6560,0.1021,0.2763,0.3482,0.5069,0.5481,10423,938.070,0.25,885.420,94.39,Provisional threshold; requires LULC/Dynamic World validation
+MH-002,Gadchiroli,2025,completed,0.4538,0.4693,-0.0895,0.6870,0.1149,0.2957,0.3667,0.5495,0.5926,10423,938.070,0.25,898.830,95.82,Provisional threshold; requires LULC/Dynamic World validation
+MH-002,Gadchiroli,2026,partial_current_year,0.3172,0.3123,-0.1801,0.5522,0.0775,0.2293,0.2644,0.3707,0.4213,10423,938.070,0.25,771.930,82.29,Provisional threshold; requires LULC/Dynamic World validation
+MH-003,Bhivpuri PSP,2021,completed,0.4525,0.4520,0.1272,0.7882,0.1573,0.2396,0.3135,0.5856,0.6642,1315,118.350,0.25,103.320,87.30,Provisional threshold; requires LULC/Dynamic World validation
+MH-003,Bhivpuri PSP,2022,completed,0.4926,0.4962,0.1641,0.7816,0.1486,0.2979,0.3517,0.6249,0.6880,1315,118.350,0.25,116.100,98.10,Provisional threshold; requires LULC/Dynamic World validation
+MH-003,Bhivpuri PSP,2023,completed,0.4454,0.4171,0.1761,0.7830,0.1666,0.2378,0.2971,0.6032,0.6782,1315,118.350,0.25,103.230,87.22,Provisional threshold; requires LULC/Dynamic World validation
+MH-003,Bhivpuri PSP,2024,completed,0.4481,0.4130,0.1742,0.7947,0.1505,0.2767,0.3168,0.5815,0.6620,1315,118.350,0.25,112.410,94.98,Provisional threshold; requires LULC/Dynamic World validation
+MH-003,Bhivpuri PSP,2025,completed,0.3749,0.3246,0.1354,0.7910,0.1523,0.2245,0.2660,0.4480,0.6382,1315,118.350,0.25,96.300,81.37,Provisional threshold; requires LULC/Dynamic World validation
+MH-003,Bhivpuri PSP,2026,partial_current_year,0.2152,0.1881,-0.0397,0.7520,0.1731,0.0498,0.0717,0.3032,0.4822,1315,118.350,0.25,37.890,32.02,Provisional threshold; requires LULC/Dynamic World validation

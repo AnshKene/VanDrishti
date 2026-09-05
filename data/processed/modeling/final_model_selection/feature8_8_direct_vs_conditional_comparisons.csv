@@ -1,0 +1,6 @@
+Comparison,Type,Population,Conclusion,Valid
+LR vs RF vs XGBoost vs Spatial CNN (F8.3),DIRECT,"F8.4 common spatial test N=8,121",Spatial CNN PR-AUC 0.1977 > XGBoost 0.1565 > RF 0.1641 (PR-AUC) [bootstrap validated in F8.4.1],True
+Delta Temporal CNN vs Spatial Control (F8.7-B),DIRECT,"F8.7 temporal test N=1,226","Delta CNN PR-AUC 0.3791 > Control 0.2429; bootstrap CI [0.0185,0.2798] excludes zero [validated in F8.7.1]",True
+Delta CNN vs Spatial CNN -- F8.7-C vs F8.6,CONDITIONAL,F8.7-C uses complete 5-yr sequences; F8.6 uses all year patches. Populations differ.,"Temporal beats Spatial 2/3 projects (MH-001,MH-003); Spatial beats Temporal on MH-002. NOT a global superiority claim.",True
+"F8.3 Spatial CNN (standard test, N=8121) vs Delta CNN (F8.7 test, N=1226)",CONDITIONAL,Different populations. F8.7 restricted to complete 5-yr centers only.,Cannot directly compare PR-AUC 0.1977 (F8.3) vs 0.3791 (Delta CNN). Different input representations AND populations.,False
+Delta CNN LOPO vs XGBoost LOPO (F8.7-C vs F8.6),DIRECT,Same held-out projects (MH-001/MH-002/MH-003); same LOPO methodology; different sample sets due to 5-yr filter.,Delta CNN beats XGBoost 3/3. LOPO result is valid but comparison is still CONDITIONAL due to sample-level population difference.,True

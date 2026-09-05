@@ -1,0 +1,4 @@
+Population,N,Positives,Prevalence,Note
+Feature 8.3 Test (spatial),8121.0,1267.0,0.156015,
+Feature 8.7 Test (temporal 5-yr req),1226.0,188.0,0.153344,
+,,,,5-year completeness filter did NOT meaningfully shift positive prevalence (both ≈15.3-15.6%)

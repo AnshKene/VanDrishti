@@ -1,0 +1,12 @@
+Limitation,Severity,Details
+MH-002 temporal CNN < spatial CNN,Moderate,Delta CNN PR-AUC=0.265 vs Spatial CNN=0.338 on MH-002. Temporal delta advantage is not universal across projects. Comparison is conditional on different populations.
+F8.6 vs F8.7-C population mismatch,Moderate,F8.6 uses all years' patches (N up to 41k); F8.7-C uses complete 5-yr sequences only (N up to 7.5k). Direct numeric comparison is not valid.
+Only 3 projects available,High,LOPO experiment covers 3 projects. Statistical conclusions about cross-project generalization are limited. No formal significance testing across projects is valid with N=3.
+Incomplete 5-yr sequences excluded,Moderate,579 centers (of 1805 F8.3 test centers) lack complete 5-yr coverage and cannot be evaluated by the temporal CNN. The restricted N=1226 population may not be representative of all disturbance candidates.
+Rule-derived historical labels,High,"Targets derived from Feature 7.2 algorithmic rules. Model learns to replicate rule patterns, not confirmed ground-truth land-use change. Label noise and systematic biases from the rule logic propagate to model evaluation."
+False-positive behavior (MH-003),Moderate,"Experiment C (MH-003): TP=159, FP=419, FN=0. The model achieves 100% recall at the cost of high false positives. This is a screening-mode behavior but limits precision."
+False-negative behavior (MH-001),Moderate,"Experiment A (MH-001): TP=34, FN=228. Low recall on MH-001. The model misses the majority of positive candidates in this project."
+Project-level prevalence differences,Moderate,"MH-001: 10.8%, MH-002: 12.0%, MH-003: 20.4% (F8.7-C populations). Different prevalences affect all threshold-dependent metrics."
+Limited environmental diversity,High,All 3 projects are from the same geographic region and regulatory context. Generalization to climatically or ecologically distinct environments is not established.
+No ground-truth field validation,High,No field-verified samples are available. Model performance is estimated entirely against algorithmic label proxies.
+Delta CNN interpretability,Low,Inter-annual delta CNN is a black-box. Attribution of predictions to spectral bands or temporal patterns requires additional work (e.g. saliency maps).

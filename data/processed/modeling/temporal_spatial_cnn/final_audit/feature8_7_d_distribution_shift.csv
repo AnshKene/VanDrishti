@@ -1,0 +1,4 @@
+Experiment,held_out_project,F86_test_N,F87C_test_N,F86_positive_N,F87C_positive_N,F86_prevalence,F87C_prevalence,Comparison_type,Population_difference
+A,MH-001,18077,2424,1693,262,0.093655,0.1081,CONDITIONAL -- F8.6 uses all years; F8.7-C requires complete 5-yr sequences,15653
+B,MH-002,41451,7549,5820,904,0.140407,0.1198,CONDITIONAL -- F8.6 uses all years; F8.7-C requires complete 5-yr sequences,33902
+C,MH-003,5128,779,570,159,0.111154,0.2041,CONDITIONAL -- F8.6 uses all years; F8.7-C requires complete 5-yr sequences,4349

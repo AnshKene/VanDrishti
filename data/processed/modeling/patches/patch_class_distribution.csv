@@ -1,0 +1,10 @@
+spatial_split,project_id,total_patches,target_0_non_disturbance,target_1_disturbance_candidate,imbalance_ratio,oversampling_applied
+train,MH-001,22578,19962,2616,7.6:1,NONE (Strict Immutability)
+train,MH-002,34439,30234,4205,7.2:1,NONE (Strict Immutability)
+train,MH-003,4510,3409,1101,3.1:1,NONE (Strict Immutability)
+val,MH-001,5381,4949,432,11.5:1,NONE (Strict Immutability)
+val,MH-002,3820,3405,415,8.2:1,NONE (Strict Immutability)
+val,MH-003,53,53,0,N/A,NONE (Strict Immutability)
+test,MH-001,1062,986,76,13.0:1,NONE (Strict Immutability)
+test,MH-002,3192,2878,314,9.2:1,NONE (Strict Immutability)
+test,MH-003,565,565,0,N/A,NONE (Strict Immutability)

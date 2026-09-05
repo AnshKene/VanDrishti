@@ -1,0 +1,7 @@
+Check,Value,Status
+Total test samples,1226,PASS
+Metadata rows match,True,PASS
+Duplicate temporal_sample_id,0,PASS
+Coordinate NaN,0,PASS
+Target mismatches vs tensor,0,PASS
+Identical test population across models,3 models all use same N,PASS

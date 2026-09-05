@@ -1,0 +1,6 @@
+feature_group,feature_names,availability,target_leakage_risk
+Sentinel-2 Multi-Spectral Bands,"B2, B3, B4, B8, B11, B12",AVAILABLE,SAFE (Raw reflectances)
+Spectral Indices,"NDVI, NDWI, NDBI",AVAILABLE,SAFE (Continuous values)
+Temporal Delta Indices,"dNDVI, dNDWI, dNDBI",AVAILABLE,MODERATE (Used in rule thresholding)
+Feature 6 Dynamic World Class,"dynamic_world_class, confidence",AVAILABLE,SAFE (Independent reference)
+Feature 7.2 Category / Score,"candidate_category, evidence_score",TARGET_ONLY,HIGH_TARGET_LEAKAGE (Forbidden as model input)

@@ -1,0 +1,62 @@
+{
+  "feature": 6,
+  "status": "FROZEN / PASS",
+  "audit_timestamp": "2026-08-23T23:28:45+05:30",
+  "dataset_row_count": 79406,
+  "unique_spatial_location_count": 17540,
+  "confidence_threshold": 0.6,
+  "confidence_statistics": {
+    "min": 0.6,
+    "max": 1.0,
+    "mean": 0.9372606604034961,
+    "median": 1.0,
+    "count_below_0.60": 0
+  },
+  "years_included": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "years_excluded": [
+    2026
+  ],
+  "seasonal_window": "January-May + November-December (Dry Season)",
+  "spatial_split_policy": "Grid Column Block Partitioning with ~500m Physical Buffer Gaps",
+  "patch_15x15_safety": "PASS",
+  "sha256_checksum_file_reference": "data/processed/training/freeze/feature6_checksums_sha256.csv",
+  "cnn_training_status": "NOT TRAINED",
+  "class_distribution": {
+    "vegetation": 76888,
+    "built_up": 2309,
+    "bare_land": 209
+  },
+  "project_patch_safety": {
+    "MH-001": {
+      "project_name": "Gondkhari",
+      "min_train_val_m": 391.9,
+      "min_train_test_m": 1119.8,
+      "min_val_test_m": 391.9,
+      "patch15_safe": "PASS"
+    },
+    "MH-002": {
+      "project_name": "Gadchiroli",
+      "min_train_val_m": 678.3,
+      "min_train_test_m": 1978.3,
+      "min_val_test_m": 678.3,
+      "patch15_safe": "PASS"
+    },
+    "MH-003": {
+      "project_name": "Bhivpuri PSP",
+      "min_train_val_m": 1070.8,
+      "min_train_test_m": 3602.0,
+      "min_val_test_m": 2735.6,
+      "patch15_safe": "PASS"
+    }
+  },
+  "duplicates": {
+    "spatio_temporal": 0,
+    "sample_id": 0
+  }
+}

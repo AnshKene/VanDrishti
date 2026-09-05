@@ -1,0 +1,14 @@
+Feature,Manifest,Files_Checked,Failures,Status
+Feature 8.2.2,data/processed/modeling/patches_cnn/feature8_2_1_checksums_sha256.csv,12,0,PASS
+Feature 8.3,data/processed/modeling/cnn_baseline/cnn_baseline_checksums_sha256.csv,18,0,PASS
+Feature 8.3.1,data/processed/modeling/cnn_baseline/audit/feature8_3_1_checksums_sha256.csv,11,0,PASS
+Feature 8.4,data/processed/modeling/controlled_benchmark/feature8_4_checksums_sha256.csv,9,0,PASS
+Feature 8.4.1,data/processed/modeling/controlled_benchmark/audit/feature8_4_1_checksums_sha256.csv,8,0,PASS
+Feature 8.6,data/processed/modeling/cross_project_generalization/feature8_6_checksums_sha256.csv,8,0,PASS
+Feature 8.6.1,data/processed/modeling/cross_project_generalization/audit/feature8_6_1_checksums_sha256.csv,8,0,PASS
+Feature 8.7-A,data/processed/modeling/temporal_spatial_cnn/feature8_7_checksums_sha256.csv,18,0,PASS
+Feature 8.7-B,data/processed/modeling/temporal_spatial_cnn/feature8_7_b_checksums_sha256.csv,21,0,PASS
+Feature 8.7.1,data/processed/modeling/temporal_spatial_cnn/audit/feature8_7_1_checksums_sha256.csv,13,0,PASS
+Feature 8.7.2,data/processed/modeling/temporal_spatial_cnn/audit/reconciliation/feature8_7_2_checksums_sha256.csv,12,0,PASS
+Feature 8.7-C,data/processed/modeling/temporal_spatial_cnn/cross_project/feature8_7_c_checksums_sha256.csv,18,0,PASS
+Feature 8.7-D,data/processed/modeling/temporal_spatial_cnn/final_audit/feature8_7_d_checksums_sha256.csv,11,0,PASS

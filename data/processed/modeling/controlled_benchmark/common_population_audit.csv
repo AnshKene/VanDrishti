@@ -1,0 +1,7 @@
+metric,value,status
+Total Common Test Samples,8121,MATCH_PASS
+Disturbance Candidates (Target 1),1267,MATCH_PASS
+Non-Disturbance Samples (Target 0),6854,MATCH_PASS
+Positive Class Prevalence,0.156015,MATCH_PASS
+Distinct Projects Included,3,MATCH_PASS
+Historical Years Included,"[2021, 2022, 2023, 2024, 2025]",MATCH_PASS

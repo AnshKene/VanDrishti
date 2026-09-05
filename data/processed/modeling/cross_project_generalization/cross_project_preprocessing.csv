@@ -1,0 +1,4 @@
+experiment_id,training_projects,held_out_project,b2_mean,b3_mean,b4_mean,b8_mean,b11_mean,b12_mean,pos_weight,selected_threshold,val_f1_at_threshold
+Experiment A,"['MH-002', 'MH-003']",MH-001,0.052991,0.072141,0.083984,0.212152,0.229949,0.158724,6.3212,0.5,0.6663685152057245
+Experiment B,"['MH-001', 'MH-003']",MH-002,0.061152,0.081292,0.09744,0.202808,0.246254,0.176426,9.2096,0.5,0.4430479183032207
+Experiment C,"['MH-001', 'MH-002']",MH-003,0.05701,0.074323,0.088552,0.215172,0.238578,0.165992,6.9049,0.5,0.3775862068965517

@@ -1,0 +1,25 @@
+project_id,project_name,index,tail,percentile,threshold_value,affected_pixels,affected_area_ha
+MH-001,Gondkhari,NDVI,lower,p01,-0.1131,384,34.56
+MH-001,Gondkhari,NDVI,lower,p02,-0.0874,767,69.03
+MH-001,Gondkhari,NDVI,lower,p05,-0.0627,1917,172.53
+MH-001,Gondkhari,NDVI,lower,p10,-0.0454,3833,344.97
+MH-001,Gondkhari,NDBI,upper,p90,0.0330,3833,344.97
+MH-001,Gondkhari,NDBI,upper,p95,0.0482,1917,172.53
+MH-001,Gondkhari,NDBI,upper,p98,0.0715,767,69.03
+MH-001,Gondkhari,NDBI,upper,p99,0.0992,384,34.56
+MH-002,Gadchiroli,NDVI,lower,p01,-0.1308,417,37.53
+MH-002,Gadchiroli,NDVI,lower,p02,-0.1100,834,75.06
+MH-002,Gadchiroli,NDVI,lower,p05,-0.0864,2084,187.56
+MH-002,Gadchiroli,NDVI,lower,p10,-0.0695,4167,375.03
+MH-002,Gadchiroli,NDBI,upper,p90,0.0565,4167,375.03
+MH-002,Gadchiroli,NDBI,upper,p95,0.0730,2084,187.56
+MH-002,Gadchiroli,NDBI,upper,p98,0.0928,834,75.06
+MH-002,Gadchiroli,NDBI,upper,p99,0.1090,417,37.53
+MH-003,Bhivpuri PSP,NDVI,lower,p01,-0.3236,52,4.68
+MH-003,Bhivpuri PSP,NDVI,lower,p02,-0.2921,104,9.36
+MH-003,Bhivpuri PSP,NDVI,lower,p05,-0.2109,259,23.31
+MH-003,Bhivpuri PSP,NDVI,lower,p10,-0.1209,517,46.53
+MH-003,Bhivpuri PSP,NDBI,upper,p90,0.0816,517,46.53
+MH-003,Bhivpuri PSP,NDBI,upper,p95,0.1177,259,23.31
+MH-003,Bhivpuri PSP,NDBI,upper,p98,0.1563,104,9.36
+MH-003,Bhivpuri PSP,NDBI,upper,p99,0.1880,52,4.68

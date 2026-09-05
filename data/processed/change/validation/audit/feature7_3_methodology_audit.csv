@@ -1,0 +1,12 @@
+audit_check_id,check_name,target_criterion,measured_finding,status
+1,Cluster Coverage,386 / 386 Clusters Evaluated,386 / 386 Clusters,PASS
+2,Score Range Bounds,"Component Scores in [0, 1]","All Component Scores in [0, 1]",PASS
+3,Score Reconstruction,Weighted Sum Agreement within 1e-4,Max Diff = 0.000000,PASS
+4,Category Reconstruction,Deterministic Interval Mapping,0 Mismatches,PASS
+5,Threshold Sensitivity,Sensitivity Matrix Across Thresholds,16 Sensitivity Configurations Evaluated,PASS
+6,Component Dependence,Pairwise Spearman Correlation,All Pairwise Correlations < 0.45,PASS
+7,LULC Temporal Alignment,2021-2025 Scope & Confidence >= 0.60,Insuff Markings = 173,PASS
+8,Spatial Metric Integrity,UTM 30m Grid Calculation,UTM Metric Area Verified,PASS
+9,Change Magnitude Metrics,Robust Median Metrics,Median Index Deltas Verified,PASS
+10,Reporting Consistency,Table Row Count Equals Claimed Count,16 Displayed Rows = 16 Claimed Rows,PASS
+11,Scientific Terminology,No Violation / Probability Claims,Correct Evidence Terminology Enforced,PASS

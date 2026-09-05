@@ -1,0 +1,91 @@
+project_id,project_name,year,month,month_name,scenes_available,scenes_cloud_filtered,usable_scenes,valid_pixel_coverage_percent,usability_status
+MH-001,Gondkhari,2021,06,June,24,3,3,99.0,usable
+MH-001,Gondkhari,2021,07,July,24,2,2,98.6,usable
+MH-001,Gondkhari,2021,08,August,26,0,0,0.0,no_data
+MH-001,Gondkhari,2021,09,September,24,2,2,94.6,usable
+MH-001,Gondkhari,2021,10,October,24,14,14,99.0,usable
+MH-001,Gondkhari,2022,06,June,24,6,6,99.0,usable
+MH-001,Gondkhari,2022,07,July,24,0,0,0.0,no_data
+MH-001,Gondkhari,2022,08,August,26,0,0,0.0,no_data
+MH-001,Gondkhari,2022,09,September,24,2,2,99.0,usable
+MH-001,Gondkhari,2022,10,October,24,14,14,99.0,usable
+MH-001,Gondkhari,2023,06,June,24,14,14,99.0,usable
+MH-001,Gondkhari,2023,07,July,24,0,0,0.0,no_data
+MH-001,Gondkhari,2023,08,August,24,0,0,0.0,no_data
+MH-001,Gondkhari,2023,09,September,24,2,2,98.6,usable
+MH-001,Gondkhari,2023,10,October,24,20,20,99.0,usable
+MH-001,Gondkhari,2024,06,June,24,4,4,99.0,usable
+MH-001,Gondkhari,2024,07,July,26,0,0,0.0,no_data
+MH-001,Gondkhari,2024,08,August,24,0,0,0.0,no_data
+MH-001,Gondkhari,2024,09,September,22,0,0,0.0,no_data
+MH-001,Gondkhari,2024,10,October,24,14,14,99.0,usable
+MH-001,Gondkhari,2025,06,June,28,7,7,99.0,usable
+MH-001,Gondkhari,2025,07,July,32,0,0,0.0,no_data
+MH-001,Gondkhari,2025,08,August,30,0,0,0.0,no_data
+MH-001,Gondkhari,2025,09,September,28,1,1,98.8,usable
+MH-001,Gondkhari,2025,10,October,30,7,7,99.0,usable
+MH-001,Gondkhari,2026,06,June,32,12,12,99.0,usable
+MH-001,Gondkhari,2026,07,July,32,0,0,0.0,no_data
+MH-001,Gondkhari,2026,08,August,22,0,0,0.0,no_data
+MH-001,Gondkhari,2026,09,September,0,0,0,0.0,future_period
+MH-001,Gondkhari,2026,10,October,0,0,0,0.0,future_period
+MH-002,Gadchiroli,2021,06,June,6,0,0,0.0,no_data
+MH-002,Gadchiroli,2021,07,July,6,1,1,89.5,usable
+MH-002,Gadchiroli,2021,08,August,7,0,0,0.0,no_data
+MH-002,Gadchiroli,2021,09,September,6,0,0,0.0,no_data
+MH-002,Gadchiroli,2021,10,October,6,4,4,97.9,usable
+MH-002,Gadchiroli,2022,06,June,6,2,2,97.9,usable
+MH-002,Gadchiroli,2022,07,July,6,0,0,0.0,no_data
+MH-002,Gadchiroli,2022,08,August,7,0,0,0.0,no_data
+MH-002,Gadchiroli,2022,09,September,6,0,0,0.0,no_data
+MH-002,Gadchiroli,2022,10,October,6,2,2,97.9,usable
+MH-002,Gadchiroli,2023,06,June,6,2,2,97.9,usable
+MH-002,Gadchiroli,2023,07,July,6,0,0,0.0,no_data
+MH-002,Gadchiroli,2023,08,August,6,1,1,88.8,usable
+MH-002,Gadchiroli,2023,09,September,6,0,0,0.0,no_data
+MH-002,Gadchiroli,2023,10,October,6,5,5,97.9,usable
+MH-002,Gadchiroli,2024,06,June,6,2,2,97.9,usable
+MH-002,Gadchiroli,2024,07,July,7,0,0,0.0,no_data
+MH-002,Gadchiroli,2024,08,August,6,0,0,0.0,no_data
+MH-002,Gadchiroli,2024,09,September,5,0,0,0.0,no_data
+MH-002,Gadchiroli,2024,10,October,6,0,0,0.0,no_data
+MH-002,Gadchiroli,2025,06,June,8,2,2,97.9,usable
+MH-002,Gadchiroli,2025,07,July,8,0,0,0.0,no_data
+MH-002,Gadchiroli,2025,08,August,7,0,0,0.0,no_data
+MH-002,Gadchiroli,2025,09,September,6,0,0,0.0,no_data
+MH-002,Gadchiroli,2025,10,October,8,0,0,0.0,no_data
+MH-002,Gadchiroli,2026,06,June,8,2,2,97.9,usable
+MH-002,Gadchiroli,2026,07,July,8,0,0,0.0,no_data
+MH-002,Gadchiroli,2026,08,August,5,0,0,0.0,no_data
+MH-002,Gadchiroli,2026,09,September,0,0,0,0.0,future_period
+MH-002,Gadchiroli,2026,10,October,0,0,0,0.0,future_period
+MH-003,Bhivpuri PSP,2021,06,June,16,1,1,89.4,usable
+MH-003,Bhivpuri PSP,2021,07,July,12,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2021,08,August,14,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2021,09,September,16,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2021,10,October,15,9,9,89.4,usable
+MH-003,Bhivpuri PSP,2022,06,June,12,2,2,87.3,usable
+MH-003,Bhivpuri PSP,2022,07,July,12,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2022,08,August,16,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2022,09,September,12,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2022,10,October,18,6,6,89.4,usable
+MH-003,Bhivpuri PSP,2023,06,June,12,2,2,71.3,limited
+MH-003,Bhivpuri PSP,2023,07,July,12,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2023,08,August,12,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2023,09,September,12,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2023,10,October,20,14,14,89.4,usable
+MH-003,Bhivpuri PSP,2024,06,June,12,1,1,60.9,limited
+MH-003,Bhivpuri PSP,2024,07,July,16,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2024,08,August,16,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2024,09,September,16,1,1,66.6,limited
+MH-003,Bhivpuri PSP,2024,10,October,14,6,6,89.4,usable
+MH-003,Bhivpuri PSP,2025,06,June,18,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2025,07,July,16,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2025,08,August,20,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2025,09,September,16,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2025,10,October,14,6,6,89.4,usable
+MH-003,Bhivpuri PSP,2026,06,June,32,4,4,89.4,usable
+MH-003,Bhivpuri PSP,2026,07,July,28,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2026,08,August,24,0,0,0.0,no_data
+MH-003,Bhivpuri PSP,2026,09,September,0,0,0,0.0,future_period
+MH-003,Bhivpuri PSP,2026,10,October,0,0,0,0.0,future_period

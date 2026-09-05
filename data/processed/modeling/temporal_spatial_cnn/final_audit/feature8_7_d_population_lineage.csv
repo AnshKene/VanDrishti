@@ -1,0 +1,11 @@
+Item,Value,Expected,Status
+Total temporal samples,10752,10752,PASS
+Train split,8534,8534,PASS
+Val split,992,992,PASS
+Test split,1226,1226,PASS
+Train+Val+Test,10752,10752,PASS
+Duplicate sample IDs,0,0,PASS
+Multi-split IDs,0,0,PASS
+NPZ y vs metadata target (train),8534,match,PASS
+NPZ y vs metadata target (val),992,match,PASS
+NPZ y vs metadata target (test),1226,match,PASS

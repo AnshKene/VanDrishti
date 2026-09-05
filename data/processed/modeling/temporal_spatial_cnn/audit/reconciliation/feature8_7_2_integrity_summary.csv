@@ -1,0 +1,10 @@
+Check,Value,Status
+NPZ test N verified,1226,PASS
+All 3 models evaluated same N=1226,True,PASS
+Feature 8.7.1 N matches NPZ N,True,PASS
+Source of '1602' identified,USER REQUEST SPEC (not frozen artifact),PASS
+True 376-sample missing set exists?,False,INFO — No missing population
+Feature 8.7-B metrics correct for N=1226,True,PASS
+Feature 8.7.1 metrics correct for N=1226,True,PASS
+Bootstrap AP CI excludes zero (N=1226),True,PASS
+Conclusion unchanged,A) TEMPORAL DELTA ADVANTAGE STATISTICALLY SUPPORTED,CONFIRMED

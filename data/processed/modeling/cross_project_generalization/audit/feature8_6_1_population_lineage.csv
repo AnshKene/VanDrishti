@@ -1,0 +1,4 @@
+stage,sample_count,positive_count
+Feature 8.2.2 Frozen Patch Metadata (MH-003),5128,1101
+Feature 8.3 Test Population (cnn_test),565,0
+Feature 8.6 Held-Out Population (cnn_train + cnn_val + cnn_test),5128,1101

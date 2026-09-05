@@ -1,0 +1,5 @@
+check,status,details
+MH-003 in training projects (Exp C),Clean,"Exp C train = MH-001, MH-002"
+MH-003 in normalization (Exp C),Clean,Normalization fit strictly on train mask
+MH-003 in class weight (Exp C),Clean,Class weight computed strictly on train mask
+MH-003 in threshold selection (Exp C),Clean,Threshold selected on val subset of train mask

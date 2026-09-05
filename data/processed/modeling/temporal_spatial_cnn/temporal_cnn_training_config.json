@@ -1,0 +1,1 @@
+{"optimizer": "Adam", "lr": 0.001, "weight_decay": 0.0001, "epochs": 30, "patience": 6, "pos_weight": 7.143129770992366, "seed": 42}

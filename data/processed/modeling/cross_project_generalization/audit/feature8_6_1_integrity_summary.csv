@@ -1,0 +1,5 @@
+finding,description
+Population Discrepancy Cause,"Feature 8.6 correctly aggregated all MH-003 non-buffer splits (train+val+test) for leave-one-project-out, whereas Feature 8.3 evaluated only on the global cnn_test split."
+Leakage,No leakage. MH-003 was strictly held out.
+Validity,Methodologically valid. Using all non-buffer patches of an unseen project is correct for cross-project generalization.
+Conclusion,B) POPULATION DIFFERENCE EXPLAINED BUT COMPARISON REQUIRES EXPLICIT QUALIFICATION

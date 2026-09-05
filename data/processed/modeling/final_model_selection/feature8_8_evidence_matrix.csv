@@ -1,0 +1,8 @@
+Model,A_Predictive,B_Spatial_Gen,C_Temporal_Gen,D_CrossProject,E_Statistical,F_Leakage_Safe,G_EvalPop_Quality,H_Reproducibility,I_Interpretability,J_Deploy_Complexity,Note
+Logistic Regression,WEAK,NOT ESTABLISHED,NOT ESTABLISHED,NOT ESTABLISHED,WEAK,STRONG,STRONG,STRONG,STRONG,STRONG,Insufficient discriminative power on imbalanced data
+Random Forest,WEAK,NOT ESTABLISHED,NOT ESTABLISHED,NOT ESTABLISHED,WEAK,STRONG,STRONG,STRONG,MODERATE,STRONG,Marginal improvement over LR on common population
+XGBoost (Tabular),WEAK,MODERATE,NOT ESTABLISHED,WEAK,MODERATE,STRONG,STRONG,STRONG,MODERATE,STRONG,Moderate spatial generalization; beaten by CNN 3/3 in F8.7-C LOPO
+Compact Spatial CNN,MODERATE,MODERATE,NOT ESTABLISHED,MODERATE,MODERATE,STRONG,STRONG,STRONG,WEAK,MODERATE,Best model on F8.4 common population; beats temporal CNN on MH-002 (CONDITIONAL)
+Raw Temporal CNN,WEAK,WEAK,WEAK,NOT ESTABLISHED,WEAK,STRONG,MODERATE,STRONG,WEAK,MODERATE,Absolute spectral values confounded by inter-year variability; underperforms spatial control
+Spatial-Only Control (2025),MODERATE,NOT ESTABLISHED,NOT ESTABLISHED,NOT ESTABLISHED,MODERATE,STRONG,MODERATE,STRONG,WEAK,MODERATE,Confirms spatial signal present; baseline against which Delta CNN is compared
+Delta Temporal CNN,MODERATE,MODERATE,STRONG,MODERATE,STRONG,STRONG,MODERATE,STRONG,WEAK,MODERATE,Strongest temporal evidence; LOPO beats XGB 3/3; mixed vs Spatial CNN (CONDITIONAL)

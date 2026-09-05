@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Proposed CA Land.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000aaff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Proposed CA Land</name>
+		<description>Proposed CA Land in Tata Talav Village
+Survey No. 7/ADGAON/1P</description>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.39342876818991,18.5494671910431,0 73.3943732623962,18.5490404102823,0 73.3954604386627,18.5489903802929,0 73.3969272506933,18.5498760017494,0 73.3968533006761,18.5503572130032,0 73.3967359008852,18.5516639619966,0 73.39607891977209,18.5528579651909,0 73.3955501516518,18.5535140949959,0 73.3939209465473,18.553825460758,0 73.3935784951254,18.5531067028866,0 73.3926726979778,18.5526214820631,0 73.3917985286284,18.5510911082327,0 73.3925745988205,18.549953185985,0 73.39271427538461,18.5496048446256,0 73.39342876818991,18.5494671910431,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

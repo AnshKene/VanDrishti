@@ -1,0 +1,34 @@
+{
+  "dataset_name": "Spatial 15x15 Multi-Spectral Patch Dataset",
+  "patch_dimensions": [
+    15,
+    15,
+    6
+  ],
+  "band_names": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12"
+  ],
+  "normalization_calculated_split": "train_only",
+  "train_samples_used": 61527,
+  "channel_means": [
+    588.014893,
+    773.230042,
+    941.55011,
+    2049.321045,
+    2417.010498,
+    1688.166138
+  ],
+  "channel_stds": [
+    162.606186,
+    199.94101,
+    328.714508,
+    305.776306,
+    603.292053,
+    569.505432
+  ]
+}

@@ -1,0 +1,9 @@
+model,class_weight_config,val_pr_auc,val_f1,val_precision,val_recall,val_balanced_acc
+Logistic Regression,Unweighted (1.0),0.119887,0.0093,0.3636,0.0047,0.5019
+XGBoost,Unweighted (1.0),0.117005,0.0272,0.1250,0.0153,0.5023
+Logistic Regression,Moderate (3.0),0.119887,0.0093,0.3636,0.0047,0.5019
+XGBoost,Moderate (3.0),0.106279,0.1130,0.1576,0.0880,0.5205
+Logistic Regression,Balanced / Full Scale Pos,0.112031,0.1445,0.0903,0.3603,0.4987
+XGBoost,Balanced / Full Scale Pos,0.103384,0.1548,0.1206,0.2160,0.5292
+Logistic Regression,Strong Minority (12.0),0.119887,0.0093,0.3636,0.0047,0.5019
+XGBoost,Strong Minority (12.0),0.098914,0.1467,0.0934,0.3415,0.5050

@@ -1,0 +1,4 @@
+leakage_type,risk_level,finding,requirement
+SPATIAL_PATCH_OVERLAP,LOW_FOR_15X15,Min train-val split distance in Gondkhari (391.9m) exceeds 15x15 patch radius (210.0m). Fails for 33x33 (480.0m radius).,Use 15x15 patch size strictly.
+TEMPORAL_REPEAT_COORDINATES,HIGH_IF_RANDOM_SPLIT,"17,540 unique spatial locations repeated across 5 historical years (4.53x repeat factor). Random train/test split across years causes severe temporal leakage.",Use Spatial Coordinate Grouping (GroupKFold by spatial location ID) or Spatial Block Partitioning.
+PROJECT_CROSS_LEAKAGE,ZERO,Projects are spatially disjoint by > 500 km. Zero spatial cross-leakage between projects.,Preserve Leave-One-Project-Out (LOPO) evaluation.

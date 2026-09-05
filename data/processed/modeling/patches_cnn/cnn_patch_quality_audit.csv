@@ -1,0 +1,11 @@
+metric_name,metric_value
+total_requested_patches,79406
+successfully_extracted_patches,75600
+retained_cnn_patches,64656
+buffer_excluded_patches,10944
+border_out_of_bounds_rejected,3806
+contains_nan_inf_rejected,0
+contains_nodata_rejected,0
+patch_tensor_shape,"(15, 15, 6)"
+patch_data_type,float32
+tensor_finite_check,PASS (0 NaN / 0 Inf)

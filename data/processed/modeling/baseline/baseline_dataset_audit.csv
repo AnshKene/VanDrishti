@@ -1,0 +1,10 @@
+metric_name,metric_value
+total_dataset_rows,79406
+unique_spatial_locations,17540
+target_0_non_disturbance_count,69920
+target_1_disturbance_candidate_count,9486
+minority_class_percentage,11.95%
+nan_value_count,0
+inf_value_count,0
+duplicate_rows_count,0
+duplicate_spatial_temporal_observations,0

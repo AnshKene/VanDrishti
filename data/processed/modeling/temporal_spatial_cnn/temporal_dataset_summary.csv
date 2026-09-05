@@ -1,0 +1,6 @@
+metric,value
+Total Candidate Centers,16693
+Complete 5-Year Centers,12184
+Incomplete Temporal Centers (Excluded),4509
+Buffer Excluded (Complete Centers),1432
+Final Retained Centers,10752

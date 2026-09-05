@@ -1,0 +1,4 @@
+project_id,split_pair,overlapping_footprint_count,status
+MH-001,cnn_train_vs_common_test,0,PASS_ZERO_OVERLAP
+MH-002,cnn_train_vs_common_test,0,PASS_ZERO_OVERLAP
+MH-003,cnn_train_vs_common_test,0,PASS_ZERO_OVERLAP

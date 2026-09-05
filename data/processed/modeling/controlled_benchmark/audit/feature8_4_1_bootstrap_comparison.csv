@@ -1,0 +1,3 @@
+paired_metric_difference,mean_difference,ci_95_percent_low,ci_95_percent_high,statistical_significance
+CNN PR-AUC minus XGBoost PR-AUC,0.047466,-0.007554,0.145169,NOT SIGNIFICANT (CI Includes 0)
+CNN F1-Score minus XGBoost F1-Score,0.27884,0.165343,0.404171,STATISTICALLY SIGNIFICANT (CI > 0)

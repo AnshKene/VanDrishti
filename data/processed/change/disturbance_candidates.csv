@@ -1,0 +1,4 @@
+project_id,project_name,total_valid_pixels,normal_pixels,single_signal_anomaly_pixels,multispectral_candidate_pixels,persistent_multispectral_candidate_pixels,total_candidate_area_ha,spatial_cluster_count
+MH-001,Gondkhari,9581,5790,2540,996,255,112.59,161
+MH-002,Gadchiroli,10417,5896,2925,1475,121,143.64,220
+MH-003,Bhivpuri PSP,1291,676,372,243,0,21.87,5

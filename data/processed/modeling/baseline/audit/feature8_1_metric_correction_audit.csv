@@ -1,0 +1,6 @@
+issue_description,original_value,corrected_value,status
+Naive Majority PR-AUC Calculation Bug,"0.5455 (auc(r, p) artifact)",0.090948 (average_precision_score),FIXED
+Test Naive Majority PR-AUC,"0.5324 (auc(r, p) artifact)",0.064870 (average_precision_score),FIXED
+Logistic Regression Validation PR-AUC,0.1323,0.112031,CORRECTED
+Random Forest Validation PR-AUC,0.1137,0.108969,CORRECTED
+XGBoost Validation PR-AUC,0.1464,0.103384,CORRECTED

@@ -1,0 +1,4 @@
+project_id,project_name,landscape_context,bare_land_availability,generalization_strategy
+MH-001,Gondkhari,"Agricultural, scrubland, active coal mining pit edge",208 pixels (Dynamic World conf >= 0.60),Supports 3-class & binary disturbance modeling.
+MH-002,Gadchiroli,Dense tropical moist-deciduous forest reserve,0 pixels (Dynamic World conf >= 0.60),Requires Project-Aware / Binary Vegetation-Disturbance model. LOPO fails for 3-class bare land.
+MH-003,Bhivpuri PSP,Western Ghats steep escarpment & reservoir drawdown bank,57 pixels (Dynamic World conf >= 0.60),Drawdown bank seasonal water fluctuation requires project-aware features.

@@ -1,0 +1,15 @@
+Item,Value
+SELECTED MODEL,Delta Temporal CNN (Feature 8.7-B)
+REPRESENTATION,"4x15x15x6 inter-annual spectral delta (2021-2025, non-monsoon)"
+PRIMARY REASON,Strongest validated cross-project generalization: beats XGBoost on all 3 unseen projects (3/3). Temporal delta signal statistically supported on standard test (bootstrap CI excludes zero). Leakage-safe design confirmed by F8.7-D audit.
+STRONGEST EVIDENCE,"F8.7.1: Delta PR-AUC=0.3791 vs Control=0.2429; bootstrap 95% CI [0.0185,0.2798] excludes zero. F8.7-C: LOPO beats XGBoost 3/3 across MH-001/MH-002/MH-003."
+MAIN LIMITATION,Requires complete 5-year non-monsoon sequences for inference (covers 60% of F8.3 test centers). MH-002 temporal result is below Spatial CNN (CONDITIONAL comparison). Only 3 projects evaluated -- limited geographic diversity.
+DEPLOYMENT STATUS,B) READY FOR LIMITED RESEARCH/PILOT INFERENCE
+DEPLOYMENT RATIONALE,Not deployment-ready for operational enforcement decisions. Validated for research-grade screening of disturbance candidates in areas with complete 5-year Sentinel-2 non-monsoon coverage. All predictions require independent field or regulatory verification.
+SECONDARY RECOMMENDATION,For areas lacking complete 5-year coverage: use Compact Spatial CNN (F8.3) which remains the best model on the common F8.4 population and requires only a single-year patch.
+NEXT SCIENTIFIC STEP,Feature 8.9 (if pursued): field validation on a sample of high-confidence Delta CNN predictions across all 3 projects to establish ground-truth precision/recall. OR: expand temporal coverage to additional years/projects before any operational use.
+MODEL PREDICTS,"Spatial-temporal multispectral patterns associated with rule-derived historical disturbance candidates. It does NOT establish illegal activity, environmental non-compliance, unauthorized land use, causality, intent, or confirmed land-use change."
+WINS_vs_XGBoost,3/3 LOPO experiments
+WINS_vs_Spatial_CNN,2/3 LOPO experiments (CONDITIONAL comparison)
+Bootstrap_CI,"[0.0185, 0.2798] -- excludes zero"
+Checksum_Status,13/13 PASS

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KMZ for Upload.kmz</name>
+	<open>1</open>
+	<Style id="area1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="area2">
+		<LineStyle>
+			<color>ff00aa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area3">
+		<LineStyle>
+			<color>ff008100</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="area4">
+		<LineStyle>
+			<color>ff008100</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Lease limit</name>
+		<description>Lease limit</description>
+		<Placemark>
+			<name>0</name>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"></table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#area1</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9197147225,21.1446855557,0 78.9217291671,21.1403727778,0 78.924177222,21.135080278,0 78.9256430553,21.1327047221,0 78.93250527790001,21.1342880559,0 78.93521999950001,21.1340869447,0 78.9378377776,21.1347886109,0 78.9382525004,21.1361797226,0 78.93838277819999,21.1366727779,0 78.9386019447,21.1377005551,0 78.9381458335,21.1381794444,0 78.9376411115,21.1390538891,0 78.9373761115,21.1394744446,0 78.937246667,21.1396694444,0 78.9370977777,21.1398530554,0 78.9368286112,21.1400555556,0 78.9365005554,21.1402333335,0 78.9363497221,21.1404147218,0 78.9362333338,21.1406383334,0 78.9361313891,21.1409327778,0 78.936033333,21.1413591665,0 78.9358986109,21.1420836111,0 78.93563972210001,21.1426897226,0 78.93498694439999,21.1437566664,0 78.934748056,21.144177778,0 78.93454416660001,21.1446166669,0 78.9341188885,21.1456961109,0 78.9337783336,21.1467713885,0 78.93362138880001,21.1472124999,0 78.93347833359999,21.1475083336,0 78.9332980555,21.1476961113,0 78.9327711107,21.1480597218,0 78.9324102774,21.1483424998,0 78.9322641663,21.1485380559,0 78.93184361110001,21.1495444444,0 78.9318275004,21.1499805556,0 78.9315658333,21.151345833,0 78.9313058333,21.1516755551,0 78.9311602775,21.1519883331,0 78.9309813887,21.1524836111,0 78.9308136113,21.1527577781,0 78.9305663888,21.1530636114,0 78.92998277789999,21.1536919446,0 78.92964111080001,21.1540288889,0 78.9291952775,21.1544469442,0 78.92889833300001,21.1545699999,0 78.9287033329,21.1547119447,0 78.9283797224,21.1552088886,0 78.9278952782,21.1556291666,0 78.9272275001,21.156675833,0 78.9280555557,21.1564013892,0 78.928926667,21.1562022222,0 78.9306872226,21.1539986115,0 78.9334883336,21.1507122218,0 78.9351513886,21.1487413886,0 78.9361516662,21.1477997227,0 78.93676305539999,21.1472836114,0 78.9381086114,21.1463736109,0 78.93881194399999,21.1459652782,0 78.9404022221,21.1449552776,0 78.9400130554,21.1467475003,0 78.9393724995,21.1498133333,0 78.9386838888,21.1524205554,0 78.9379183331,21.1553336109,0 78.9372619448,21.1567133336,0 78.93638638900001,21.158632778,0 78.9330727774,21.1631244449,0 78.9325680554,21.1637791666,0 78.9322925001,21.1642738887,0 78.9288911111,21.1706030555,0 78.9270061111,21.1786261111,0 78.9269805556,21.1789966671,0 78.9248144443,21.1799277778,0 78.9218324998,21.1811991667,0 78.91996583309999,21.1819988887,0 78.9126738885,21.1804963891,0 78.91291861089999,21.1800375003,0 78.9152161113,21.1757605553,0 78.9176933331,21.1712563891,0 78.9131219443,21.1675738887,0 78.9158986111,21.1631977776,0 78.9167341668,21.1586586108,0 78.9198930557,21.1526986112,0 78.9167222218,21.1511080557,0 78.9197147225,21.1446855557,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Area Features</name>
+		<description>Area Features</description>
+		<Placemark>
+			<name>KHASRA NO. 11</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 3.10]]></description>
+			<styleUrl>#area2</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9171664995,21.1578474053,0 78.9171645861,21.1578474857,0 78.9186091278,21.1551206709,0 78.9187950649,21.1551323151,0 78.9191966975,21.1553065468,0 78.9191675834,21.1558618474,0 78.9188396852,21.1568382748,0 78.9183356913,21.1567711841,0 78.91830665880001,21.1575883833,0 78.91826649159999,21.1576921617,0 78.9180555634,21.1582171257,0 78.91748622030001,21.1581325685,0 78.9171657965,21.1578452558,0 78.9171664995,21.1578474053,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>KHASRA NO.142</name>
+		<description>KHASRA NO.142</description>
+		<Placemark>
+			<name>SURVEY NO. 142</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = GONDKHARI<BR><BR><B>Name of Owner</B> = Government jungle <BR><BR><B>Area within ML (Ha.)</B> = 0.10]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9271561316,21.1367319967,0 78.9271572115,21.136650536,0 78.9284755385,21.1365470243,0 78.9285308084,21.1366240604,0 78.9271561316,21.1367319967,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>KHASRA NO.207</name>
+		<description>KHASRA NO.207</description>
+		<Placemark>
+			<name>Survey No. 207</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area Within ML (Ha.)</B> = 0.040]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9238673167,21.1602162443,0 78.9238442173,21.1603455023,0 78.9237956243,21.1603401645,0 78.9237414274,21.1601996171,0 78.9238673167,21.1602162443,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Area Features</name>
+		<open>1</open>
+		<description>Area Features</description>
+		<Placemark>
+			<name>SURVEY NO. 82</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = WADDHAMANA<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 4.65]]></description>
+			<styleUrl>#area4</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.93109624829999,21.1364585372,0 78.92962987919999,21.1366179359,0 78.9291211959,21.134505533,0 78.9290477226,21.1341348465,0 78.9290629146,21.133761316,0 78.9304589114,21.1339039999,0 78.93056461809999,21.1341670769,0 78.93054028,21.134579095,0 78.93068686940001,21.1345787013,0 78.9306301875,21.1348070737,0 78.9307517794,21.1354339827,0 78.930695993,21.1357648962,0 78.93077686399999,21.1361411095,0 78.9310801483,21.1362772666,0 78.93109624829999,21.1364585372,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 139</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = GONDKHAIRI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 3.02]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9289749332,21.1381219756,0 78.928780049,21.138127683,0 78.9291454773,21.1377343246,0 78.9291653616,21.1375288573,0 78.9291964092,21.1372079375,0 78.92894788940001,21.1366097382,0 78.9287222048,21.1353459908,0 78.9282745265,21.1351315242,0 78.9268935969,21.135123705,0 78.9258121024,21.1351678146,0 78.9257857744,21.1348269475,0 78.9272186109,21.1344446083,0 78.9283466973,21.1341084515,0 78.9290477226,21.1341348465,0 78.9291211959,21.134505533,0 78.92962987919999,21.1366179359,0 78.9298364632,21.1374757806,0 78.9299559139,21.1381097622,0 78.9289749332,21.1381219756,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 145</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = GONDKHAIRI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.36]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.92902010589999,21.138641591,0 78.9288288836,21.1386566633,0 78.928617887,21.1386490331,0 78.9286074796,21.138646368,0 78.9284914257,21.1386166263,0 78.92848890579999,21.1384122216,0 78.9284854932,21.1381363248,0 78.928780049,21.138127683,0 78.9289749332,21.1381219756,0 78.92902010589999,21.138641591,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 137</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = GONDKHAIRI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.09]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.93173746940001,21.1404687918,0 78.93173414650001,21.1405306324,0 78.931261706,21.1404362817,0 78.9312763516,21.1401933612,0 78.93173746940001,21.1404687918,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 90</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = WADDHAMANA<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 17.99]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9383812538,21.1379322677,0 78.9380557363,21.1379215554,0 78.9379149347,21.1382769136,0 78.9379213449,21.1383639164,0 78.9379378034,21.1385018057,0 78.9379478969,21.1385223763,0 78.9376411114,21.1390538891,0 78.9373761114,21.1394744446,0 78.9373354721,21.1395356651,0 78.9370267139,21.1394810141,0 78.9369406815,21.1394234667,0 78.93690983019999,21.1393538851,0 78.9368879071,21.1392151435,0 78.9368285585,21.1390895104,0 78.936793412,21.1389526396,0 78.9367950944,21.1388666024,0 78.9369017954,21.1385298764,0 78.9369527259,21.1384041877,0 78.9370473348,21.1382976443,0 78.9371960986,21.1382107173,0 78.93726544570001,21.1381891741,0 78.9370972148,21.1377374817,0 78.93580457109999,21.1377542723,0 78.9357431736,21.137542475,0 78.93540974059999,21.1376120847,0 78.93523242560001,21.1372599657,0 78.9346666914,21.137326352,0 78.93465942909999,21.1376169393,0 78.9346280187,21.1377947312,0 78.9343262525,21.1380554535,0 78.9344267156,21.1387543701,0 78.9345206073,21.1394523938,0 78.93511793979999,21.1394070843,0 78.9351732673,21.1398810988,0 78.9349328229,21.1399337521,0 78.93424935829999,21.1399064109,0 78.9337830993,21.139592605,0 78.9336962149,21.1395341245,0 78.9332987721,21.1395946667,0 78.93319161860001,21.1398148737,0 78.9331710578,21.1402248885,0 78.9333667569,21.1411925152,0 78.93331430950001,21.1411954963,0 78.9323341684,21.1410728402,0 78.9323286451,21.1410726734,0 78.93235253749999,21.1408361874,0 78.93173746940001,21.1404687918,0 78.9312763516,21.1401933612,0 78.9312504027,21.1401778537,0 78.93075781340001,21.1397205028,0 78.93100469549999,21.1396230044,0 78.93100611769999,21.1395205909,0 78.9313221714,21.1395133816,0 78.9314645239,21.1396812216,0 78.9321244556,21.1396637631,0 78.93238851770001,21.139359705,0 78.9324342431,21.1384051776,0 78.93272961229999,21.137991773,0 78.93280459330001,21.1370569832,0 78.93270579839999,21.136719241,0 78.93287921779999,21.1363504053,0 78.9341269216,21.1363281568,0 78.934934055,21.1366243366,0 78.9357522534,21.1368231475,0 78.9364770068,21.1368750801,0 78.9364342219,21.1369985741,0 78.93637190450001,21.1371784282,0 78.9366016123,21.137436385,0 78.9376560109,21.1375013076,0 78.937795796,21.1371797317,0 78.93846197009999,21.1372683674,0 78.93851117929999,21.1372749145,0 78.93860194459999,21.1377005551,0 78.9383812538,21.1379322677,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 117</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = GONDKHAIRI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 1.42]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9311990818,21.1437298037,0 78.9311839523,21.1437642079,0 78.93034181669999,21.1435643756,0 78.93016832089999,21.1436251103,0 78.929165474,21.1433525028,0 78.9291585891,21.143636537,0 78.9286338111,21.1435539738,0 78.9279405547,21.1434676485,0 78.9276274764,21.1426058611,0 78.9276353743,21.142552277,0 78.9282726232,21.1427795253,0 78.9290836565,21.143068747,0 78.9295325003,21.1432288059,0 78.92963295680001,21.1432589975,0 78.9303769914,21.1434826678,0 78.9307504236,21.14359493,0 78.9311990818,21.1437298037,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 107</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = GONDKHAIRI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 1.40]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9326694409,21.145686345,0 78.9326657085,21.1457991973,0 78.93201651050001,21.1453071706,0 78.931922586,21.1449880555,0 78.9318968653,21.1449553556,0 78.9313269635,21.1442307511,0 78.9311739721,21.1437868985,0 78.9311839523,21.1437642079,0 78.9311990818,21.1437298037,0 78.9313259827,21.1434411853,0 78.9317493898,21.1431469697,0 78.9318640139,21.1431267771,0 78.93179936849999,21.1432192333,0 78.9315702784,21.1436537652,0 78.9319494563,21.1442245324,0 78.93236700440001,21.1450723004,0 78.9326694409,21.145686345,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 103</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = GONDKHAIRI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 1.05]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9314915336,21.1469475953,0 78.9303800509,21.1470388201,0 78.9303604512,21.1469328081,0 78.9303354035,21.1466542625,0 78.9306444847,21.1466434843,0 78.9314283552,21.146616158,0 78.9319585115,21.1462069539,0 78.9323235758,21.1461577068,0 78.932663205,21.1458748294,0 78.9326427527,21.1464931205,0 78.9323503474,21.1466708476,0 78.9314915336,21.1469475953,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 266</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 1.21]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9284913062,21.147172742,0 78.9284982921,21.1487688657,0 78.92729254690001,21.1479251004,0 78.92763836509999,21.1479317112,0 78.92815639040001,21.1472094894,0 78.9284913062,21.147172742,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 268</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 1.22]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9237706183,21.1477266249,0 78.9237544037,21.1487342486,0 78.9232802922,21.1486769172,0 78.9225601318,21.1485828237,0 78.9220801734,21.1482595245,0 78.9218142446,21.1479268957,0 78.9223084386,21.1476913563,0 78.9228741678,21.147606257,0 78.9237706183,21.1477266249,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 275</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.28]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9248133705,21.1555421385,0 78.9245673609,21.1556121457,0 78.9247034771,21.155236073,0 78.9249835243,21.1550613524,0 78.9252046081,21.1548932413,0 78.92546342510001,21.154730334,0 78.92545941109999,21.1548663921,0 78.9248133705,21.1555421385,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 230</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 1.35]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9237666882,21.1577511362,0 78.92234100650001,21.1577563707,0 78.9223488964,21.1576477246,0 78.92272105310001,21.157037244,0 78.9232722223,21.1565436998,0 78.9238337947,21.1566099635,0 78.9236762022,21.157133294,0 78.9237666882,21.1577511362,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 201</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.41]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9220958267,21.1585424205,0 78.9214977928,21.1589756979,0 78.9211159459,21.1577164924,0 78.9210887646,21.1573651755,0 78.9221936461,21.1583041818,0 78.9222334432,21.1583388622,0 78.9221536954,21.1585004958,0 78.9220958267,21.1585424205,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 241</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 7.26]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9314839915,21.1591783607,0 78.93068085189999,21.1591707493,0 78.93014233060001,21.1564496396,0 78.92973834270001,21.1557335063,0 78.9306725214,21.1561697051,0 78.9308080113,21.1560502735,0 78.9308485092,21.1560145723,0 78.9308463253,21.1560948049,0 78.9309742003,21.1563999223,0 78.9314885531,21.1568757937,0 78.93202066000001,21.1571487804,0 78.9330598885,21.1572488672,0 78.9330132585,21.1573795194,0 78.9329053543,21.1590217442,0 78.9314839915,21.1591783607,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 198</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.13]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.92054098280001,21.1588517717,0 78.9204335985,21.1591431929,0 78.9201307993,21.1585117847,0 78.9206860126,21.1584581752,0 78.92054098280001,21.1588517717,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 234</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.11]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9281226316,21.159311185,0 78.92794103919999,21.1593732617,0 78.9279963343,21.1591710378,0 78.9281930514,21.1591573632,0 78.92829155699999,21.1585441039,0 78.9286648068,21.1585557555,0 78.9286474167,21.1591847833,0 78.9281226316,21.159311185,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 199</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.32]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9209110085,21.1594008206,0 78.92020802979999,21.1597064945,0 78.9204335985,21.1591431929,0 78.92054098280001,21.1588517717,0 78.9206464542,21.1588757182,0 78.9210044262,21.1593331432,0 78.9209110085,21.1594008206,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 229</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 2.81]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9243734448,21.1595952127,0 78.92397407279999,21.1602303427,0 78.9238673167,21.1602162443,0 78.9237414274,21.1601996171,0 78.9235209805,21.1596278816,0 78.92342397020001,21.1593762592,0 78.9223099905,21.1581837278,0 78.92234100650001,21.1577563707,0 78.9237666882,21.1577511362,0 78.923801779,21.1579907185,0 78.9240177202,21.1584008777,0 78.92418977219999,21.158800591,0 78.9243649953,21.1588742584,0 78.92441475370001,21.1590852567,0 78.9243734448,21.1595952127,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 205</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.04]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9215385227,21.159934917,0 78.92154029700001,21.1602228668,0 78.921369234,21.1602070374,0 78.9212257658,21.1599525762,0 78.92142473440001,21.1598439486,0 78.9215385227,21.159934917,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 195</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 1.96]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.91796737750001,21.1602005872,0 78.9164136193,21.1602003732,0 78.91712888470001,21.1593441817,0 78.9180152126,21.1582841935,0 78.91804502710001,21.1582485266,0 78.91805832519999,21.1582153026,0 78.9182663199,21.1576953265,0 78.9185859976,21.1577318084,0 78.9184332096,21.158122905,0 78.91838800559999,21.1586800336,0 78.91834899840001,21.1590583876,0 78.9179239292,21.1596967887,0 78.91796737750001,21.1602005872,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 206</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.43]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9237414274,21.1601996171,0 78.9237956243,21.1603401645,0 78.9232078102,21.1603223543,0 78.92300994510001,21.1596607114,0 78.9235209805,21.1596278816,0 78.9237414274,21.1601996171,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 208</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.06]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.92397407279999,21.1602303427,0 78.92389794349999,21.1603514089,0 78.9238442173,21.1603455023,0 78.9238673167,21.1602162443,0 78.92397407279999,21.1602303427,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 204</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.05]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9209237986,21.1603818493,0 78.92091443450001,21.1603836668,0 78.9208360542,21.1602446185,0 78.92101224709999,21.1601234112,0 78.9211480468,21.1599950061,0 78.9212170441,21.1599573368,0 78.9212257658,21.1599525762,0 78.921369234,21.1602070374,0 78.9209237986,21.1603818493,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 202</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 3.9]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.92091443450001,21.1603836668,0 78.9205080511,21.1604624518,0 78.9204033268,21.160115573,0 78.92001291450001,21.1601882767,0 78.91965552489999,21.1600315996,0 78.919160397,21.1600062908,0 78.9191503792,21.1598847813,0 78.9200770891,21.1597634326,0 78.92020802979999,21.1597064945,0 78.9209110085,21.1594008206,0 78.9210044262,21.1593331432,0 78.9214977928,21.1589756979,0 78.9220958267,21.1585424205,0 78.9221536954,21.1585004958,0 78.9222334432,21.1583388622,0 78.9223099905,21.1581837278,0 78.92342397020001,21.1593762592,0 78.9235209805,21.1596278816,0 78.92300994510001,21.1596607114,0 78.9232078102,21.1603223543,0 78.92270758959999,21.1603071983,0 78.9217271001,21.1602401539,0 78.92154029700001,21.1602228668,0 78.9215385227,21.159934917,0 78.92142473440001,21.1598439486,0 78.9212257658,21.1599525762,0 78.9212170441,21.1599573368,0 78.9211480468,21.1599950061,0 78.92101224709999,21.1601234112,0 78.92076674419999,21.1600310762,0 78.920551761,21.1601702568,0 78.9206281971,21.1602892594,0 78.9208360542,21.1602446185,0 78.92091443450001,21.1603836668,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 220</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.31]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.92723088069999,21.161275735,0 78.9269599731,21.1613804172,0 78.92682816769999,21.1612534412,0 78.9266731714,21.1607075544,0 78.9269766394,21.1605516681,0 78.92723088069999,21.161275735,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 194</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 4.03]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9192531301,21.1613944373,0 78.91695629020001,21.1613913512,0 78.9165707976,21.160492034,0 78.91644981819999,21.1604947431,0 78.9164136193,21.1602003732,0 78.91796737750001,21.1602005872,0 78.9179728031,21.1602635281,0 78.919160397,21.1600062908,0 78.91965552489999,21.1600315996,0 78.92001291450001,21.1601882767,0 78.91994166889999,21.1601925301,0 78.9192531301,21.1613944373,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 14</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.12]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9162109932,21.1615007989,0 78.91622461999999,21.1614267719,0 78.9164808294,21.1613907054,0 78.9162109932,21.1615007989,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 63</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>SURVEY NO.</B> = 63<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.58]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.91502156129999,21.1645800702,0 78.91513910720001,21.1643948115,0 78.91521928820001,21.1647500076,0 78.9150708568,21.1648042151,0 78.91502156129999,21.1645800702,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 192</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 1.71]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.92018154359999,21.1654562624,0 78.9193113083,21.1656399499,0 78.9185970963,21.1655610974,0 78.91868514550001,21.1639889385,0 78.9194710352,21.1640962798,0 78.919814354,21.1643916731,0 78.9201660976,21.1649708977,0 78.92019704000001,21.1652561625,0 78.92018154359999,21.1654562624,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 193</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 15.12]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9161874739,21.1616285664,0 78.9165047865,21.1614991019,0 78.9191173696,21.1615026206,0 78.91881443360001,21.1616803898,0 78.9185970963,21.1655610974,0 78.9154687004,21.1652157054,0 78.91551822949999,21.1646766853,0 78.9154235579,21.1639464992,0 78.915898611,21.1631977776,0 78.9161874739,21.1616285664,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 179</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 3.48]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9269183108,21.1670993763,0 78.92480009329999,21.1671366512,0 78.9247521779,21.1671310646,0 78.9242579853,21.1656354848,0 78.9250400545,21.1651791395,0 78.9256611364,21.1659054101,0 78.9261143266,21.1662702945,0 78.92651863410001,21.1657997543,0 78.9268426531,21.1659198999,0 78.9269183108,21.1670993763,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 269</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.10]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9225601318,21.1485828237,0 78.92256012350001,21.1485828181,0 78.92256012039999,21.1485828222,0 78.9223478681,21.1485550886,0 78.92182420429999,21.1481108025,0 78.92177796999999,21.1480246536,0 78.9218142439,21.1479269025,0 78.9218142415,21.1479268995,0 78.92181424490001,21.1479268979,0 78.9218142453,21.1479268986,0 78.92181424570001,21.1479268975,0 78.92181424490001,21.1479268979,0 78.9218142453,21.1479268986,0 78.9218142439,21.1479269025,0 78.9220801708,21.148259529,0 78.92256012039999,21.1485828222,0 78.9225601318,21.1485828237,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 240</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 5.69]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.9287805303,21.1591527185,0 78.9286474167,21.1591847833,0 78.9286648068,21.1585557555,0 78.9286922104,21.157564812,0 78.9287183093,21.1566212024,0 78.9287235992,21.1564299256,0 78.93014233060001,21.1564496396,0 78.93068085189999,21.1591707493,0 78.9287805303,21.1591527185,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 221</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 0.92]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.92791838799999,21.161391521,0 78.9271204977,21.1615350641,0 78.9269599731,21.1613804172,0 78.92723088069999,21.161275735,0 78.9269766394,21.1605516681,0 78.9272392939,21.1602590201,0 78.9273870386,21.1600371399,0 78.92759820960001,21.1597778985,0 78.9278199666,21.1595299849,0 78.9277084702,21.1598148319,0 78.9275403916,21.1600672141,0 78.92763601519999,21.1601064518,0 78.92791838799999,21.161391521,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SURVEY NO. 239</name>
+			<description><![CDATA[FOREST_PATCH<BR><BR><B>VILLAGE</B> = KARLI<BR><BR><B>Name of Owner</B> = Govt. (Revenue Forest)<BR><BR><B>Area within ML (Ha.)</B> = 1.06]]></description>
+			<styleUrl>#area3</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							78.93014233060001,21.1564496396,0 78.9287235992,21.1564299256,0 78.9287183093,21.1566212024,0 78.9282948732,21.1566229619,0 78.9279747832,21.1566242885,0 78.92798150030001,21.1564259336,0 78.9280555556,21.1564013892,0 78.9289266669,21.1562022222,0 78.92939383229999,21.1556175004,0 78.9296745864,21.1556133621,0 78.9296929712,21.155653062,0 78.92973834270001,21.1557335063,0 78.93014233060001,21.1564496396,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,5 @@
+Metric,Classification,Reason,Temporal_CNN,Spatial_CNN,Temporal_Wins
+F8.6 vs F8.7-C Comparison Type,CONDITIONAL,"F8.6 uses multi-year per-center patches (all 5 years separately, N_per_project>>). F8.7-C uses 5-yr complete temporal sequences only. Populations not identical.",,,
+MH-001: Temporal vs Spatial,,,0.2619,0.2121,True
+MH-002: Temporal vs Spatial,,,0.2654,0.3381,False
+MH-003: Temporal vs Spatial,,,0.407,0.147,True

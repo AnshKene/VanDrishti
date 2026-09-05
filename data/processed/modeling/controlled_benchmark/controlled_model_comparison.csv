@@ -1,0 +1,6 @@
+model_architecture,input_representation,operating_threshold,test_samples,test_positives,positive_prevalence,pr_auc,f1_score,precision,recall,balanced_accuracy,roc_auc
+Naive Majority Baseline,None,N/A,8121,1267,0.156015,0.156015,0.0000,0.0000,0.0000,0.5000,0.500000
+Logistic Regression (Set C),Point Spectral + DW,0.20 (Validation F1 Opt),8121,1267,0.156015,0.156314,0.0047,0.3750,0.0024,0.5008,0.514831
+Random Forest (Set C),Point Spectral + DW,0.20 (Validation F1 Opt),8121,1267,0.156015,0.164128,0.0047,0.3750,0.0024,0.5008,0.516284
+XGBoost Baseline (Set C),Point Spectral + DW,0.20 (Validation F1 Opt),8121,1267,0.156015,0.156534,0.0047,0.3750,0.0024,0.5008,0.500819
+Compact 2D CNN (Feature 8.3),15x15x6 Spatial Patch,0.10 (Validation F1 Opt),8121,1267,0.156015,0.197685,0.2834,0.1740,0.7624,0.5467,0.587161

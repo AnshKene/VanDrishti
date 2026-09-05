@@ -1,0 +1,8 @@
+Check,Value,Status
+All 3 models use same N,1226,PASS
+Raw CNN N,1226,PASS
+Delta CNN N,1226,PASS
+Spatial Control N,1226,PASS
+Duplicate sample IDs,0,PASS
+Target NaN,0,PASS
+Target mismatch vs NPZ,0,PASS

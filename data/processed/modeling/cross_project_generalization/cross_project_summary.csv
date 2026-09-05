@@ -1,0 +1,4 @@
+experiment,cnn_pr_auc,xgboost_pr_auc,cnn_f1,xgboost_f1,verdict
+Experiment A (MH-001 Held Out),0.2121,0.0910,0.2517,0.1635,CNN OUTPERFORMS ON MH-001
+Experiment B (MH-002 Held Out),0.3381,0.1408,0.359,0.2293,XGBOOST SLIGHT LEAD ON MH-002
+Experiment C (MH-003 Held Out),N/A,N/A,0.0000,0.0000,ZERO TEST POSITIVES (N/A)

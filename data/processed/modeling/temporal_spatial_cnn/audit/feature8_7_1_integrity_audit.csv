@@ -1,0 +1,23 @@
+Check,Status
+Upstream checksums unchanged,PASS
+Feature 8.7-B checksums unchanged,PASS
+Exact 1226 common test population,PASS
+Zero duplicate IDs,PASS
+Zero missing IDs,PASS
+Zero coordinate NaN,PASS
+Zero target mismatches,PASS
+Exact metric reconstruction (all PASS),PASS
+Threshold selected on validation only,PASS
+No test-derived tuning,PASS
+No target leakage,PASS
+No spatial leakage,PASS
+No temporal leakage,PASS
+Train-only normalization,PASS
+Train-only class weighting,PASS
+No oversampling / synthetic data,PASS
+Population-shift analysis completed,PASS
+Project-wise analysis completed,PASS
+Spatial-block analysis completed,PASS
+"1,000 spatial-group bootstrap completed",PASS
+CI-based conclusion generated,PASS
+All upstream artifacts immutable,PASS

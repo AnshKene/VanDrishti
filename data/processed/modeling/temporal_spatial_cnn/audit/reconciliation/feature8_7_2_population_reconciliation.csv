@@ -1,0 +1,11 @@
+Item,Value
+Feature 8.2 cnn_test unique centers (all years),1805
+Centers with complete 5-year sequence,1226
+Centers excluded (incomplete years),579
+Feature 8.7 temporal cnn_test N,1226
+User request spec stated cnn_test N,1602
+Actual frozen NPZ cnn_test N,1226
+Discrepancy (spec vs actual),376
+Source of '1602',"Feature 8.7-B USER REQUEST SPEC (pre-execution estimate, not verified)"
+Feature 8.7.1 audited N,1226
+Is there a true 376-sample discrepancy?,NO. The 1602 figure never existed as a frozen artifact. 8.7.1 correctly audited N=1226.

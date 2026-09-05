@@ -1,0 +1,91 @@
+project_id,project_name,year,threshold,vegetation_area_ha,vegetation_percentage,vegetation_pixel_count,threshold_status
+MH-001,Gondkhari,2021,0.20,715.050,82.96,7945,provisional
+MH-001,Gondkhari,2021,0.25,487.800,56.59,5420,provisional
+MH-001,Gondkhari,2021,0.30,308.970,35.85,3433,provisional
+MH-001,Gondkhari,2021,0.35,180.990,21.00,2011,provisional
+MH-001,Gondkhari,2021,0.40,90.900,10.55,1010,provisional
+MH-001,Gondkhari,2022,0.20,769.230,89.25,8547,provisional
+MH-001,Gondkhari,2022,0.25,613.170,71.14,6813,provisional
+MH-001,Gondkhari,2022,0.30,430.290,49.92,4781,provisional
+MH-001,Gondkhari,2022,0.35,278.910,32.36,3099,provisional
+MH-001,Gondkhari,2022,0.40,170.820,19.82,1898,provisional
+MH-001,Gondkhari,2023,0.20,759.600,88.13,8440,provisional
+MH-001,Gondkhari,2023,0.25,580.140,67.31,6446,provisional
+MH-001,Gondkhari,2023,0.30,377.640,43.81,4196,provisional
+MH-001,Gondkhari,2023,0.35,240.570,27.91,2673,provisional
+MH-001,Gondkhari,2023,0.40,145.440,16.87,1616,provisional
+MH-001,Gondkhari,2024,0.20,760.950,88.28,8455,provisional
+MH-001,Gondkhari,2024,0.25,598.590,69.45,6651,provisional
+MH-001,Gondkhari,2024,0.30,416.880,48.37,4632,provisional
+MH-001,Gondkhari,2024,0.35,262.890,30.50,2921,provisional
+MH-001,Gondkhari,2024,0.40,149.670,17.36,1663,provisional
+MH-001,Gondkhari,2025,0.20,716.760,83.16,7964,provisional
+MH-001,Gondkhari,2025,0.25,521.910,60.55,5799,provisional
+MH-001,Gondkhari,2025,0.30,349.740,40.58,3886,provisional
+MH-001,Gondkhari,2025,0.35,214.740,24.91,2386,provisional
+MH-001,Gondkhari,2025,0.40,119.160,13.82,1324,provisional
+MH-001,Gondkhari,2026,0.20,625.680,72.59,6952,provisional
+MH-001,Gondkhari,2026,0.25,364.500,42.29,4050,provisional
+MH-001,Gondkhari,2026,0.30,208.890,24.24,2321,provisional
+MH-001,Gondkhari,2026,0.35,107.550,12.48,1195,provisional
+MH-001,Gondkhari,2026,0.40,57.690,6.69,641,provisional
+MH-002,Gadchiroli,2021,0.20,936.810,99.87,10409,provisional
+MH-002,Gadchiroli,2021,0.25,896.400,95.56,9960,provisional
+MH-002,Gadchiroli,2021,0.30,809.730,86.32,8997,provisional
+MH-002,Gadchiroli,2021,0.35,720.090,76.76,8001,provisional
+MH-002,Gadchiroli,2021,0.40,624.420,66.56,6938,provisional
+MH-002,Gadchiroli,2022,0.20,935.100,99.68,10390,provisional
+MH-002,Gadchiroli,2022,0.25,930.240,99.17,10336,provisional
+MH-002,Gadchiroli,2022,0.30,912.870,97.31,10143,provisional
+MH-002,Gadchiroli,2022,0.35,857.430,91.40,9527,provisional
+MH-002,Gadchiroli,2022,0.40,770.580,82.15,8562,provisional
+MH-002,Gadchiroli,2023,0.20,928.890,99.02,10321,provisional
+MH-002,Gadchiroli,2023,0.25,898.110,95.74,9979,provisional
+MH-002,Gadchiroli,2023,0.30,822.420,87.67,9138,provisional
+MH-002,Gadchiroli,2023,0.35,723.060,77.08,8034,provisional
+MH-002,Gadchiroli,2023,0.40,625.320,66.66,6948,provisional
+MH-002,Gadchiroli,2024,0.20,926.280,98.74,10292,provisional
+MH-002,Gadchiroli,2024,0.25,885.420,94.39,9838,provisional
+MH-002,Gadchiroli,2024,0.30,797.220,84.99,8858,provisional
+MH-002,Gadchiroli,2024,0.35,695.700,74.16,7730,provisional
+MH-002,Gadchiroli,2024,0.40,593.460,63.26,6594,provisional
+MH-002,Gadchiroli,2025,0.20,924.390,98.54,10271,provisional
+MH-002,Gadchiroli,2025,0.25,898.830,95.82,9987,provisional
+MH-002,Gadchiroli,2025,0.30,835.020,89.01,9278,provisional
+MH-002,Gadchiroli,2025,0.35,736.830,78.55,8187,provisional
+MH-002,Gadchiroli,2025,0.40,629.280,67.08,6992,provisional
+MH-002,Gadchiroli,2026,0.20,892.170,95.11,9913,provisional
+MH-002,Gadchiroli,2026,0.25,771.930,82.29,8577,provisional
+MH-002,Gadchiroli,2026,0.30,523.800,55.84,5820,provisional
+MH-002,Gadchiroli,2026,0.35,310.410,33.09,3449,provisional
+MH-002,Gadchiroli,2026,0.40,141.660,15.10,1574,provisional
+MH-003,Bhivpuri PSP,2021,0.20,116.460,98.40,1294,provisional
+MH-003,Bhivpuri PSP,2021,0.25,103.320,87.30,1148,provisional
+MH-003,Bhivpuri PSP,2021,0.30,91.530,77.34,1017,provisional
+MH-003,Bhivpuri PSP,2021,0.35,80.730,68.21,897,provisional
+MH-003,Bhivpuri PSP,2021,0.40,69.660,58.86,774,provisional
+MH-003,Bhivpuri PSP,2022,0.20,118.260,99.92,1314,provisional
+MH-003,Bhivpuri PSP,2022,0.25,116.100,98.10,1290,provisional
+MH-003,Bhivpuri PSP,2022,0.30,105.660,89.28,1174,provisional
+MH-003,Bhivpuri PSP,2022,0.35,89.460,75.59,994,provisional
+MH-003,Bhivpuri PSP,2022,0.40,78.750,66.54,875,provisional
+MH-003,Bhivpuri PSP,2023,0.20,116.370,98.33,1293,provisional
+MH-003,Bhivpuri PSP,2023,0.25,103.230,87.22,1147,provisional
+MH-003,Bhivpuri PSP,2023,0.30,87.930,74.30,977,provisional
+MH-003,Bhivpuri PSP,2023,0.35,72.450,61.22,805,provisional
+MH-003,Bhivpuri PSP,2023,0.40,62.280,52.62,692,provisional
+MH-003,Bhivpuri PSP,2024,0.20,117.540,99.32,1306,provisional
+MH-003,Bhivpuri PSP,2024,0.25,112.410,94.98,1249,provisional
+MH-003,Bhivpuri PSP,2024,0.30,96.660,81.67,1074,provisional
+MH-003,Bhivpuri PSP,2024,0.35,75.240,63.57,836,provisional
+MH-003,Bhivpuri PSP,2024,0.40,61.920,52.32,688,provisional
+MH-003,Bhivpuri PSP,2025,0.20,113.490,95.89,1261,provisional
+MH-003,Bhivpuri PSP,2025,0.25,96.300,81.37,1070,provisional
+MH-003,Bhivpuri PSP,2025,0.30,71.460,60.38,794,provisional
+MH-003,Bhivpuri PSP,2025,0.35,49.590,41.90,551,provisional
+MH-003,Bhivpuri PSP,2025,0.40,36.450,30.80,405,provisional
+MH-003,Bhivpuri PSP,2026,0.20,56.610,47.83,629,provisional
+MH-003,Bhivpuri PSP,2026,0.25,37.890,32.02,421,provisional
+MH-003,Bhivpuri PSP,2026,0.30,30.150,25.48,335,provisional
+MH-003,Bhivpuri PSP,2026,0.35,23.580,19.92,262,provisional
+MH-003,Bhivpuri PSP,2026,0.40,19.170,16.20,213,provisional

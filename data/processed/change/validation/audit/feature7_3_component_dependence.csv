@@ -1,0 +1,11 @@
+component_1,component_2,spearman_correlation,dependence_level
+spectral_persistence_score,lulc_transition_score,-0.0666,Low
+spectral_persistence_score,multispectral_agreement_score,0.2701,Low
+spectral_persistence_score,spatial_coherence_score,0.4779,Moderate
+spectral_persistence_score,change_magnitude_score,0.0632,Low
+lulc_transition_score,multispectral_agreement_score,-0.077,Low
+lulc_transition_score,spatial_coherence_score,0.0216,Low
+lulc_transition_score,change_magnitude_score,-0.0977,Low
+multispectral_agreement_score,spatial_coherence_score,0.357,Moderate
+multispectral_agreement_score,change_magnitude_score,0.2424,Low
+spatial_coherence_score,change_magnitude_score,0.2391,Low

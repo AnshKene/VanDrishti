@@ -1,0 +1,13 @@
+{
+  "framework": "PyTorch 2D Multispectral CNN",
+  "random_seed": 42,
+  "optimizer": "Adam",
+  "initial_learning_rate": 0.001,
+  "batch_size": 32,
+  "epochs_trained": 7,
+  "best_epoch": 1,
+  "class_weight_pos_weight": 7.137431,
+  "selected_operating_threshold": 0.1,
+  "best_validation_pr_auc": 0.241588,
+  "test_pr_auc": 0.197685
+}

@@ -1,0 +1,4 @@
+population,uses_cnn_train,uses_cnn_val,uses_cnn_test,uses_buffer_excluded,buffer_leakage
+Feature 8.3 MH-003 Test,False,False,True,False,
+Feature 8.6 MH-003 Held-Out,True,True,True,False,
+,,,,,False

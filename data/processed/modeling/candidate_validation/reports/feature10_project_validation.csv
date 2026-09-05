@@ -1,0 +1,4 @@
+project_id,inference_patches,CNN_candidates,candidate_percentage,mean_CNN_probability,hotspots,supported_hotspots,strong_support,unsupported_hotspots,insufficient_data_hotspots
+MH-001,2424,2345,96.74,0.1858,73,22,6,51,0
+MH-002,7549,7216,95.59,0.2134,28,15,5,13,0
+MH-003,779,443,56.87,0.1331,56,32,21,24,0

@@ -1,0 +1,7 @@
+Note
+The '1602' population never existed as a frozen NPZ artifact.
+Feature 8.7-B USER REQUEST spec stated cnn_test=1602 as an estimate.
+Actual frozen temporal_patches_test.npz always contained N=1226.
+Feature 8.7-B temporal_cnn_test_metrics.csv reports N=1226 for all models.
+No separate 1602-sample population exists to reconstruct.
+"Delta CNN PR-AUC on N=1226 = 0.3791, matching Feature 8.7.1 and Feature 8.7-B."

@@ -1,0 +1,11 @@
+# Root Python dependencies for VanDrishti ML, GIS, and Data Pipelines
+earthengine-api
+rasterio
+numpy
+pandas
+geopandas
+shapely
+torch
+scipy
+scikit-learn
+xgboost

@@ -1,0 +1,6 @@
+model_architecture,recalculated_pr_auc,f84_saved_pr_auc,pr_auc_abs_diff,recalculated_f1,f84_saved_f1,f1_abs_diff,status
+Naive Majority Baseline,0.156015,0.156015,0.00000027,0.0000,0.0,0.00000000,MISMATCH
+Logistic Regression (Set C),0.156314,0.156314,0.00000005,0.0047,0.0047,0.00000588,MISMATCH
+Random Forest (Set C),0.164128,0.164128,0.00000001,0.0047,0.0047,0.00000588,MISMATCH
+XGBoost Baseline (Set C),0.156534,0.156534,0.00000022,0.0047,0.0047,0.00000588,MISMATCH
+Compact 2D CNN (Feature 8.3),0.197685,0.197685,0.00000002,0.2834,0.2834,0.00003244,MISMATCH

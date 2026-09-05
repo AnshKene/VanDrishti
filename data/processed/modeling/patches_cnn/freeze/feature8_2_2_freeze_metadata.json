@@ -1,0 +1,31 @@
+{
+  "feature": "Feature 8.2.2 \u2014 Final CNN Patch Dataset Integrity Audit & Freeze",
+  "freeze_status": "FROZEN / PASS",
+  "audit_timestamp": "2026-08-24T00:21:30+05:30",
+  "total_original_observations": 79406,
+  "border_rejected_samples": 3806,
+  "total_extracted_patches": 75600,
+  "buffer_excluded_patches": 10944,
+  "retained_cnn_patches": 64656,
+  "split_counts": {
+    "cnn_train": 49915,
+    "cnn_val": 6620,
+    "cnn_test": 8121
+  },
+  "tensor_shape": [
+    15,
+    15,
+    6
+  ],
+  "tensor_dtype": "float32",
+  "spectral_bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12"
+  ],
+  "footprint_overlaps": 0,
+  "cnn_models_trained": 0
+}

@@ -1,0 +1,9 @@
+check_id,check_name,result,details
+1,Upstream & Feature 8.3 Checksums,PASS,100% SHA-256 Checksums Verified
+2,CNN Test Set Composition Audit,PASS,Exported cnn_distribution CSVs
+3,Test Population Comparison,PASS (DIFFERENT SPLITS),Spatial Strip Split vs Point Split
+4,MH-001 Distribution Shift Cause,EMPIRICAL CAUSE IDENTIFIED,Contiguous Southern Sector Allocation (21.84% vs 5.47% Prev)
+5,Prediction & PR-AUC Reconstruction,PASS,"Val AP 0.241588, Test AP 0.197685 Matched (< 1e-6)"
+6,Confusion Matrix Reconstruction,PASS,"100% Exact Match (TN=7495, FP=72, FN=241, TP=313)"
+7,Spatial Footprint Leakage Re-Audit,PASS,0 Overlapping Footprint Pairs
+8,Temporal Leakage Re-Audit,PASS,0 Temporal Split Inconsistencies

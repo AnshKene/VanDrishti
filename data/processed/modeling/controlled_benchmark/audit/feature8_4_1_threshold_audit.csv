@@ -1,0 +1,5 @@
+model_name,selected_threshold,selection_dataset,val_f1_at_selected_threshold,threshold_inconsistency
+Compact 2D CNN (Feature 8.3),0.1,"cnn_val (N=6,620)",0.1551,False
+Logistic Regression (Set C),0.2,"tabular_val (N=7,439)",0.1445,False
+Random Forest (Set C),0.2,"tabular_val (N=7,439)",0.148,False
+XGBoost Baseline (Set C),0.2,"tabular_val (N=7,439)",0.1548,False

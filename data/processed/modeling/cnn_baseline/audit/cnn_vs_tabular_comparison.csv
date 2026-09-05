@@ -1,0 +1,5 @@
+model_name,input_type,eval_population,val_pr_auc,test_pr_auc,test_f1,test_balanced_acc,population_comparability
+Naive Majority Baseline,None,"Point Split (7,941 samples)",0.090948,0.06487,0.0,0.5,Tabular Baseline Population
+Logistic Regression (Set C),Point Spectral,"Point Split (7,941 samples)",0.112031,0.065825,0.1221,0.5191,Tabular Baseline Population
+XGBoost Baseline (Set C),Point Spectral,"Point Split (7,941 samples)",0.103384,0.073024,0.1009,0.5092,Tabular Baseline Population
+Compact 2D CNN (Feature 8.3),15x15x6 Spatial Tensor,"Spatial Footprint Strip Split (8,121 samples)",0.241588,0.197685,0.2834,0.5467,CNN Spatial Split Population (Different Split Scheme)

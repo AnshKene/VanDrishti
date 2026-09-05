@@ -1,0 +1,5 @@
+check,mismatches,status
+Sample ID Order Alignment,0,EXACT_ALIGNMENT_PASS
+Target Label Identity Match,0,EXACT_ALIGNMENT_PASS
+Coordinate Key Alignment,0,EXACT_ALIGNMENT_PASS
+Duplicate Sample IDs,0,ZERO_DUPLICATES_PASS

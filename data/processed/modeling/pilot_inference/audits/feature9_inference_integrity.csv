@@ -1,0 +1,14 @@
+Check,Status,Details
+Frozen model checksum unchanged,PASS,
+No NaN predictions,PASS,0
+No Inf predictions,PASS,0
+"Probability range is [0,1]",PASS,
+No duplicate sample IDs,PASS,
+Every prediction maps to exactly one source patch,PASS,
+Coordinates match source metadata,PASS,
+Project IDs match source metadata,PASS,
+2026 excluded,PASS,Input tensor strictly 2021-2025
+Monsoon observations excluded,PASS,F8.7 datasets filter monsoon
+Buffer-excluded samples excluded,PASS,F8.7 datasets filter buffer exclusions
+Incomplete temporal sequences excluded,PASS,"1,226 test (10,752 total) 5-yr sequences"
+No training occurred,PASS,"torch.no_grad() used, model.eval()"

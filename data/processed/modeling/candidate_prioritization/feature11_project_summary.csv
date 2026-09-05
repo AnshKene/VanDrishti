@@ -1,0 +1,4 @@
+project_id,hotspot_count,high_priority,medium_priority,low_priority,unsupported,mean_priority_score,mean_CNN_score
+MH-001,73,1,5,16,51,20.53,0.2443
+MH-002,28,2,2,11,13,28.52,0.3154
+MH-003,56,5,8,19,24,27.09,0.1365

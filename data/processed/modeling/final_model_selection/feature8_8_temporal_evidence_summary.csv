@@ -1,0 +1,14 @@
+Item,Value
+Standard temporal test N,1226
+Delta CNN PR-AUC,0.3791
+Spatial Control PR-AUC,0.2429
+AP difference (Delta - Control),0.1362
+Bootstrap 95% CI lower,0.0185
+Bootstrap 95% CI upper,0.2798
+CI excludes zero,True
+N bootstrap resamples,1000
+Spatial blocks (Delta wins),7/8
+Raw CNN PR-AUC,0.1453
+Raw CNN vs Control,Worse -- absolute temporal values not useful
+Conclusion,Temporal delta (inter-annual change) provides real discriminative signal on the F8.7 population
+Caveat,Evidence limited to N=1226 complete-5yr centers; does not generalize to all 8121 F8.3 test centers

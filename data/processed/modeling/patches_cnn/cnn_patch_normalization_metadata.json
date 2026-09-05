@@ -1,0 +1,34 @@
+{
+  "dataset_name": "CNN Patch Spatial Leakage Correction Dataset",
+  "patch_dimensions": [
+    15,
+    15,
+    6
+  ],
+  "band_names": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12"
+  ],
+  "normalization_calculated_split": "cnn_train_only",
+  "cnn_train_samples_used": 49915,
+  "channel_means": [
+    570.446228,
+    708.395081,
+    838.383423,
+    2042.650269,
+    2360.612061,
+    1604.401978
+  ],
+  "channel_stds": [
+    160.014236,
+    194.728943,
+    317.768219,
+    307.622345,
+    616.471497,
+    582.034119
+  ]
+}

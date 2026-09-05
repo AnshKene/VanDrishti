@@ -1,0 +1,8 @@
+check,status,value
+"Tensor shape = (5, 15, 15, 6)",PASS,
+dtype = float32,PASS,
+Target mapping identical to Feature 7.2,PASS,
+Unintended duplicates,PASS,0.0
+Temporal coordinate inconsistency,PASS (centers static across years),0.0
+NaN count,PASS,0.0
+Inf count,PASS,0.0

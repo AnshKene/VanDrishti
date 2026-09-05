@@ -1,0 +1,4 @@
+project_id,project_name,total_pixels,non_disturbance_count,disturbance_candidate_count,minority_class_pct,class_imbalance_ratio,oversampling_applied
+MH-001,Gondkhari,9581,8330,1251,13.06%,6.7:1,NONE (Strict Immutability)
+MH-002,Gadchiroli,10417,8821,1596,15.32%,5.5:1,NONE (Strict Immutability)
+MH-003,Bhivpuri PSP,1291,1048,243,18.82%,4.3:1,NONE (Strict Immutability)

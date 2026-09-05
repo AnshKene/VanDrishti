@@ -1,0 +1,6 @@
+population_category,total_unique_coords,total_observations
+Tabular Point Split Test Set (Feature 8.1.2),1294,6012
+Footprint-Safe CNN Spatial Split Test Set (Feature 8.3),1805,8121
+Common Test Coordinates (Intersection),788,3757
+CNN-Only Test Coordinates (Footprint Strip Split),1017,4364
+Tabular-Only Test Coordinates (Excluded by Buffer or Split),506,2255

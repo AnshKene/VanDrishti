@@ -1,0 +1,57 @@
+{
+  "project_id": "MH-002",
+  "year": 2026,
+  "role": "regional_basemap",
+  "source_collection": "COPERNICUS/S2_SR_HARMONIZED",
+  "observation_window": "2026-01-01 to 2026-05-31 (Dry Season)",
+  "scenes_used": 12,
+  "cloud_masking": "SCL scene classification (classes 3, 8, 9, 10, 11 masked) + QA60",
+  "composite_method": "Seasonal Pixel-wise Median",
+  "bands": [
+    "B4 (Red)",
+    "B3 (Green)",
+    "B2 (Blue)"
+  ],
+  "crs": "EPSG:4326",
+  "native_grid_resolution": "~31.5 m (dx=0.00030000 deg, dy=0.00028182 deg)",
+  "dimensions": [
+    1200,
+    1100
+  ],
+  "bounds": [
+    80.18,
+    19.45,
+    80.54,
+    19.76
+  ],
+  "file_size_bytes": 5813246,
+  "sha256": "d4bfc291dd97bd219f53639f352262464dafcada04d571557f9ce15f73cec337",
+  "is_reference_year": true,
+  "band_statistics": {
+    "Band 1 (B4 Red)": {
+      "min": 265.0,
+      "p02": 483.0,
+      "median": 812.0,
+      "p98": 1628.0,
+      "max": 3525.0,
+      "valid_pixel_percentage": 100.0
+    },
+    "Band 2 (B3 Green)": {
+      "min": 340.0,
+      "p02": 559.0,
+      "median": 732.0,
+      "p98": 1258.0,
+      "max": 2999.0,
+      "valid_pixel_percentage": 100.0
+    },
+    "Band 3 (B2 Blue)": {
+      "min": 316.0,
+      "p02": 426.0,
+      "median": 569.0,
+      "p98": 1019.0,
+      "max": 2009.0,
+      "valid_pixel_percentage": 100.0
+    }
+  },
+  "created_at": "2026-08-25T18:25:42Z"
+}

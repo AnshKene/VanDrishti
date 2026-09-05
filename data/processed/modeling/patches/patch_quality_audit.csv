@@ -1,0 +1,10 @@
+metric_name,metric_value
+total_requested_patches,79406
+successfully_extracted_patches,75600
+rejected_patches_total,3806
+rejection_out_of_bounds_border,3806
+rejection_contains_nan_inf,0
+rejection_contains_nodata,0
+patch_tensor_shape,"(15, 15, 6)"
+patch_data_type,float32
+tensor_finite_check,PASS (0 NaN / 0 Inf)

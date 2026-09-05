@@ -1,0 +1,5 @@
+audit_check,value,status
+Train-Val Footprint Overlap,0,PASS
+Train-Test Footprint Overlap,0,PASS
+Val-Test Footprint Overlap,0,PASS
+Methodology,Inherited exactly from Feature 8.2 footprint-safe split,PASS

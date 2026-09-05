@@ -1,0 +1,4 @@
+project_id,project_name,total_samples,positive_samples,prevalence,cnn_pr_auc,xgboost_pr_auc,cnn_f1,xgboost_f1,cnn_precision,cnn_recall,cnn_balanced_accuracy,notes
+MH-001,Gondkhari,4364,953,0.218378,0.3285,0.2189,0.3951,0.0062,0.2670,0.7597,0.5884,Calculated
+MH-002,Gadchiroli,3192,314,0.098371,0.0895,0.0984,0.1737,0.0000,0.0979,0.7707,0.4979,Calculated
+MH-003,Bhivpuri PSP,565,0,0.000000,N/A,N/A,0.0000,0.0000,0.0000,0.0000,1.0000,Zero Positive Test Samples

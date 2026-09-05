@@ -1,0 +1,4 @@
+Note
+Bootstrap on N=1602 cannot be performed because this population never existed as a frozen artifact.
+The '1602' figure was a pre-execution spec estimate. The frozen NPZ always contained N=1226.
+Bootstrap on N=1226 is provided in feature8_7_2_bootstrap_1226.csv.

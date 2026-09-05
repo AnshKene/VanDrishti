@@ -1,0 +1,19 @@
+{
+    "description": "Temporal delta datasets for Feature 8.7",
+    "shape": "(4, 15, 15, 6)",
+    "intervals": [
+        "2022-2021",
+        "2023-2022",
+        "2024-2023",
+        "2025-2024"
+    ],
+    "bands": [
+        "B2",
+        "B3",
+        "B4",
+        "B8",
+        "B11",
+        "B12"
+    ],
+    "source": "Calculated by subtracting t from t+1 on raw reflectances"
+}

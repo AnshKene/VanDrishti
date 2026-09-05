@@ -1,0 +1,4 @@
+project_id,project_name,test_sample_count,test_positive_count,positive_prevalence,pr_auc,f1,precision,recall,balanced_accuracy,notes
+MH-001,Gondkhari,1390,76,0.054676,0.0345,0.0494,0.0267,0.3289,0.3178,Calculated
+MH-002,Gadchiroli,3657,314,0.085863,0.1131,0.1810,0.1106,0.4968,0.5609,Calculated
+MH-003,Bhivpuri PSP,965,0,0.000000,PR-AUC is undefined/not estimable for this project because there are zero positive ground-truth samples.,0.0000,0.0000,0.0000,1.0000,Zero Positive Test Samples

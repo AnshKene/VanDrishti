@@ -1,0 +1,15 @@
+{
+  "feature_id": 7.3,
+  "feature_name": "Candidate Validation & Disturbance Evidence Analysis",
+  "status": "FROZEN / PASS",
+  "cluster_count": 386,
+  "lulc_insufficient_clusters": 173,
+  "temporal_range": "2021-2025 Historical Baseline Transitions Only",
+  "monsoon_excluded": true,
+  "ml_training_performed": false,
+  "upstream_immutable": true,
+  "feature6_checksum_status": "PASS",
+  "feature7_2_checksum_status": "PASS",
+  "freeze_timestamp": "2026-08-23T23:53:00+05:30",
+  "manifest_file": "data/processed/change/validation/freeze/feature7_3_checksums_sha256.csv"
+}

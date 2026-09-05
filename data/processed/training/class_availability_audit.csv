@@ -1,0 +1,136 @@
+project_id,project_name,year,dynamic_world_code,dynamic_world_class,pixel_count,percentage
+MH-001,Gondkhari,2021,0,water,0,0.00%
+MH-001,Gondkhari,2021,1,trees,1709,17.32%
+MH-001,Gondkhari,2021,2,grass,7,0.07%
+MH-001,Gondkhari,2021,3,flooded_vegetation,9,0.09%
+MH-001,Gondkhari,2021,4,crops,4602,46.65%
+MH-001,Gondkhari,2021,5,shrub_and_scrub,2679,27.16%
+MH-001,Gondkhari,2021,6,built,790,8.01%
+MH-001,Gondkhari,2021,7,bare,69,0.70%
+MH-001,Gondkhari,2021,8,snow_and_ice,0,0.00%
+MH-001,Gondkhari,2022,0,water,0,0.00%
+MH-001,Gondkhari,2022,1,trees,1531,15.58%
+MH-001,Gondkhari,2022,2,grass,10,0.10%
+MH-001,Gondkhari,2022,3,flooded_vegetation,1,0.01%
+MH-001,Gondkhari,2022,4,crops,4512,45.90%
+MH-001,Gondkhari,2022,5,shrub_and_scrub,2855,29.05%
+MH-001,Gondkhari,2022,6,built,828,8.42%
+MH-001,Gondkhari,2022,7,bare,92,0.94%
+MH-001,Gondkhari,2022,8,snow_and_ice,0,0.00%
+MH-001,Gondkhari,2023,0,water,0,0.00%
+MH-001,Gondkhari,2023,1,trees,1409,14.35%
+MH-001,Gondkhari,2023,2,grass,12,0.12%
+MH-001,Gondkhari,2023,3,flooded_vegetation,0,0.00%
+MH-001,Gondkhari,2023,4,crops,4671,47.56%
+MH-001,Gondkhari,2023,5,shrub_and_scrub,2767,28.17%
+MH-001,Gondkhari,2023,6,built,895,9.11%
+MH-001,Gondkhari,2023,7,bare,68,0.69%
+MH-001,Gondkhari,2023,8,snow_and_ice,0,0.00%
+MH-001,Gondkhari,2024,0,water,0,0.00%
+MH-001,Gondkhari,2024,1,trees,1933,19.57%
+MH-001,Gondkhari,2024,2,grass,11,0.11%
+MH-001,Gondkhari,2024,3,flooded_vegetation,28,0.28%
+MH-001,Gondkhari,2024,4,crops,3644,36.90%
+MH-001,Gondkhari,2024,5,shrub_and_scrub,3261,33.02%
+MH-001,Gondkhari,2024,6,built,935,9.47%
+MH-001,Gondkhari,2024,7,bare,64,0.65%
+MH-001,Gondkhari,2024,8,snow_and_ice,0,0.00%
+MH-001,Gondkhari,2025,0,water,0,0.00%
+MH-001,Gondkhari,2025,1,trees,1599,16.02%
+MH-001,Gondkhari,2025,2,grass,10,0.10%
+MH-001,Gondkhari,2025,3,flooded_vegetation,1,0.01%
+MH-001,Gondkhari,2025,4,crops,4679,46.87%
+MH-001,Gondkhari,2025,5,shrub_and_scrub,2739,27.44%
+MH-001,Gondkhari,2025,6,built,892,8.94%
+MH-001,Gondkhari,2025,7,bare,63,0.63%
+MH-001,Gondkhari,2025,8,snow_and_ice,0,0.00%
+MH-002,Gadchiroli,2021,0,water,0,0.00%
+MH-002,Gadchiroli,2021,1,trees,9204,82.81%
+MH-002,Gadchiroli,2021,2,grass,0,0.00%
+MH-002,Gadchiroli,2021,3,flooded_vegetation,0,0.00%
+MH-002,Gadchiroli,2021,4,crops,23,0.21%
+MH-002,Gadchiroli,2021,5,shrub_and_scrub,1888,16.99%
+MH-002,Gadchiroli,2021,6,built,0,0.00%
+MH-002,Gadchiroli,2021,7,bare,0,0.00%
+MH-002,Gadchiroli,2021,8,snow_and_ice,0,0.00%
+MH-002,Gadchiroli,2022,0,water,0,0.00%
+MH-002,Gadchiroli,2022,1,trees,9247,83.22%
+MH-002,Gadchiroli,2022,2,grass,11,0.10%
+MH-002,Gadchiroli,2022,3,flooded_vegetation,0,0.00%
+MH-002,Gadchiroli,2022,4,crops,14,0.13%
+MH-002,Gadchiroli,2022,5,shrub_and_scrub,1840,16.56%
+MH-002,Gadchiroli,2022,6,built,0,0.00%
+MH-002,Gadchiroli,2022,7,bare,0,0.00%
+MH-002,Gadchiroli,2022,8,snow_and_ice,0,0.00%
+MH-002,Gadchiroli,2023,0,water,0,0.00%
+MH-002,Gadchiroli,2023,1,trees,8921,80.26%
+MH-002,Gadchiroli,2023,2,grass,7,0.06%
+MH-002,Gadchiroli,2023,3,flooded_vegetation,0,0.00%
+MH-002,Gadchiroli,2023,4,crops,12,0.11%
+MH-002,Gadchiroli,2023,5,shrub_and_scrub,2173,19.55%
+MH-002,Gadchiroli,2023,6,built,0,0.00%
+MH-002,Gadchiroli,2023,7,bare,2,0.02%
+MH-002,Gadchiroli,2023,8,snow_and_ice,0,0.00%
+MH-002,Gadchiroli,2024,0,water,0,0.00%
+MH-002,Gadchiroli,2024,1,trees,8505,76.53%
+MH-002,Gadchiroli,2024,2,grass,0,0.00%
+MH-002,Gadchiroli,2024,3,flooded_vegetation,0,0.00%
+MH-002,Gadchiroli,2024,4,crops,44,0.40%
+MH-002,Gadchiroli,2024,5,shrub_and_scrub,2529,22.76%
+MH-002,Gadchiroli,2024,6,built,34,0.31%
+MH-002,Gadchiroli,2024,7,bare,1,0.01%
+MH-002,Gadchiroli,2024,8,snow_and_ice,0,0.00%
+MH-002,Gadchiroli,2025,0,water,0,0.00%
+MH-002,Gadchiroli,2025,1,trees,8762,78.92%
+MH-002,Gadchiroli,2025,2,grass,6,0.05%
+MH-002,Gadchiroli,2025,3,flooded_vegetation,0,0.00%
+MH-002,Gadchiroli,2025,4,crops,27,0.24%
+MH-002,Gadchiroli,2025,5,shrub_and_scrub,2175,19.59%
+MH-002,Gadchiroli,2025,6,built,131,1.18%
+MH-002,Gadchiroli,2025,7,bare,2,0.02%
+MH-002,Gadchiroli,2025,8,snow_and_ice,0,0.00%
+MH-003,Bhivpuri PSP,2021,0,water,0,0.00%
+MH-003,Bhivpuri PSP,2021,1,trees,845,61.14%
+MH-003,Bhivpuri PSP,2021,2,grass,9,0.65%
+MH-003,Bhivpuri PSP,2021,3,flooded_vegetation,0,0.00%
+MH-003,Bhivpuri PSP,2021,4,crops,75,5.43%
+MH-003,Bhivpuri PSP,2021,5,shrub_and_scrub,420,30.39%
+MH-003,Bhivpuri PSP,2021,6,built,25,1.81%
+MH-003,Bhivpuri PSP,2021,7,bare,8,0.58%
+MH-003,Bhivpuri PSP,2021,8,snow_and_ice,0,0.00%
+MH-003,Bhivpuri PSP,2022,0,water,0,0.00%
+MH-003,Bhivpuri PSP,2022,1,trees,936,67.78%
+MH-003,Bhivpuri PSP,2022,2,grass,43,3.11%
+MH-003,Bhivpuri PSP,2022,3,flooded_vegetation,0,0.00%
+MH-003,Bhivpuri PSP,2022,4,crops,61,4.42%
+MH-003,Bhivpuri PSP,2022,5,shrub_and_scrub,321,23.24%
+MH-003,Bhivpuri PSP,2022,6,built,19,1.38%
+MH-003,Bhivpuri PSP,2022,7,bare,1,0.07%
+MH-003,Bhivpuri PSP,2022,8,snow_and_ice,0,0.00%
+MH-003,Bhivpuri PSP,2023,0,water,0,0.00%
+MH-003,Bhivpuri PSP,2023,1,trees,858,62.08%
+MH-003,Bhivpuri PSP,2023,2,grass,21,1.52%
+MH-003,Bhivpuri PSP,2023,3,flooded_vegetation,0,0.00%
+MH-003,Bhivpuri PSP,2023,4,crops,97,7.02%
+MH-003,Bhivpuri PSP,2023,5,shrub_and_scrub,353,25.54%
+MH-003,Bhivpuri PSP,2023,6,built,13,0.94%
+MH-003,Bhivpuri PSP,2023,7,bare,40,2.89%
+MH-003,Bhivpuri PSP,2023,8,snow_and_ice,0,0.00%
+MH-003,Bhivpuri PSP,2024,0,water,0,0.00%
+MH-003,Bhivpuri PSP,2024,1,trees,782,56.58%
+MH-003,Bhivpuri PSP,2024,2,grass,8,0.58%
+MH-003,Bhivpuri PSP,2024,3,flooded_vegetation,0,0.00%
+MH-003,Bhivpuri PSP,2024,4,crops,76,5.50%
+MH-003,Bhivpuri PSP,2024,5,shrub_and_scrub,462,33.43%
+MH-003,Bhivpuri PSP,2024,6,built,24,1.74%
+MH-003,Bhivpuri PSP,2024,7,bare,30,2.17%
+MH-003,Bhivpuri PSP,2024,8,snow_and_ice,0,0.00%
+MH-003,Bhivpuri PSP,2025,0,water,0,0.00%
+MH-003,Bhivpuri PSP,2025,1,trees,552,39.97%
+MH-003,Bhivpuri PSP,2025,2,grass,1,0.07%
+MH-003,Bhivpuri PSP,2025,3,flooded_vegetation,0,0.00%
+MH-003,Bhivpuri PSP,2025,4,crops,116,8.40%
+MH-003,Bhivpuri PSP,2025,5,shrub_and_scrub,609,44.10%
+MH-003,Bhivpuri PSP,2025,6,built,101,7.31%
+MH-003,Bhivpuri PSP,2025,7,bare,2,0.14%
+MH-003,Bhivpuri PSP,2025,8,snow_and_ice,0,0.00%

@@ -1,0 +1,6 @@
+feature_name,previous_status,corrected_status,leakage_risk_mitigated
+latitude,INCLUDED_IN_X (Top Import #1),EXCLUDED_FROM_X (Metadata Only),YES
+longitude,INCLUDED_IN_X (Top Import #2),EXCLUDED_FROM_X (Metadata Only),YES
+project_id,INCLUDED_IN_X (One-Hot Encoded),EXCLUDED_FROM_X (Metadata Only),YES
+candidate_category,EXCLUDED,EXCLUDED,YES
+Feature 7.3 evidence score,EXCLUDED,EXCLUDED,YES

@@ -1,0 +1,10 @@
+project_id,split_pair,overlapping_patch_count,min_center_distance_m,min_edge_distance_m,leakage_status
+MH-001,cnn_train_vs_cnn_val,0,910.24,332.44,PASS_ZERO_OVERLAP
+MH-001,cnn_train_vs_cnn_test,0,2268.03,1814.91,PASS_ZERO_OVERLAP
+MH-001,cnn_val_vs_cnn_test,0,925.11,362.20,PASS_ZERO_OVERLAP
+MH-002,cnn_train_vs_cnn_val,0,678.28,226.61,PASS_ZERO_OVERLAP
+MH-002,cnn_train_vs_cnn_test,0,1978.33,1526.69,PASS_ZERO_OVERLAP
+MH-002,cnn_val_vs_cnn_test,0,678.28,226.63,PASS_ZERO_OVERLAP
+MH-003,cnn_train_vs_cnn_val,0,1070.84,598.18,PASS_ZERO_OVERLAP
+MH-003,cnn_train_vs_cnn_test,0,3601.97,2965.87,PASS_ZERO_OVERLAP
+MH-003,cnn_val_vs_cnn_test,0,2735.61,2150.17,PASS_ZERO_OVERLAP

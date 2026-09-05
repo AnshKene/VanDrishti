@@ -1,0 +1,4 @@
+label_source,label_type,ground_truth_status,circularity_risk_description,mitigation_strategy
+Feature 7.2 Multi-Spectral Candidate Categories,RULE_DERIVED_REFERENCE_LABELS,NOT_GROUND_TRUTH,Training directly on raw index deltas used in threshold rules creates rule-imitation task.,"Use raw Sentinel-2 6-band multi-spectral reflectances as input, excluding rule-defining index deltas or evaluating project-aware splits."
+Feature 7.3 Disturbance Evidence Categories,MULTI_SOURCE_EVIDENCE_SCORES,NOT_GROUND_TRUTH,High circularity if model predicts score using component features.,Treat Feature 7.3 as post-hoc validation weight rather than training target.
+Feature 6 Dynamic World Class Transitions,REFERENCE_LAND_COVER_LABELS,INDEPENDENT_REFERENCE,Low circularity relative to spectral indices.,Use as independent target or contextual validation.

@@ -1,0 +1,11 @@
+check_id,check_name,measured_finding,status
+1,Validation AP Beats Majority Baseline,Logistic Val AP = 0.112031 > Majority 0.090948,PASS
+2,Feature Set Ablation Stability,"Stable across S2 bands (Set A), +Indices (Set B), +DW (Set C)",PASS
+3,Class Weight Sensitivity,Balanced class weighting stable on TRAIN split,PASS
+4,Threshold Sensitivity,Optimal Val F1 at threshold 0.20,PASS
+5,Project-Wise Evaluation,Evaluated on all 3 projects (MH-003 zero positive handled),PASS
+6,Spatial Block Robustness,Evaluated across validation spatial blocks,PASS
+7,Temporal Robustness,Evaluated across historical years (2021-2025),PASS
+8,Bootstrap 95% CI Uncertainty,"Logistic 95% CI [0.0898, 0.1411] > Majority [0.0786, 0.1031]",PASS
+9,No Target-Derived Leakage,Zero target-derived fields entered X,PASS
+10,Test Set Generalization,Test PR-AUC (0.0658) remains above Test Majority prevalence (0.0649),PASS

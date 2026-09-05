@@ -1,0 +1,1913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>R2-FOREST_BOUNDARY_GONDKHARI_230727_Rep.kml</name>
+	<Schema name="R3" id="S_R3_SSSSSSSD">
+		<SimpleField type="long" name="KH_NO"><displayName>&lt;b&gt;KH_NO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="VILLAGE"><displayName>&lt;b&gt;VILLAGE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="RANGE"><displayName>&lt;b&gt;RANGE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ROUND"><displayName>&lt;b&gt;ROUND&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BEAT"><displayName>&lt;b&gt;BEAT&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TALUKA"><displayName>&lt;b&gt;TALUKA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DISTRICT"><displayName>&lt;b&gt;DISTRICT&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LEGAL_STAT"><displayName>&lt;b&gt;LEGAL_STAT&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="AREA_HA"><displayName>&lt;b&gt;AREA_HA&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KH_NO</b></td><td>$[R3/KH_NO]</td></tr>
+  <tr><td><b>VILLAGE</b></td><td>$[R3/VILLAGE]</td></tr>
+  <tr><td><b>RANGE</b></td><td>$[R3/RANGE]</td></tr>
+  <tr><td><b>ROUND</b></td><td>$[R3/ROUND]</td></tr>
+  <tr><td><b>BEAT</b></td><td>$[R3/BEAT]</td></tr>
+  <tr><td><b>TALUKA</b></td><td>$[R3/TALUKA]</td></tr>
+  <tr><td><b>DISTRICT</b></td><td>$[R3/DISTRICT]</td></tr>
+  <tr><td><b>LEGAL_STAT</b></td><td>$[R3/LEGAL_STAT]</td></tr>
+  <tr><td><b>AREA_HA</b></td><td>$[R3/AREA_HA]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>7</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>KH_NO</b></td><td>$[R3/KH_NO]</td></tr>
+  <tr><td><b>VILLAGE</b></td><td>$[R3/VILLAGE]</td></tr>
+  <tr><td><b>RANGE</b></td><td>$[R3/RANGE]</td></tr>
+  <tr><td><b>ROUND</b></td><td>$[R3/ROUND]</td></tr>
+  <tr><td><b>BEAT</b></td><td>$[R3/BEAT]</td></tr>
+  <tr><td><b>TALUKA</b></td><td>$[R3/TALUKA]</td></tr>
+  <tr><td><b>DISTRICT</b></td><td>$[R3/DISTRICT]</td></tr>
+  <tr><td><b>LEGAL_STAT</b></td><td>$[R3/LEGAL_STAT]</td></tr>
+  <tr><td><b>AREA_HA</b></td><td>$[R3/AREA_HA]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>7</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep</name>
+		<open>1</open>
+		<Folder id="layer 0">
+			<name>R3</name>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">137</SimpleData>
+						<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.09</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.93149973199961,21.14032678899999,0 78.93173746899957,21.14046879600002,0 78.93173414999961,21.14053062900002,0 78.93160843499957,21.14051559600002,0 78.9314595619996,21.14049030799996,0 78.93126170599957,21.14043628100001,0 78.93125285899957,21.14032611699997,0 78.93127635199959,21.14019335500002,0 78.93127635599963,21.14019336399998,0 78.93149973199961,21.14032678899999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">103</SimpleData>
+						<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+						<SimpleData name="AREA_HA">1.05</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.93062094999959,21.14672950699997,0 78.93101884999959,21.14673336400001,0 78.93142835499958,21.14661615799999,0 78.93150770799963,21.14655491000003,0 78.93166008199961,21.14651370500006,0 78.93185728299962,21.14636532899997,0 78.9319585119996,21.14620695400002,0 78.93211193899958,21.14624005,0 78.93223239999956,21.14621683899996,0 78.93232357699959,21.14615770699998,0 78.93242220799959,21.14607555700006,0 78.93248289199958,21.14605563499997,0 78.93253014199961,21.14601928600004,0 78.93266320499959,21.145874832,0 78.93264275299958,21.146493119,0 78.9323503479996,21.14667084799999,0 78.93149165899962,21.14694756099999,0 78.93093579199963,21.14699320900001,0 78.93038004999961,21.14703881600006,0 78.9303354059996,21.14665426099998,0 78.9303354059996,21.14665426199998,0 78.93062094999959,21.14672950699997,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">107</SimpleData>
+						<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+						<SimpleData name="AREA_HA">1.4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.93179937599962,21.14321921999998,0 78.9317696869996,21.143275528,0 78.93157027899962,21.143653765,0 78.93175986699958,21.14393914899999,0 78.93194945699958,21.14422453299998,0 78.9320048919996,21.14433708699998,0 78.93235256599962,21.145042989,0 78.93266943699963,21.14568633599999,0 78.93266911799957,21.14569609799996,0 78.9326657039996,21.14579919400001,0 78.93240406399961,21.14570498000001,0 78.9322773319996,21.145574894,0 78.9320165129996,21.14530717100003,0 78.93192258299962,21.14498804500001,0 78.9317010369996,21.144892308,0 78.93147518599962,21.14458702899996,0 78.93132696099963,21.14423074299998,0 78.93120811699958,21.14407663100001,0 78.93117397399959,21.14378689900002,0 78.93132598399961,21.14344118300004,0 78.93174938699964,21.14314697200003,0 78.93186401199961,21.14312677599996,0 78.93186401499958,21.14312677599996,0 78.93179937599962,21.14321921999998,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">139</SimpleData>
+						<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+						<SimpleData name="AREA_HA">3.02</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92911448399957,21.13447166800002,0 78.92921751599954,21.13490553899999,0 78.92927429999956,21.13514134099999,0 78.92932021699961,21.13533201099998,0 78.92962988099957,21.13661793699999,0 78.92975503999958,21.13713766799998,0 78.92983526499962,21.13747080399997,0 78.92986740699961,21.13764001399998,0 78.92995591099957,21.138109762,0 78.92980161799959,21.13792053200001,0 78.92959768599962,21.13710079800001,0 78.92933841399963,21.13711653699999,0 78.92930159699959,21.13770963000002,0 78.92926029999961,21.13780237500002,0 78.92918670299963,21.13788732899998,0 78.92911084999959,21.13795915400001,0 78.92901600699957,21.13801545599999,0 78.9287800489996,21.138127683,0 78.92914547899954,21.13773431999999,0 78.9291964089996,21.137207937,0 78.92894789299957,21.13660974200003,0 78.92934288799961,21.13674164600003,0 78.92879399399959,21.13448238299999,0 78.92872220299957,21.13534598899998,0 78.92827452699959,21.13513152399998,0 78.92839518699957,21.13435099300003,0 78.92754800999963,21.13487466700003,0 78.92703674799957,21.13490890600003,0 78.92604051699959,21.13509681499999,0 78.92581210199955,21.13516781499999,0 78.92578577599953,21.13482694699996,0 78.92605689999958,21.13483258399999,0 78.92686301699962,21.13467604599998,0 78.9273821219996,21.13453532699997,0 78.92834670999956,21.13410844800002,0 78.92904772199961,21.13413484100001,0 78.92904772199961,21.13413485600001,0 78.92911448399957,21.13447166800002,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">145</SimpleData>
+						<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.36</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92904939399955,21.138247397,0 78.92908883999961,21.13834931600003,0 78.92908096699956,21.13850919999999,0 78.9290201059996,21.13864159100004,0 78.92897267099956,21.13867747600001,0 78.92888889899962,21.13871470999997,0 78.92884636599958,21.13872168099999,0 78.92882073599957,21.13872188400001,0 78.92868489799964,21.13870648599997,0 78.92861790099961,21.13864903699998,0 78.92849142599958,21.13861662300001,0 78.92848549299957,21.138136325,0 78.9289747079996,21.13812197800001,0 78.92897437999953,21.13812198799997,0 78.92904939399955,21.138247397,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">179</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+						<SimpleData name="AREA_HA">3.48</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92566113699961,21.16590540999998,0 78.92611432699958,21.166270295,0 78.92651863399958,21.16579975399999,0 78.92684265299961,21.16591990000002,0 78.92691831399952,21.16709937500001,0 78.92647022199957,21.166973638,0 78.92624135999962,21.166921471,0 78.92604047599963,21.16690132100001,0 78.92572911399952,21.16691148700001,0 78.92553412599962,21.16693684599999,0 78.92532503699958,21.16698878000001,0 78.92515722799953,21.16703045999998,0 78.92475217799962,21.16713106499999,0 78.92425798499958,21.16563548500003,0 78.92504005499963,21.16517914,0 78.92566113699961,21.16590540999998,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">220</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.31</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92723087799961,21.16127573599997,0 78.92695997599957,21.161380418,0 78.92682816499961,21.16125343099997,0 78.92677429399951,21.16112023799998,0 78.92672680699962,21.16095877499997,0 78.92670239099959,21.16089167700001,0 78.92668419999961,21.16080817300002,0 78.92667316999962,21.160707549,0 78.92697663899959,21.16055166500001,0 78.92723087799961,21.16127573599997,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">221</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.92</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92711467599953,21.160397869,0 78.92723930399961,21.16025900900002,0 78.92738705499961,21.16003711499997,0 78.92751216499961,21.15988352699997,0 78.92761458199958,21.15975959300003,0 78.92767225399963,21.15969511900001,0 78.92781996799954,21.15952998099997,0 78.92754038799963,21.16006721299998,0 78.92763601499962,21.16010645199999,0 78.92760588799962,21.16057928099998,0 78.92762611299956,21.16084752299995,0 78.92766301299959,21.16094042100001,0 78.92772610699961,21.16110836799999,0 78.92778437599959,21.16125640000001,0 78.92791839299962,21.16139152000004,0 78.92776668199964,21.16139067000001,0 78.92766829899962,21.16139742600001,0 78.92751828399956,21.16140772699998,0 78.92734760599963,21.16144032,0 78.92724448699961,21.16147113899999,0 78.92712049699958,21.16153506400001,0 78.9269599749996,21.16138041699996,0 78.92723087899959,21.16127573900001,0 78.92697664499963,21.16055166199997,0 78.92704712099959,21.16047313599999,0 78.92711467599953,21.160397869,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">234</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.11</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92800504399959,21.15924603199998,0 78.92802951899961,21.15927416999999,0 78.92806424299961,21.159269929,0 78.92811467599962,21.15926209999999,0 78.92814380599951,21.15925130500002,0 78.92818667599958,21.15923953599996,0 78.92823391599961,21.159220672,0 78.92819305199951,21.159157359,0 78.9282095479996,21.15915282700002,0 78.92830253699958,21.15923847900003,0 78.9285118939996,21.15916681699998,0 78.92857663999963,21.159145273,0 78.92855788999952,21.15895000299999,0 78.92849397299959,21.15882391999999,0 78.9282954579996,21.15859348099999,0 78.92828549699961,21.15858183000002,0 78.92829156199959,21.15854410399998,0 78.92831544499961,21.15856281600001,0 78.92833030799956,21.15857506700002,0 78.92835206499956,21.15859300199999,0 78.9284071459996,21.15864027200002,0 78.9285703489996,21.158875334,0 78.92861612599962,21.15890258900002,0 78.92862278599962,21.15884744199997,0 78.9286105139996,21.15860441199997,0 78.92866480699962,21.15855575899998,0 78.92864741699958,21.15918478200003,0 78.9281226759996,21.15931116999997,0 78.9279410419996,21.15937325800004,0 78.92799633399959,21.15917103800001,0 78.92800504399959,21.15924603199998,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">239</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">1.06</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92892666999963,21.15620221899997,0 78.92939383699962,21.15561750100003,0 78.92967458699955,21.15561336299997,0 78.92969295699959,21.15565303699998,0 78.92973833899951,21.155733499,0 78.9301423319996,21.15644964000002,0 78.92872359899961,21.15642992599999,0 78.92871830999961,21.15662119799999,0 78.92845886699956,21.15662151499997,0 78.92824931199961,21.15661596799999,0 78.92809326499957,21.156623797,0 78.92797478499961,21.156624288,0 78.92798150199964,21.15642593100002,0 78.92892666999963,21.15620221899997,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">240</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">5.69</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92866481199962,21.15855575500002,0 78.92857905699952,21.15833118299999,0 78.9285549569996,21.15818403999996,0 78.92851397699961,21.15775534000002,0 78.9285572919996,21.15710431899999,0 78.92855134699958,21.15702351199998,0 78.9285439139996,21.15692247900002,0 78.92857123199963,21.15683032599998,0 78.92859437499955,21.156752262,0 78.9286487479996,21.15669748699998,0 78.9287245029996,21.15662117300003,0 78.92872359899961,21.15642992599999,0 78.9301423279996,21.15644963500002,0 78.93068085099956,21.15917074899999,0 78.92878053999961,21.15915271900001,0 78.92864741699958,21.15918478299999,0 78.92864741699958,21.15918478299999,0 78.92866481199962,21.15855575500002,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">241</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">7.26</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92990595699963,21.155692981,0 78.93010407999959,21.15570101199999,0 78.93036351299956,21.15579270599998,0 78.93051766599956,21.15586820299999,0 78.93064870799958,21.15601598299999,0 78.93067252599963,21.156169701,0 78.93084851099964,21.15601457099999,0 78.93084632499962,21.156094805,0 78.9309741979996,21.15639991700002,0 78.93123137599959,21.15663785499997,0 78.93148856099957,21.15687579799999,0 78.93202065399959,21.15714877999999,0 78.93305989299959,21.15724886599996,0 78.93301325799962,21.15737952400002,0 78.9329053539996,21.15902174799997,0 78.93148401199959,21.15917836100002,0 78.93068085099956,21.15917074899999,0 78.9301423279996,21.15644963299998,0 78.9297383499996,21.15573351000004,0 78.92973833899951,21.155733499,0 78.92990595699963,21.155692981,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">266</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">1.21</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92849828899955,21.148768868,0 78.92826073499951,21.14868160200002,0 78.9280816479996,21.14857897,0 78.92790138299961,21.14850773000002,0 78.92774819499959,21.14840191100001,0 78.92761739399953,21.14827325,0 78.92750882299957,21.14818347800001,0 78.92729254899963,21.14792510100001,0 78.92763836599954,21.14793170999996,0 78.92815640599964,21.14720946799995,0 78.92849136399961,21.14717273600003,0 78.92849136399961,21.14717273600003,0 78.92849828899955,21.148768868,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">268</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">1.22</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92287416799964,21.14760625700001,0 78.92377062099963,21.14772662699998,0 78.92368252799957,21.14776793,0 78.92348053399961,21.14778402700001,0 78.92317611699956,21.14779225699997,0 78.9231582699996,21.14806828199999,0 78.92311003399961,21.14816199299999,0 78.9230576899996,21.14821510399999,0 78.92303446799963,21.14827260999999,0 78.92300621599956,21.14833924800003,0 78.92298401999962,21.14839742400001,0 78.92301817599964,21.14849858700002,0 78.9235533239996,21.14863608000001,0 78.92375555399963,21.14866274999997,0 78.92375441099961,21.14873425000002,0 78.92256014299959,21.148582825,0 78.92208016999956,21.14825952199999,0 78.92181424799959,21.14792689299996,0 78.92181424399962,21.14792689500004,0 78.92230844899963,21.14769135099998,0 78.92287416799964,21.14760625700001,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">269</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92256013499959,21.148582819,0 78.92234787099962,21.14855508400002,0 78.92211956399954,21.14841016100002,0 78.92200761499952,21.14831166199998,0 78.92182420299957,21.14811079999999,0 78.92177797299962,21.14802464899998,0 78.92181424399962,21.14792689500004,0 78.92181424799959,21.14792689299996,0 78.92208016999956,21.14825952199999,0 78.92256013499959,21.148582819,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">275</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.28</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.9246208179996,21.155460629,0 78.92464203799955,21.15540509000001,0 78.92470347899963,21.15523606900001,0 78.92479612699958,21.15515102400001,0 78.92487399299959,21.15510702799996,0 78.92496054899961,21.15504574400001,0 78.92507132399953,21.154961646,0 78.92519157999958,21.154878528,0 78.92546353999961,21.154730262,0 78.92545941099955,21.154866391,0 78.92481337099962,21.15554213799999,0 78.92456735799952,21.15561214699999,0 78.92459145699956,21.15553973099999,0 78.9246208179996,21.155460629,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">206</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.43</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92374142899961,21.16019961699998,0 78.9237956299995,21.16034016499998,0 78.92360065899952,21.16031505899998,0 78.92341276599963,21.16032081800002,0 78.92320781099954,21.16032235400003,0 78.92300994499952,21.159660711,0 78.92352098499951,21.159627881,0 78.92352098399955,21.159627877,0 78.92374142899961,21.16019961699998,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">207</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.04</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.9237374519996,21.16039678399999,0 78.9236621309996,21.16040804799997,0 78.92355090299951,21.16040009699999,0 78.92348994199962,21.16037937399999,0 78.92349283499958,21.16035048099996,0 78.9235017149996,21.16033126000001,0 78.92360065899952,21.16031505899998,0 78.92379567299957,21.16034017099998,0 78.92374142999961,21.16019961899998,0 78.92386731699959,21.16021624399996,0 78.9238442169996,21.16034550199998,0 78.92380333999962,21.16038693100002,0 78.9237374519996,21.16039678399999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">11</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">3.1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.91764644999955,21.15693742700001,0 78.91816071799961,21.15596714999999,0 78.91860926399956,21.15512085900007,0 78.91879404899953,21.15513138500002,0 78.91919575899952,21.15530682100003,0 78.91917146499951,21.15585402900002,0 78.91911257199955,21.15602873299997,0 78.91904937999959,21.15621619100001,0 78.91894220199953,21.15653413000002,0 78.9188392789996,21.15683933499997,0 78.91833514099953,21.15676983700002,0 78.91830807499957,21.15759091000001,0 78.91805832199952,21.15821530199999,0 78.91785344899957,21.15822181199997,0 78.91767948599956,21.15819570600005,0 78.91748666499956,21.15813227399995,0 78.91740563399956,21.15808231199998,0 78.91731797399954,21.1580135,0 78.91724409499955,21.15791583599999,0 78.91716641299955,21.15784310599997,0 78.91716641299955,21.15784310599997,0 78.91764644999955,21.15693742700001,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">14</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.12</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.91628636299953,21.16129434599999,0 78.91633871499961,21.16125509400003,0 78.9163989489996,21.16124674800001,0 78.91645006199956,21.16123192800003,0 78.91652049399954,21.16122234499999,0 78.91660973599954,21.161254344,0 78.91650418499955,21.16136032800002,0 78.91648081699954,21.16139070700001,0 78.91677018099962,21.16139109900001,0 78.91618747599954,21.16162856299995,0 78.91621099299959,21.16150080199997,0 78.91621099299959,21.16150079900001,0 78.91622461999953,21.161426773,0 78.91628636299953,21.16129434599999,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">63</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.05</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.91513910699956,21.16439481300002,0 78.91521928799956,21.16475000799998,0 78.91507085599955,21.16480421599999,0 78.91502156099955,21.164580071,0 78.91502156099955,21.16458006999999,0 78.91513910699956,21.16439481300002,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">192</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">1.71</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.91896950199954,21.16402777700002,0 78.91917281899954,21.164055549,0 78.91927396599955,21.16406936300002,0 78.91947103099959,21.16409628299997,0 78.91960514999958,21.16421167900001,0 78.91967660599961,21.16427315400002,0 78.91975351299959,21.16433932899998,0 78.91981435799958,21.16439167999999,0 78.92016609499954,21.16497089400004,0 78.9201970409996,21.16525617399998,0 78.92018154199958,21.16545626200003,0 78.92004467499953,21.16528229099998,0 78.91985273899957,21.16506532099998,0 78.91962887099955,21.16502431999998,0 78.91951709099953,21.16507394100001,0 78.91942298099957,21.16523306800003,0 78.91931130199953,21.16563994899996,0 78.91919366499963,21.16522607299997,0 78.91909517799955,21.16512465400001,0 78.91892024099958,21.16509444000003,0 78.91880113199956,21.16517352000002,0 78.91859709599954,21.16556109699995,0 78.91859709599954,21.16556109699995,0 78.9186851439996,21.163988938,0 78.91896950199954,21.16402777700002,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">193</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+						<SimpleData name="AREA_HA">15.12</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.91618747599954,21.16162856299995,0 78.91650478999952,21.16149910199999,0 78.91677018099962,21.16139109900001,0 78.91695628999952,21.16139134999999,0 78.91925312999955,21.161394437,0 78.91911736599958,21.161502618,0 78.91881442999954,21.16168038899996,0 78.91859709399955,21.16556109699995,0 78.91821078699955,21.16585898400002,0 78.9175108209996,21.16590140699997,0 78.91695913699959,21.16593144199998,0 78.91640037499964,21.16596649399996,0 78.91590933699958,21.16584675299996,0 78.91546870099957,21.16521570099995,0 78.91551822999952,21.16467667899995,0 78.91542355499963,21.16394649799997,0 78.91542355799959,21.16394649900001,0 78.91589861099953,21.16319777799997,0 78.91618747599954,21.16162856299995,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">195</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">1.96</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.91682357999957,21.15991686000001,0 78.91717841699955,21.15953842800003,0 78.91743953799953,21.15919338700002,0 78.91775552699954,21.15883217599999,0 78.91804503499951,21.15824851700002,0 78.91826632099952,21.15769532299997,0 78.91858600199954,21.15773180899999,0 78.91843320599958,21.15812291599998,0 78.91834571699961,21.158283543,0 78.91832326099963,21.15835365800001,0 78.9182981039995,21.15847757699999,0 78.91829382599963,21.15856207100002,0 78.91830644399955,21.15867557699998,0 78.91832140699955,21.15881017999997,0 78.9183489989996,21.15905838499996,0 78.91830209499956,21.159128829,0 78.9182470119996,21.15921156000001,0 78.91813646299953,21.15937759000003,0 78.91808865099961,21.15944939700002,0 78.91803407799956,21.15953136000001,0 78.91792393199957,21.15969678499999,0 78.91793492799955,21.15982430100003,0 78.91793979399959,21.15988072599998,0 78.91794565299956,21.15994868800001,0 78.91795229999956,21.16002575899999,0 78.91795797299962,21.16009151999999,0 78.9179673779996,21.16020058700002,0 78.91645174699954,21.16020037400001,0 78.91645175399958,21.16020037400001,0 78.91682357999957,21.15991686000001,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">90</SimpleData>
+						<SimpleData name="VILLAGE">WADDHAMANA</SimpleData>
+						<SimpleData name="RANGE">HINGANA</SimpleData>
+						<SimpleData name="ROUND">HINGANA</SimpleData>
+						<SimpleData name="BEAT">WADDHAMANA</SimpleData>
+						<SimpleData name="TALUKA">HINGANA</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+						<SimpleData name="AREA_HA">17.99</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.93695206471732,21.13940988586517,0 78.93665456818711,21.1392222090133,0 78.93652898691066,21.13889694437013,0 78.93654797634987,21.13854802842823,0 78.93692736999957,21.13830889500001,0 78.93725750699963,21.13819164000002,0 78.9370972149996,21.13773748200001,0 78.93680088999957,21.138034384,0 78.93663073799961,21.13809259600002,0 78.93644967299961,21.13816473999999,0 78.9362050069996,21.13818587200006,0 78.93598761799963,21.13809480300004,0 78.93580457499964,21.137754272,0 78.9357431739996,21.13754247499998,0 78.93540974099962,21.13761208500003,0 78.93523242299962,21.13725996300003,0 78.93466669599961,21.13732634999997,0 78.93465942999961,21.13761691899999,0 78.9346280189996,21.13779472999999,0 78.93432625199962,21.13805545100006,0 78.93490656399963,21.13817409600005,0 78.9352775459996,21.13833766399999,0 78.93536319799961,21.13852319900003,0 78.93536141922584,21.13876390714673,0 78.9349100379996,21.13914748200001,0 78.9345206079996,21.13945239300002,0 78.93511794199958,21.13940708400003,0 78.93517326599959,21.139881099,0 78.93493283799961,21.139933753,0 78.93424935299957,21.13990641100001,0 78.93386670399961,21.13980266500002,0 78.93352624299962,21.13986544799998,0 78.93340793999958,21.13993791000002,0 78.93335188499958,21.14003689400002,0 78.9333544889996,21.14027935600001,0 78.9333912859996,21.14051601900001,0 78.93340971399961,21.14069235000006,0 78.93343934299958,21.14097586600005,0 78.93336675799956,21.14119251799999,0 78.93331429999962,21.141195495,0 78.9323286059996,21.14107267200003,0 78.93235253299963,21.14083619100004,0 78.93173746899957,21.14046879200002,0 78.93127635599963,21.14019336400002,0 78.93075781299962,21.13972050200002,0 78.93100469599962,21.13962300399999,0 78.93100611799962,21.13952059499994,0 78.93132217099958,21.13951338200003,0 78.93146452699962,21.13968122500005,0 78.93212445599958,21.13966376200004,0 78.93238851999961,21.13935970200002,0 78.93245754545048,21.13840707716121,0 78.93240932039765,21.13807539016358,0 78.93243541135097,21.1377702791562,0 78.9323952139996,21.13720475799998,0 78.93259098499961,21.136915187,0 78.9327057939996,21.13671924200002,0 78.93250222699959,21.13667670100001,0 78.93256115499958,21.13643731799999,0 78.93287919799964,21.13635044799999,0 78.9341269309996,21.13632815699999,0 78.9349340579996,21.136624337,0 78.93575225399962,21.13682314800006,0 78.93647700599963,21.136875079,0 78.93637190199962,21.13717842600004,0 78.93660161199959,21.13743638500004,0 78.93673269299961,21.13734139300001,0 78.93689360499961,21.137270673,0 78.93721479899962,21.13730854100005,0 78.93765601099959,21.13750130800002,0 78.93780278764642,21.13718393634018,0 78.93781914299961,21.13714935000003,0 78.93794622704854,21.13711345702816,0 78.93813126005234,21.137113993024,0 78.93831945805704,21.13715063501972,0 78.9385111789996,21.13727491399999,0 78.93858247635518,21.1377076848856,0 78.93818136099956,21.13813557899998,0 78.93765863099956,21.13903247400005,0 78.93733549014645,21.13953563808197,0 78.93712221414951,21.13948256909584,0 78.93695206471732,21.13940988586517,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">198</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.13</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92040754899962,21.158932794,0 78.92033947699959,21.15877975399997,0 78.92013079899958,21.15851178499998,0 78.92024683299955,21.158576819,0 78.92056963599953,21.15851113499997,0 78.92068601299957,21.15845817500002,0 78.92061251599955,21.15853674900001,0 78.9205241129996,21.15877941100002,0 78.92054098299955,21.15885177199997,0 78.92043359899954,21.15914319299998,0 78.92040754899962,21.158932794,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">199</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.32</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92020802999959,21.15970649499995,0 78.92036039999959,21.15951347499997,0 78.92043129399963,21.15930327899996,0 78.92043359899954,21.15914319299998,0 78.92054098299955,21.15885177199997,0 78.92064645399957,21.158875718,0 78.92100442599961,21.15933314299996,0 78.92091098799959,21.15940079899996,0 78.92079596399951,21.15945084599998,0 78.92020802999959,21.15970649499995,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">201</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.41</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92215367499954,21.158500474,0 78.92149779299955,21.158975698,0 78.9218080659996,21.15857691399997,0 78.92152194899954,21.15811167099997,0 78.92111594599952,21.15771649200001,0 78.9210887649996,21.15736517599999,0 78.92140532799952,21.15778814700002,0 78.92199947899957,21.15831952299998,0 78.92219364599953,21.15830418199999,0 78.92223342399957,21.15833884500002,0 78.92215367499954,21.158500474,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">202</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+						<SimpleData name="AREA_HA">3.91</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92320778999954,21.16032233300002,0 78.92291394099961,21.16001733300001,0 78.92180055699953,21.15993278499997,0 78.92154026999958,21.16021848899999,0 78.92153852199959,21.15993484500002,0 78.92142471399961,21.15984392700001,0 78.92142098399962,21.15989872299999,0 78.92130319999963,21.159975192,0 78.92122576599958,21.15995257599997,0 78.92114802699962,21.159994984,0 78.92106694099954,21.16007169599999,0 78.92101222699954,21.16012338899999,0 78.92097151499956,21.16005835600001,0 78.92085823999959,21.16000636799998,0 78.92076674399961,21.16003107600003,0 78.92068518899957,21.16002422200002,0 78.92056387199956,21.16012457300009,0 78.9205517409996,21.16017023500007,0 78.92055426699962,21.16019893800001,0 78.92060204299956,21.16027252800002,0 78.92062817699957,21.160289238,0 78.92070708499959,21.16028683999997,0 78.92080040399959,21.16026202000007,0 78.92083592399958,21.16024440200005,0 78.92091441399951,21.16038364499998,0 78.92076312699959,21.16036906599998,0 78.92062357699955,21.16040205999995,0 78.92050803099959,21.16046243000003,0 78.92056428099956,21.16036892300004,0 78.92049180599956,21.160163094,0 78.92040330699955,21.16011555099998,0 78.92029843099955,21.160025944,0 78.92008073099952,21.160062187,0 78.92001287999962,21.160188281,0 78.91965550499958,21.16003157799999,0 78.91951462831635,21.16001564110567,0 78.91930001857253,21.16000654952949,0 78.91916037699959,21.16000626900005,0 78.91916145299956,21.15998252000001,0 78.91915493199957,21.15989760900002,0 78.9191503589996,21.15988476000003,0 78.91946551699958,21.15992213900001,0 78.91995535399961,21.15987366800003,0 78.92007706899962,21.15976341099998,0 78.92020802999963,21.15970649499999,0 78.92079596399958,21.15945084599998,0 78.92091098799959,21.15940079899996,0 78.92100442599961,21.15933314299996,0 78.92119625799961,21.15927378600004,0 78.92141558899958,21.15912564799997,0 78.92149779299962,21.15897569800003,0 78.92215367499961,21.158500474,0 78.92230996999956,21.15818370600001,0 78.92342394999956,21.15937623700004,0 78.92352095999964,21.15962786000004,0 78.92300992499956,21.15966069000004,0 78.92304800699959,21.15978798599998,0 78.92316614099961,21.16018301600001,0 78.92320778999954,21.16032233300002,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">204</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.05</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92101087199954,21.16021144899996,0 78.92100885999957,21.16026768199998,0 78.92099108199955,21.16030031800004,0 78.9209671699996,21.16030619599997,0 78.92088612799954,21.16023001799998,0 78.92101224699958,21.16012341099995,0 78.92114804699951,21.15999500599996,0 78.92121704399962,21.15995733699996,0 78.92122576599958,21.15995257599997,0 78.92136923399961,21.16020703700004,0 78.92116925099958,21.16006359699996,0 78.92101087199954,21.16021144899996,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">205</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.04</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92133389399953,21.16005846199997,0 78.92136924699953,21.160206997,0 78.92122577899954,21.15995253600001,0 78.92130321299955,21.15997515200004,0 78.92142099699959,21.15989868299998,0 78.92142471399961,21.15984392700001,0 78.9215385149996,21.15993486100002,0 78.92154030999963,21.16022282699998,0 78.92151422099954,21.159973245,0 78.92133389399953,21.16005846199997,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">229</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">2.81</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.9244147539996,21.15908525700007,0 78.92430922699958,21.15919802600004,0 78.92430081699958,21.15947729300005,0 78.92437344499955,21.15959521299997,0 78.92408974199957,21.159655449,0 78.92390708399957,21.15998362600002,0 78.9239740729996,21.16023034300001,0 78.92386731699959,21.16021624399996,0 78.92374142699957,21.16019961700002,0 78.92352098099964,21.159627882,0 78.9234239699996,21.15937625900004,0 78.92342394999956,21.15937623700004,0 78.92230999099955,21.15818372800005,0 78.92234089949903,21.15775545612645,0 78.92376668799962,21.15775113600003,0 78.92380177899956,21.15799071900003,0 78.92365764799955,21.15829684300002,0 78.92388467199959,21.15877937999998,0 78.92418977199954,21.15880059100002,0 78.92436499499956,21.158874258,0 78.9244147539996,21.15908525700007,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">230</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">1.35</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92371352399958,21.15764935000001,0 78.92376668799962,21.15775113600003,0 78.92234089949903,21.15775545612645,0 78.92239076999952,21.157696178,0 78.92234889699954,21.15764772499999,0 78.92272105299959,21.157037244,0 78.9232722219996,21.15654370000001,0 78.9233287229996,21.15657963399999,0 78.92372183699955,21.15663738400005,0 78.92383379499962,21.15660996399998,0 78.92376987299964,21.156695294,0 78.92366462699961,21.15703231099999,0 78.92367620199957,21.15713329400007,0 78.92364336699961,21.157241156,0 78.92371352399958,21.15764935000001,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">82</SimpleData>
+						<SimpleData name="VILLAGE">WADDHAMANA</SimpleData>
+						<SimpleData name="RANGE">HINGANA</SimpleData>
+						<SimpleData name="ROUND">HINGANA</SimpleData>
+						<SimpleData name="BEAT">WADDHAMANA</SimpleData>
+						<SimpleData name="TALUKA">HINGANA</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+						<SimpleData name="AREA_HA">4.65</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92999278599962,21.13671923200005,0 78.92982460799958,21.13667299799999,0 78.92962988199957,21.13661793599999,0 78.92949554299958,21.13606008300003,0 78.9290477229996,21.13413485600001,0 78.92906291899959,21.133761316,0 78.92914845699954,21.13377006,0 78.93031573999964,21.13388936700004,0 78.93045890899958,21.13390399200001,0 78.93049535499959,21.13399470899996,0 78.93052978199961,21.13408038699998,0 78.93056461499957,21.13416706700004,0 78.9305402789996,21.134579091,0 78.93068686999958,21.134578701,0 78.93063018699961,21.13480706799999,0 78.93066314699962,21.13497700699999,0 78.93069490699956,21.13514075199998,0 78.93075178199963,21.13543399299999,0 78.93069599499961,21.13576488500003,0 78.9307768639996,21.13614110700002,0 78.93086332799959,21.13617992500004,0 78.93092850799962,21.13620918899998,0 78.9310181429996,21.13624942899999,0 78.93108014799958,21.13627726699998,0 78.93109624699963,21.13645853499999,0 78.93095971899957,21.13663761499998,0 78.93069363799958,21.13674068799999,0 78.93051155499963,21.13675108700001,0 78.93017795099964,21.13675049299996,0 78.92999278599962,21.13671923200005,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">142</SimpleData>
+						<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92715721199961,21.136650536,0 78.92747817999951,21.13663155099999,0 78.92817797799954,21.13659705899998,0 78.92847554399958,21.136547027,0 78.92853080399961,21.13662406100001,0 78.92813027999959,21.13665550999998,0 78.92758244199963,21.13668639999997,0 78.92715613199961,21.13673199599999,0 78.92715721199961,21.136650536,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">117</SimpleData>
+						<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">1.42</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.93034181999964,21.143564373,0 78.9301683209996,21.14362510699998,0 78.9301127269996,21.14358153899998,0 78.92968834799962,21.14347063499995,0 78.92936398699959,21.14338169299999,0 78.92916547499952,21.14335250300005,0 78.92915858699962,21.14363652899997,0 78.92863391699962,21.14355398999998,0 78.9279405569996,21.14346764899999,0 78.9278510049996,21.14322115300002,0 78.92771317299957,21.14274449099998,0 78.92762747499955,21.14260585499999,0 78.92763537499961,21.14255227299999,0 78.92953243099954,21.14322878100001,0 78.93119908099959,21.14372980200002,0 78.93117397299959,21.14378689599998,0 78.93034181999964,21.143564373,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">208</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+						<SimpleData name="AREA_HA">0.06</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.92361336199964,21.16051727700001,0 78.9235490199996,21.16050521400001,0 78.92351027499963,21.160481941,0 78.92349510099957,21.16046568500006,0 78.92348167999954,21.16044665599996,0 78.92348131699958,21.16041496100001,0 78.92348948699954,21.16037921899998,0 78.92355090299951,21.16040009699999,0 78.9236621309996,21.16040804799997,0 78.92380333999962,21.16038693100002,0 78.9238442169996,21.16034550400002,0 78.92386731699959,21.16021624399996,0 78.92397407699963,21.16023033600001,0 78.92389794599957,21.16035140899999,0 78.92383329899961,21.16045421700003,0 78.92376046499955,21.16052143999995,0 78.92369171499962,21.16052120199997,0 78.92361336199964,21.16051727700001,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#falseColor1</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_R3_SSSSSSSD">
+						<SimpleData name="KH_NO">194</SimpleData>
+						<SimpleData name="VILLAGE">KARLI</SimpleData>
+						<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+						<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+						<SimpleData name="BEAT">NIMJI</SimpleData>
+						<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+						<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+						<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+						<SimpleData name="AREA_HA">4.03</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								78.91916041299952,21.16000628700002,0 78.91930001857253,21.16000654952949,0 78.91951462831635,21.16001564110567,0 78.91965551799954,21.16003159899999,0 78.92001290699959,21.160188277,0 78.91994166899964,21.16019253000004,0 78.91925313099955,21.16139443599996,0 78.91695629599955,21.16139134999999,0 78.9169026019996,21.16126609000002,0 78.91687401299954,21.16119939400001,0 78.91683706199956,21.16111319300003,0 78.91678235299959,21.16098557299999,0 78.91672584899952,21.16085374699999,0 78.91664704699963,21.16066990900001,0 78.91657080099959,21.160492036,0 78.91644981499962,21.16049474300006,0 78.91645125199953,21.16027607099999,0 78.91646547699952,21.16020037600001,0 78.9179673779996,21.16020058700006,0 78.91797280299953,21.160263527,0 78.91820180199953,21.16034746900003,0 78.91845091999956,21.16035403900001,0 78.91883578399963,21.16027236400001,0 78.91905783999958,21.16009576400007,0 78.91916041299952,21.16000628700002,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Document>
+			<name>Boundary.shp</name>
+			<Schema name="Boundary" id="S_Boundary_SD">
+				<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+				<SimpleField type="double" name="Area"><displayName>&lt;b&gt;Area&lt;/b&gt;</displayName>
+</SimpleField>
+			</Schema>
+			<Style id="falseColor2">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[Boundary/Name]</td></tr>
+  <tr><td><b>Area</b></td><td>$[Boundary/Area]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="falseColor3">
+				<BalloonStyle>
+					<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[Boundary/Name]</td></tr>
+  <tr><td><b>Area</b></td><td>$[Boundary/Area]</td></tr>
+</table>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>5</width>
+				</LineStyle>
+				<PolyStyle>
+					<colorMode>random</colorMode>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="falseColor4">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#falseColor3</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#falseColor2</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Folder id="layer 0">
+				<name>Boundary</name>
+				<Placemark>
+					<styleUrl>#falseColor4</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Boundary_SD">
+							<SimpleData name="Name">Block Boundary</SimpleData>
+							<SimpleData name="Area">862.009</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<gx:balloonVisibility>1</gx:balloonVisibility>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									78.93938899799961,21.14979492999997,0 78.93868203099959,21.15241817099999,0 78.93791823799963,21.15532943100002,0 78.93726059699956,21.156710197,0 78.93638739899961,21.15862808499997,0 78.9330728709996,21.16311978999999,0 78.9325672099996,21.16377361999998,0 78.93229361899962,21.16426844900003,0 78.9288917209996,21.170598505,0 78.92700551899958,21.17862276599998,0 78.92698572899963,21.17899047900003,0 78.92481687199962,21.17992520000003,0 78.92183266499956,21.18119986000002,0 78.91996727999957,21.18199945700003,0 78.91268665299953,21.180472626,0 78.91292602699959,21.18003195599999,0 78.91521824799952,21.175754128,0 78.91770187599957,21.17124782499997,0 78.91312829399953,21.16756842600001,0 78.91590480099957,21.163183604,0 78.91675805099953,21.15864358900001,0 78.91989979999961,21.15268711699998,0 78.91673869599954,21.15108181199997,0 78.91972445499958,21.14467213000001,0 78.92173856299964,21.14036803699996,0 78.92418357599958,21.13507629399997,0 78.92565081799955,21.13269746200002,0 78.93251613199958,21.13427654700002,0 78.9352312679996,21.13407365500002,0 78.9378387569996,21.13477637400001,0 78.93825180099957,21.136170865,0 78.93840179199958,21.13662228400003,0 78.93864221099962,21.13764396199999,0 78.93818136099956,21.13813557899998,0 78.93765863099956,21.139032474,0 78.9373813279996,21.13946628100001,0 78.93725515999959,21.13965928400003,0 78.93710345099959,21.13984527799999,0 78.93683806199958,21.14004164400005,0 78.93650362599961,21.14022145899998,0 78.93635788899961,21.14040499499998,0 78.9362387919996,21.14063127499996,0 78.93613658299961,21.140923566,0 78.9360385059996,21.14135640799996,0 78.93590575699962,21.14207533500005,0 78.93564616799961,21.142683336,0 78.93499753599961,21.14374426400001,0 78.93475363599957,21.144166782,0 78.93455012099956,21.14461136099997,0 78.93412538499963,21.14569159199998,0 78.93377928299957,21.14676074199996,0 78.9336295209996,21.14720344099997,0 78.93348309999961,21.14750528600001,0 78.9333062649996,21.147677647,0 78.9327753879996,21.14804464899999,0 78.93231509499957,21.14841712099996,0 78.93184490099959,21.149541284,0 78.9318372409996,21.149976903,0 78.93157413299961,21.15133561900003,0 78.93131433099961,21.15166929899998,0 78.93116717899959,21.15198521999998,0 78.93098451399959,21.15247831300001,0 78.93081511599964,21.15275331200002,0 78.93057596599959,21.15305467999998,0 78.92998828399961,21.15368657199998,0 78.92964717299957,21.154023006,0 78.92920119099959,21.154439815,0 78.92876042999961,21.15462720799995,0 78.92838925999956,21.15520056199999,0 78.9279038519996,21.15562110499997,0 78.92723381499957,21.15667277099998,0 78.92806046599958,21.156394325,0 78.92893503199956,21.15619800799998,0 78.93069227299958,21.153991563,0 78.93348987499961,21.15070944200001,0 78.93515380399958,21.14873875199999,0 78.93615743799961,21.14779424900002,0 78.93676917799964,21.14727843299999,0 78.93812564699959,21.14636079399996,0 78.9388227219996,21.14595496099995,0 78.9404144119996,21.144939675,0 78.94001170299957,21.14674331099999,0 78.93938899799961,21.14979492999997,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document>
+			<name>R3.shp</name>
+			<Document>
+				<name>R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1.shp</name>
+				<Schema name="R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1" id="S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+					<SimpleField type="long" name="KH_NO"><displayName>&lt;b&gt;KH_NO&lt;/b&gt;</displayName>
+</SimpleField>
+					<SimpleField type="string" name="VILLAGE"><displayName>&lt;b&gt;VILLAGE&lt;/b&gt;</displayName>
+</SimpleField>
+					<SimpleField type="string" name="RANGE"><displayName>&lt;b&gt;RANGE&lt;/b&gt;</displayName>
+</SimpleField>
+					<SimpleField type="string" name="ROUND"><displayName>&lt;b&gt;ROUND&lt;/b&gt;</displayName>
+</SimpleField>
+					<SimpleField type="string" name="BEAT"><displayName>&lt;b&gt;BEAT&lt;/b&gt;</displayName>
+</SimpleField>
+					<SimpleField type="string" name="TALUKA"><displayName>&lt;b&gt;TALUKA&lt;/b&gt;</displayName>
+</SimpleField>
+					<SimpleField type="string" name="DISTRICT"><displayName>&lt;b&gt;DISTRICT&lt;/b&gt;</displayName>
+</SimpleField>
+					<SimpleField type="string" name="LEGAL_STAT"><displayName>&lt;b&gt;LEGAL_STAT&lt;/b&gt;</displayName>
+</SimpleField>
+					<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+				</Schema>
+				<Style id="hlightPointStyle">
+					<IconStyle>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+						</Icon>
+					</IconStyle>
+					<BalloonStyle>
+						<text><![CDATA[<table border="0">
+  <tr><td><b>KH_NO</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/KH_NO]</td></tr>
+  <tr><td><b>VILLAGE</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/VILLAGE]</td></tr>
+  <tr><td><b>RANGE</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/RANGE]</td></tr>
+  <tr><td><b>ROUND</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/ROUND]</td></tr>
+  <tr><td><b>BEAT</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/BEAT]</td></tr>
+  <tr><td><b>TALUKA</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/TALUKA]</td></tr>
+  <tr><td><b>DISTRICT</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/DISTRICT]</td></tr>
+  <tr><td><b>LEGAL_STAT</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/LEGAL_STAT]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/AREA]</td></tr>
+</table>]]></text>
+					</BalloonStyle>
+				</Style>
+				<Style id="normPointStyle">
+					<IconStyle>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+						</Icon>
+					</IconStyle>
+					<BalloonStyle>
+						<text><![CDATA[<table border="0">
+  <tr><td><b>KH_NO</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/KH_NO]</td></tr>
+  <tr><td><b>VILLAGE</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/VILLAGE]</td></tr>
+  <tr><td><b>RANGE</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/RANGE]</td></tr>
+  <tr><td><b>ROUND</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/ROUND]</td></tr>
+  <tr><td><b>BEAT</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/BEAT]</td></tr>
+  <tr><td><b>TALUKA</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/TALUKA]</td></tr>
+  <tr><td><b>DISTRICT</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/DISTRICT]</td></tr>
+  <tr><td><b>LEGAL_STAT</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/LEGAL_STAT]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1/AREA]</td></tr>
+</table>]]></text>
+					</BalloonStyle>
+				</Style>
+				<StyleMap id="pointStyleMap">
+					<Pair>
+						<key>normal</key>
+						<styleUrl>#normPointStyle</styleUrl>
+					</Pair>
+					<Pair>
+						<key>highlight</key>
+						<styleUrl>#hlightPointStyle</styleUrl>
+					</Pair>
+				</StyleMap>
+				<Folder id="layer 0">
+					<name>R1-FOREST_BOUNDARY_GONDKHARI_230727_Rep_1</name>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">137</SimpleData>
+								<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.09</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.93145364890695,21.140392224802,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">103</SimpleData>
+								<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+								<SimpleData name="AREA">1.05</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.93207532636426,21.14649679900701,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">107</SimpleData>
+								<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+								<SimpleData name="AREA">1.4</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.93182309476829,21.14448232022451,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">139</SimpleData>
+								<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+								<SimpleData name="AREA">3.02</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92789843193053,21.13448266323183,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">145</SimpleData>
+								<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.36</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92877792040018,21.13840829765088,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">179</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+								<SimpleData name="AREA">3.48</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92552335805088,21.16629458805932,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">220</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.31</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92693811212486,21.16098319017489,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">221</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.92</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.9273994471372,21.1607691371368,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">234</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.11</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92812035340289,21.15928597571747,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">239</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">1.06</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92921533244653,21.15620470493627,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">240</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">5.69</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.9295070595785,21.15786389775705,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">241</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">7.26</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.93145857747106,21.15775670066364,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">266</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">1.21</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92810493545649,21.14798273915626,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">268</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">1.22</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92269301537173,21.14809314782479,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">269</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.1</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92216799167926,21.14837980669015,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">275</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.28</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92499139873736,21.15518641918859,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">206</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.43</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92338696187132,21.15998926594006,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">207</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.04</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92367768634142,21.16036542790383,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">11</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">3.1</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.91868800143037,21.15597143468911,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">14</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.12</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.91633534533243,21.16141258699983,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">63</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.05</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.91511781691311,21.16462796305532,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">192</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">1.71</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.91929062529685,21.16470615778669,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">193</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+								<SimpleData name="AREA">15.12</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.91723426072819,21.16369997102338,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">195</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">1.96</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.91772721880068,21.15928736623973,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">90</SimpleData>
+								<SimpleData name="VILLAGE">WADDHAMANA</SimpleData>
+								<SimpleData name="RANGE">HINGANA</SimpleData>
+								<SimpleData name="ROUND">HINGANA</SimpleData>
+								<SimpleData name="BEAT">WADDHAMANA</SimpleData>
+								<SimpleData name="TALUKA">HINGANA</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+								<SimpleData name="AREA">17.99</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.93439928069428,21.1384424217368,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">198</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.13</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92043004088862,21.15871835930536,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">199</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.32</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.9206233621198,21.15927185769493,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">201</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.41</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92194212368578,21.1584631677163,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">202</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+								<SimpleData name="AREA">3.91</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92186102247939,21.15945567594055,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">204</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.05</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92112994818142,21.16005620029163,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">205</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.04</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92138457142187,21.15997835371401,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">229</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">2.81</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92341653258632,21.15871780712722,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">230</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">1.35</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92315921832078,21.15725311585011,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">82</SimpleData>
+								<SimpleData name="VILLAGE">WADDHAMANA</SimpleData>
+								<SimpleData name="RANGE">HINGANA</SimpleData>
+								<SimpleData name="ROUND">HINGANA</SimpleData>
+								<SimpleData name="BEAT">WADDHAMANA</SimpleData>
+								<SimpleData name="TALUKA">HINGANA</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+								<SimpleData name="AREA">4.65</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.93001247609477,21.13525417631992,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">142</SimpleData>
+								<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.1</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92781962116841,21.13664312237229,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">117</SimpleData>
+								<SimpleData name="VILLAGE">GONDKHARI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">1.42</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92851596845868,21.14320334499027,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">208</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Zudpi Jungle</SimpleData>
+								<SimpleData name="AREA">0.06</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.92372578249599,21.16045985920705,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<styleUrl>#pointStyleMap</styleUrl>
+						<ExtendedData>
+							<SchemaData schemaUrl="#S_R1_FOREST_BOUNDARY_GONDKHARI_230727_Rep_1_SSSSSSSD">
+								<SimpleData name="KH_NO">194</SimpleData>
+								<SimpleData name="VILLAGE">KARLI</SimpleData>
+								<SimpleData name="RANGE">KALMESHWAR</SimpleData>
+								<SimpleData name="ROUND">KALMESHWAR</SimpleData>
+								<SimpleData name="BEAT">NIMJI</SimpleData>
+								<SimpleData name="TALUKA">KALMESHWAR</SimpleData>
+								<SimpleData name="DISTRICT">NAGPUR</SimpleData>
+								<SimpleData name="LEGAL_STAT">Section 4 PRF</SimpleData>
+								<SimpleData name="AREA">4.03</SimpleData>
+							</SchemaData>
+						</ExtendedData>
+						<Point>
+							<coordinates>78.91822314753256,21.16087063624219,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+			</Document>
+		</Document>
+	</Folder>
+</Document>
+</kml>

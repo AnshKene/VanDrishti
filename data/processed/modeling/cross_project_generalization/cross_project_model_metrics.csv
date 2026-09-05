@@ -1,0 +1,4 @@
+experiment_id,training_projects,held_out_project,total_test_samples,positive_test_samples,positive_prevalence,cnn_pr_auc,xgboost_pr_auc,cnn_minus_xgboost_ap,cnn_f1,xgboost_f1,cnn_precision,xgboost_precision,cnn_recall,xgboost_recall,cnn_balanced_accuracy,xgboost_balanced_accuracy,cnn_operating_threshold
+Experiment A,"['MH-002', 'MH-003']",MH-001,18077,1693,0.093655,0.2121,0.0910,0.1210,0.2517,0.1635,0.3082,0.091,0.2126,0.7986,0.5817,0.4874,0.5
+Experiment B,"['MH-001', 'MH-003']",MH-002,41451,5820,0.140407,0.3381,0.1408,0.1973,0.359,0.2293,0.2523,0.1417,0.6218,0.6005,0.6604,0.5031,0.5
+Experiment C,"['MH-001', 'MH-002']",MH-003,5128,570,0.111154,0.1470,0.1145,0.0325,0.2368,0.2006,0.1388,0.1121,0.8053,0.9474,0.5902,0.5047,0.5

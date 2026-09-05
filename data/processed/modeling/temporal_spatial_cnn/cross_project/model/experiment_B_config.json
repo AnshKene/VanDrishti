@@ -1,0 +1,1 @@
+{"experiment": "B", "train_projects": ["MH-001", "MH-003"], "held_out_project": "MH-002", "architecture": "CompactTemporalCNN(time_steps=4,in_channels=6)", "optimizer": "Adam", "lr": 0.001, "weight_decay": 0.0001, "epochs_max": 30, "patience": 6, "pos_weight": 6.167076167076167, "seed": 42, "best_val_pr_auc": 0.13574469011807544}

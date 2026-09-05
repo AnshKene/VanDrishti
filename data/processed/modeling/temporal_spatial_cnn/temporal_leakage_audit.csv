@@ -1,0 +1,6 @@
+audit_check,status
+No 2026 data,PASS
+No June-October data,PASS
+No future target-derived info,PASS
+No Feature 7.3 inside tensor,PASS
+Train-only normalization statistics,PASS

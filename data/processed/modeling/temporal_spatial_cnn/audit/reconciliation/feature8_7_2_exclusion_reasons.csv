@@ -1,0 +1,6 @@
+Exclusion_Reason,Count,Pct_of_F82_test,Description
+Incomplete 5-year non-monsoon observation sequence,579,32.08,"Centers requiring all 5 years (2021-2025) of valid non-monsoon Sentinel-2 data. Centers with fewer than 5 complete annual observations were excluded by the Feature 8.7-A dataset preparation step to ensure each temporal tensor has shape (5,15,15,6)."
+Available years = 1 (need 5),18,1.0,Center had only 1 of the required 5 annual non-monsoon observations.
+Available years = 2 (need 5),56,3.1,Center had only 2 of the required 5 annual non-monsoon observations.
+Available years = 3 (need 5),159,8.81,Center had only 3 of the required 5 annual non-monsoon observations.
+Available years = 4 (need 5),346,19.17,Center had only 4 of the required 5 annual non-monsoon observations.

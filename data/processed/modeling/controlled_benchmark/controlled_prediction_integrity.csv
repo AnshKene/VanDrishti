@@ -1,0 +1,6 @@
+model_name,prediction_count,nan_count,inf_count,status
+Naive Majority Baseline,8121,0,0,PASS
+Logistic Regression (Set C),8121,0,0,PASS
+Random Forest (Set C),8121,0,0,PASS
+XGBoost Baseline (Set C),8121,0,0,PASS
+Compact 2D CNN (Feature 8.3),8121,0,0,PASS

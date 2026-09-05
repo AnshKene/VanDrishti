@@ -1,0 +1,14 @@
+audit_parameter,target_criterion,measured_value,status
+New CNN Spatial Split Created,Separate cnn_spatial_split.csv,Created in data/processed/modeling/patches_cnn/,PASS
+Original Feature 6 Split Untouched,Feature 6 Immutable,100% Immutable & Unchanged,PASS
+Patch Tensor Shape,"(15, 15, 6)","(15, 15, 6)",PASS
+Bands Included,"B2, B3, B4, B8, B11, B12 Only",6 Bands Only,PASS
+Target Leakage into Tensor,Zero Target Features in Tensor,Raw Reflectances Only,PASS
+Historical Year Scope,2021-2025 Baseline Only,2021-2025 Only (2026=0),PASS
+Monsoon Exclusion,June-October Excluded,June-October Excluded (0),PASS
+CNN Train vs Val Footprint Overlap,0 Overlapping Pairs,0 Overlapping Pairs,PASS
+CNN Train vs Test Footprint Overlap,0 Overlapping Pairs,0 Overlapping Pairs,PASS
+CNN Val vs Test Footprint Overlap,0 Overlapping Pairs,0 Overlapping Pairs,PASS
+Temporal Split Consistency,0 Coordinate Inconsistencies,0 Inconsistencies,PASS
+Normalization Preprocessing,CNN Train Split Only,CNN Train Split Only,PASS
+CNN Model Training Count,0 Models Trained,0 Models Trained,PASS

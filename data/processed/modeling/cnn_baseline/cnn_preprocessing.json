@@ -1,0 +1,39 @@
+{
+  "raw_tensor_min": 111.2368392944336,
+  "raw_tensor_max": 6717.5,
+  "reflectance_scale_factor": 10000.0,
+  "normalization_fitted_split": "cnn_train_only",
+  "train_samples_count": 49915,
+  "raw_channel_means": [
+    570.446228,
+    708.395081,
+    838.383423,
+    2042.650269,
+    2360.612061,
+    1604.401978
+  ],
+  "raw_channel_stds": [
+    160.014236,
+    194.728943,
+    317.768219,
+    307.622345,
+    616.471497,
+    582.034119
+  ],
+  "reflectance_channel_means": [
+    0.057045,
+    0.07084,
+    0.083838,
+    0.204265,
+    0.236061,
+    0.16044
+  ],
+  "reflectance_channel_stds": [
+    0.016001,
+    0.019473,
+    0.031777,
+    0.030762,
+    0.061647,
+    0.058203
+  ]
+}

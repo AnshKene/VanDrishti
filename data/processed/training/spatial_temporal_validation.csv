@@ -1,0 +1,4 @@
+project_id,project_name,total_samples,unique_spatial_locations,min_train_val_meters,min_train_test_meters,min_val_test_meters,patch_15x15_safe,patch_33x33_safe,temporal_split_consistency
+MH-001,Gondkhari,30674,7214,391.9,1119.8,391.9,PASS,FAIL,PASS
+MH-002,Gadchiroli,42954,9031,678.3,1978.3,678.3,PASS,PASS,PASS
+MH-003,Bhivpuri PSP,5778,1295,1070.8,3602.0,2735.6,PASS,PASS,PASS

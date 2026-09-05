@@ -1,0 +1,9 @@
+model_name,split,true_negatives,false_positives,false_negatives,true_positives
+Naive Majority Baseline,validation,8516,0,852,0
+Naive Majority Baseline,test,5622,0,390,0
+Logistic Regression,validation,5425,3091,545,307
+Logistic Regression,test,3228,2394,209,181
+Random Forest,validation,8454,62,847,5
+Random Forest,test,5579,43,390,0
+XGBoost,validation,7174,1342,668,184
+XGBoost,test,4789,833,325,65

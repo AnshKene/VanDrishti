@@ -1,0 +1,4 @@
+target_option,class_definitions,scientific_defensibility,class_balance_status,circularity_risk,recommendation_status
+OPTION_A_BINARY,"0 = Non-Disturbance (Normal/Single-Signal), 1 = Disturbance Candidate (Multi-Spectral / Persistent)",HIGH,Imbalanced (~4.0% Disturbance Candidate),Moderate (Rule-derived reference labels),RECOMMENDED FOR BASELINE MODEL
+OPTION_B_THREE_CLASS,"0 = Normal, 1 = Transient Anomaly (Single Transition), 2 = Persistent Disturbance Candidate",HIGH,Moderate Imbalance,Moderate,SUITABLE SECONDARY TARGET
+OPTION_C_EVIDENCE_LEVEL,"0 = Insufficient, 1 = Weak, 2 = Moderate, 3 = Strong, 4 = Very Strong",MODERATE,"Severe Imbalance (Cat 4 = 0, Cat 3 = 1 cluster)",HIGH (Rule Imitation of Feature 7.3 score),NOT RECOMMENDED FOR MODEL TRAINING

@@ -1,0 +1,7 @@
+experiment_id,held_out_project,model_architecture,tn,fp,fn,tp
+Experiment A,MH-001,Compact 2D CNN,15576,808,1333,360
+Experiment A,MH-001,XGBoost Baseline,2886,13498,341,1352
+Experiment B,MH-002,Compact 2D CNN,24908,10723,2201,3619
+Experiment B,MH-002,XGBoost Baseline,14457,21174,2325,3495
+Experiment C,MH-003,Compact 2D CNN,1710,2848,111,459
+Experiment C,MH-003,XGBoost Baseline,283,4275,30,540

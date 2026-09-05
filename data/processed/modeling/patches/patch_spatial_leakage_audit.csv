@@ -1,0 +1,10 @@
+project_id,split_pair,overlapping_patch_count,min_center_distance_m,min_edge_distance_m,leakage_status
+MH-001,train_vs_val,15306,391.91,0.00,FAIL_PATCH_OVERLAP_DETECTED
+MH-001,train_vs_test,0,N/A,N/A,PASS_ZERO_OVERLAP
+MH-001,val_vs_test,4855,391.94,0.00,FAIL_PATCH_OVERLAP_DETECTED
+MH-002,train_vs_val,0,N/A,N/A,PASS_ZERO_OVERLAP
+MH-002,train_vs_test,0,N/A,N/A,PASS_ZERO_OVERLAP
+MH-002,val_vs_test,0,N/A,N/A,PASS_ZERO_OVERLAP
+MH-003,train_vs_val,0,N/A,N/A,PASS_ZERO_OVERLAP
+MH-003,train_vs_test,0,N/A,N/A,PASS_ZERO_OVERLAP
+MH-003,val_vs_test,0,N/A,N/A,PASS_ZERO_OVERLAP

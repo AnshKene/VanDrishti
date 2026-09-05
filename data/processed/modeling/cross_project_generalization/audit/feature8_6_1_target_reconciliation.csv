@@ -1,0 +1,4 @@
+model_experiment,target_definition,is_identical
+Feature 8.3,"Feature 7.2 Category 2/3 mapped to 1, others to 0",
+Feature 8.6,"Feature 7.2 Category 2/3 mapped to 1, others to 0",
+,,True

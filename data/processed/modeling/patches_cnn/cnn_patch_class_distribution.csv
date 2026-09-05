@@ -1,0 +1,13 @@
+cnn_spatial_split,project_id,total_patches,target_0_non_disturbance,target_1_disturbance_candidate,positive_prevalence,imbalance_ratio,oversampling_applied
+cnn_train,MH-001,10966,10138,828,0.075506,12.2:1,NONE (Strict Immutability)
+cnn_train,MH-002,34439,30234,4205,0.122100,7.2:1,NONE (Strict Immutability)
+cnn_train,MH-003,4510,3409,1101,0.244124,3.1:1,NONE (Strict Immutability)
+cnn_val,MH-001,2747,2480,267,0.097197,9.3:1,NONE (Strict Immutability)
+cnn_val,MH-002,3820,3405,415,0.108639,8.2:1,NONE (Strict Immutability)
+cnn_val,MH-003,53,53,0,0.000000,N/A,NONE (Strict Immutability)
+cnn_test,MH-001,4364,3411,953,0.218378,3.6:1,NONE (Strict Immutability)
+cnn_test,MH-002,3192,2878,314,0.098371,9.2:1,NONE (Strict Immutability)
+cnn_test,MH-003,565,565,0,0.000000,N/A,NONE (Strict Immutability)
+buffer_excluded,MH-001,10944,9868,1076,0.098319,9.2:1,NONE (Strict Immutability)
+buffer_excluded,MH-002,0,0,0,0.000000,N/A,NONE (Strict Immutability)
+buffer_excluded,MH-003,0,0,0,0.000000,N/A,NONE (Strict Immutability)

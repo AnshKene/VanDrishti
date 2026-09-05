@@ -1,0 +1,16 @@
+project_id,project_name,year,source_raster,band_count,crs,resolution,polygon_masked,valid_pixels,nodata_count,nan_count,inf_count,raw_ndwi_min,raw_ndwi_max,raw_ndbi_min,raw_ndbi_max,out_of_bounds_count,output_exists,status
+MH-001,Gondkhari,2021,data/processed/satellite/MH-001/sentinel2_2021.tif,6,EPSG:32644,30m,True,9581,8635,8635,0,-0.604,0.4478,-0.3735,0.2782,0,True,PASS
+MH-001,Gondkhari,2022,data/processed/satellite/MH-001/sentinel2_2022.tif,6,EPSG:32644,30m,True,9581,8635,8635,0,-0.6329,0.5008,-0.2993,0.2922,0,True,PASS
+MH-001,Gondkhari,2023,data/processed/satellite/MH-001/sentinel2_2023.tif,6,EPSG:32644,30m,True,9581,8635,8635,0,-0.6516,0.5712,-0.4278,0.2628,0,True,PASS
+MH-001,Gondkhari,2024,data/processed/satellite/MH-001/sentinel2_2024.tif,6,EPSG:32644,30m,True,9581,8635,8635,0,-0.6203,0.4128,-0.4434,0.26,0,True,PASS
+MH-001,Gondkhari,2025,data/processed/satellite/MH-001/sentinel2_2025.tif,6,EPSG:32644,30m,True,9581,8635,8635,0,-0.6403,0.4873,-0.5803,0.2718,0,True,PASS
+MH-002,Gadchiroli,2021,data/processed/satellite/MH-002/sentinel2_2021.tif,6,EPSG:32644,30m,True,10417,17075,17075,0,-0.5969,-0.2876,-0.1938,0.292,0,True,PASS
+MH-002,Gadchiroli,2022,data/processed/satellite/MH-002/sentinel2_2022.tif,6,EPSG:32644,30m,True,10417,17075,17075,0,-0.6457,-0.0906,-0.2269,0.2751,0,True,PASS
+MH-002,Gadchiroli,2023,data/processed/satellite/MH-002/sentinel2_2023.tif,6,EPSG:32644,30m,True,10417,17075,17075,0,-0.6192,-0.2639,-0.197,0.3283,0,True,PASS
+MH-002,Gadchiroli,2024,data/processed/satellite/MH-002/sentinel2_2024.tif,6,EPSG:32644,30m,True,10417,17075,17075,0,-0.6019,-0.1398,-0.1602,0.2866,0,True,PASS
+MH-002,Gadchiroli,2025,data/processed/satellite/MH-002/sentinel2_2025.tif,6,EPSG:32644,30m,True,10417,17075,17075,0,-0.6288,0.2768,-0.1947,0.2678,0,True,PASS
+MH-003,Bhivpuri PSP,2021,data/processed/satellite/MH-003/sentinel2_2021.tif,6,EPSG:32643,30m,True,1291,33274,33274,0,-0.7437,-0.2947,-0.3056,0.2813,0,True,PASS
+MH-003,Bhivpuri PSP,2022,data/processed/satellite/MH-003/sentinel2_2022.tif,6,EPSG:32643,30m,True,1291,33274,33274,0,-0.7129,-0.3066,-0.2996,0.2292,0,True,PASS
+MH-003,Bhivpuri PSP,2023,data/processed/satellite/MH-003/sentinel2_2023.tif,6,EPSG:32643,30m,True,1291,33274,33274,0,-0.7275,-0.3228,-0.3345,0.2615,0,True,PASS
+MH-003,Bhivpuri PSP,2024,data/processed/satellite/MH-003/sentinel2_2024.tif,6,EPSG:32643,30m,True,1291,33274,33274,0,-0.7173,-0.3322,-0.2897,0.2123,0,True,PASS
+MH-003,Bhivpuri PSP,2025,data/processed/satellite/MH-003/sentinel2_2025.tif,6,EPSG:32643,30m,True,1291,33274,33274,0,-0.7306,-0.3108,-0.3168,0.2217,0,True,PASS

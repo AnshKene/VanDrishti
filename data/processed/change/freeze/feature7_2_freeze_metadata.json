@@ -1,0 +1,14 @@
+{
+  "feature": 7.2,
+  "status": "FROZEN / PASS",
+  "audit_timestamp": "2026-08-23T23:43:00+05:30",
+  "required_csv_files_count": 5,
+  "geotiff_candidate_rasters_count": 15,
+  "temporal_scope": "2021-2025 Historical Transitions Only (2026 & Monsoon Excluded)",
+  "polygon_masking": "PASS",
+  "category_logic_sum_equality": "PASS",
+  "utm_metric_area_calculation": "PASS",
+  "feature6_checksum_verification": "PASS",
+  "sha256_checksum_file_reference": "data/processed/change/freeze/feature7_2_checksums_sha256.csv",
+  "cnn_training_status": "NOT TRAINED"
+}

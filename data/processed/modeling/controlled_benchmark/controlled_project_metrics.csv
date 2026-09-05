@@ -1,0 +1,16 @@
+project_id,project_name,model_architecture,test_samples,test_positives,positive_prevalence,pr_auc,f1_score,precision,recall,balanced_accuracy,notes
+MH-001,Gondkhari,Naive Majority Baseline,4364,953,0.218378,0.2184,0.0000,0.0000,0.0000,0.5000,Calculated
+MH-001,Gondkhari,Logistic Regression (Set C),4364,953,0.218378,0.1941,0.0062,0.3750,0.0031,0.5008,Calculated
+MH-001,Gondkhari,Random Forest (Set C),4364,953,0.218378,0.2241,0.0062,0.3750,0.0031,0.5008,Calculated
+MH-001,Gondkhari,XGBoost Baseline (Set C),4364,953,0.218378,0.2189,0.0062,0.3750,0.0031,0.5008,Calculated
+MH-001,Gondkhari,Compact 2D CNN (Feature 8.3),4364,953,0.218378,0.3285,0.3951,0.2670,0.7597,0.5884,Calculated
+MH-002,Gadchiroli,Naive Majority Baseline,3192,314,0.098371,0.0984,0.0000,0.0000,0.0000,0.5000,Calculated
+MH-002,Gadchiroli,Logistic Regression (Set C),3192,314,0.098371,0.0798,0.0000,0.0000,0.0000,0.5000,Calculated
+MH-002,Gadchiroli,Random Forest (Set C),3192,314,0.098371,0.0987,0.0000,0.0000,0.0000,0.5000,Calculated
+MH-002,Gadchiroli,XGBoost Baseline (Set C),3192,314,0.098371,0.0984,0.0000,0.0000,0.0000,0.5000,Calculated
+MH-002,Gadchiroli,Compact 2D CNN (Feature 8.3),3192,314,0.098371,0.0895,0.1737,0.0979,0.7707,0.4979,Calculated
+MH-003,Bhivpuri PSP,Naive Majority Baseline,565,0,0.000000,N/A,0.0000,0.0000,0.0000,1.0000,Zero Positive Test Samples
+MH-003,Bhivpuri PSP,Logistic Regression (Set C),565,0,0.000000,N/A,0.0000,0.0000,0.0000,1.0000,Zero Positive Test Samples
+MH-003,Bhivpuri PSP,Random Forest (Set C),565,0,0.000000,N/A,0.0000,0.0000,0.0000,1.0000,Zero Positive Test Samples
+MH-003,Bhivpuri PSP,XGBoost Baseline (Set C),565,0,0.000000,N/A,0.0000,0.0000,0.0000,1.0000,Zero Positive Test Samples
+MH-003,Bhivpuri PSP,Compact 2D CNN (Feature 8.3),565,0,0.000000,N/A,0.0000,0.0000,0.0000,1.0000,Zero Positive Test Samples

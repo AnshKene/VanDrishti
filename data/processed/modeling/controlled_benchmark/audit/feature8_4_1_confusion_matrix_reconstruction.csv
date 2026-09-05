@@ -1,0 +1,6 @@
+model_architecture,threshold,reconstructed_tn,reconstructed_fp,reconstructed_fn,reconstructed_tp,recalculated_precision,recalculated_recall,recalculated_f1,recalculated_balanced_accuracy,status
+Naive Majority Baseline,0.5,6854,0,1267,0,0.0000,0.0000,0.0000,0.5000,EXACT_MATCH_PASS
+Logistic Regression (Set C),0.2,6849,5,1264,3,0.3750,0.0024,0.0047,0.5008,EXACT_MATCH_PASS
+Random Forest (Set C),0.2,6849,5,1264,3,0.3750,0.0024,0.0047,0.5008,EXACT_MATCH_PASS
+XGBoost Baseline (Set C),0.2,6849,5,1264,3,0.3750,0.0024,0.0047,0.5008,EXACT_MATCH_PASS
+Compact 2D CNN (Feature 8.3),0.1,2269,4585,301,966,0.1740,0.7624,0.2834,0.5467,EXACT_MATCH_PASS

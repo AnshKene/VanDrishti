@@ -1,0 +1,43 @@
+Model,Metric,Reconstructed,Reported,Diff,Status
+Raw Temporal CNN,N,1226.0,,,PASS
+Raw Temporal CNN,positives,188.0,,,PASS
+Raw Temporal CNN,prevalence,0.153344,,,PASS
+Raw Temporal CNN,PR_AUC,0.145284,0.1453,1.631e-05,PASS
+Raw Temporal CNN,ROC_AUC,0.489018,,,PASS
+Raw Temporal CNN,F1,0.089172,0.0892,2.803e-05,PASS
+Raw Temporal CNN,Precision,0.111111,,,PASS
+Raw Temporal CNN,Recall,0.074468,,,PASS
+Raw Temporal CNN,Balanced_Accuracy,0.483284,,,PASS
+Raw Temporal CNN,Accuracy,0.766721,,,PASS
+Raw Temporal CNN,TN,926.0,,,PASS
+Raw Temporal CNN,FP,112.0,,,PASS
+Raw Temporal CNN,FN,174.0,,,PASS
+Raw Temporal CNN,TP,14.0,,,PASS
+Delta Temporal CNN,N,1226.0,,,PASS
+Delta Temporal CNN,positives,188.0,,,PASS
+Delta Temporal CNN,prevalence,0.153344,,,PASS
+Delta Temporal CNN,PR_AUC,0.379072,0.3791,2.775e-05,PASS
+Delta Temporal CNN,ROC_AUC,0.725802,,,PASS
+Delta Temporal CNN,F1,0.323164,0.3232,3.616e-05,PASS
+Delta Temporal CNN,Precision,0.205165,,,PASS
+Delta Temporal CNN,Recall,0.760638,,,PASS
+Delta Temporal CNN,Balanced_Accuracy,0.61346,,,PASS
+Delta Temporal CNN,Accuracy,0.511419,,,PASS
+Delta Temporal CNN,TN,484.0,,,PASS
+Delta Temporal CNN,FP,554.0,,,PASS
+Delta Temporal CNN,FN,45.0,,,PASS
+Delta Temporal CNN,TP,143.0,,,PASS
+Spatial-Only Control,N,1226.0,,,PASS
+Spatial-Only Control,positives,188.0,,,PASS
+Spatial-Only Control,prevalence,0.153344,,,PASS
+Spatial-Only Control,PR_AUC,0.242893,0.2429,6.8e-06,PASS
+Spatial-Only Control,ROC_AUC,0.617365,,,PASS
+Spatial-Only Control,F1,0.272796,0.2728,4.22e-06,PASS
+Spatial-Only Control,Precision,0.158911,,,PASS
+Spatial-Only Control,Recall,0.962766,,,PASS
+Spatial-Only Control,Balanced_Accuracy,0.519919,,,PASS
+Spatial-Only Control,Accuracy,0.212887,,,PASS
+Spatial-Only Control,TN,80.0,,,PASS
+Spatial-Only Control,FP,958.0,,,PASS
+Spatial-Only Control,FN,7.0,,,PASS
+Spatial-Only Control,TP,181.0,,,PASS

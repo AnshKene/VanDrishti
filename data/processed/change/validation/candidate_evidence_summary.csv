@@ -1,0 +1,4 @@
+project_id,project_name,total_candidate_clusters,total_candidate_area_ha,insufficient_evidence_clusters,weak_evidence_clusters,moderate_evidence_clusters,strong_evidence_clusters,very_strong_evidence_clusters
+MH-001,Gondkhari,161,112.59,118,38,4,1,0
+MH-002,Gadchiroli,220,143.64,169,42,9,0,0
+MH-003,Bhivpuri PSP,5,21.87,2,2,1,0,0

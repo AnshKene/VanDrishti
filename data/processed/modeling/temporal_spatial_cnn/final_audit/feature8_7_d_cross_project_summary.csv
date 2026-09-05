@@ -1,0 +1,4 @@
+Experiment,held_out_project,train_N,val_N,test_N,positive_N,prevalence,spatial_blocks,CNN_PR_AUC,XGBoost_PR_AUC,F86_Spatial_PR_AUC,CNN_beats_XGB,CNN_beats_Spatial,threshold,Overlap_Status
+A,MH-001,6829,1499,2424,262,0.1081,11,0.2619,0.091,0.2121,True,True,0.5,PASS
+B,MH-002,2917,286,7549,904,0.1198,12,0.2654,0.1408,0.3381,True,False,0.25,PASS
+C,MH-003,8023,1950,779,159,0.2041,12,0.407,0.1145,0.147,True,True,0.5,PASS

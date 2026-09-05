@@ -1,0 +1,5 @@
+confusion_group,count,mean_probability,median_probability,p25_probability,p75_probability,min_probability,max_probability
+True Negatives (TN),2269,0.030636,0.019469,0.006015,0.051082,6e-06,0.099999
+False Positives (FP),4585,0.547955,0.564299,0.28674,0.806439,0.100054,0.982954
+False Negatives (FN),301,0.032283,0.024164,0.005469,0.053368,8.7e-05,0.099707
+True Positives (TP),966,0.624193,0.687692,0.419306,0.835621,0.100121,0.983978

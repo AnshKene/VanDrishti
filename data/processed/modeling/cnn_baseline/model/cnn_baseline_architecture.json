@@ -1,0 +1,18 @@
+{
+  "model_type": "2D Multispectral Compact CNN",
+  "input_shape": [
+    15,
+    15,
+    6
+  ],
+  "conv_blocks": 2,
+  "filters": [
+    32,
+    64
+  ],
+  "dense_units": 64,
+  "dropout": 0.3,
+  "activation": "ReLU",
+  "output_activation": "Sigmoid",
+  "total_parameters": 71041
+}

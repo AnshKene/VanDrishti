@@ -1,0 +1,9 @@
+check_id,check_name,result,details
+1,Checksum Verification,PASS,100% SHA-256 Checksums Verified
+2,Common Population Sample Identity,PASS,"Exactly 8,121 Identical Samples"
+3,Prediction Alignment Audit,PASS,100% Row & Sample ID Alignment
+4,Probability Range Audit,PASS,"All probabilities in [0, 1], 0 NaN, 0 Inf"
+5,Threshold Selection Provenance Audit,PASS,Thresholds selected strictly on Validation data
+6,Metric Reconstruction Audit,PASS,All metrics match Feature 8.4 (< 1e-8 error)
+7,Confusion Matrix Reconstruction Audit,PASS,100% Mathematical Consistency
+8,Tabular XGBoost F1 Analysis,EXPLAINED,Threshold 0.20 on probability scale where median=0.002

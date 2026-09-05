@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Pune Division.kml</name>
+	<Schema name="Bhivpuri_PSP_Forest_data_Update" id="S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+		<SimpleField type="string" name="SL_NO"><displayName>&lt;b&gt;SL.NO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Component_"><displayName>&lt;b&gt;Component_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Village_Na"><displayName>&lt;b&gt;Village_Na&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Taluka"><displayName>&lt;b&gt;Taluka&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="District"><displayName>&lt;b&gt;District&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circle"><displayName>&lt;b&gt;Circle&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Division"><displayName>&lt;b&gt;Division&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Range"><displayName>&lt;b&gt;Range&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Survey_No"><displayName>&lt;b&gt;Survey_No&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Gut_No"><displayName>&lt;b&gt;Gut_No&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Proposed_a"><displayName>&lt;b&gt;Proposed_a&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Legel_Stat"><displayName>&lt;b&gt;Legel_Stat&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Schema name="Bhivpuri_PSP_NonForest_data_Update" id="S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+		<SimpleField type="string" name="SL_NO"><displayName>&lt;b&gt;SL.NO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Component_"><displayName>&lt;b&gt;Component_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Village_Na"><displayName>&lt;b&gt;Village_Na&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Taluka"><displayName>&lt;b&gt;Taluka&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="District"><displayName>&lt;b&gt;District&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circle"><displayName>&lt;b&gt;Circle&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Division"><displayName>&lt;b&gt;Division&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Range"><displayName>&lt;b&gt;Range&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Survey_No"><displayName>&lt;b&gt;Survey_No&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Gut_No"><displayName>&lt;b&gt;Gut_No&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Area_in_Ha"><displayName>&lt;b&gt;Area_in_Ha&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>SL NO : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/SL_NO]</td></tr>
+  <tr><td><b>Component Name : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Component_]</td></tr>
+  <tr><td><b>Village Name : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Village_Na]</td></tr>
+  <tr><td><b>Taluka : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Taluka]</td></tr>
+  <tr><td><b>District : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/District]</td></tr>
+  <tr><td><b>Circle : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Circle]</td></tr>
+  <tr><td><b>Division : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Division]</td></tr>
+  <tr><td><b>Range : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Range]</td></tr>
+  <tr><td><b>Survey No : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Survey_No]</td></tr>
+  <tr><td><b>Gut No : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Gut_No]</td></tr>
+  <tr><td><b>Area in Ha : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Area_in_Ha]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffaaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>SL NO : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/SL_NO]</td></tr>
+  <tr><td><b>Component Name : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Component_]</td></tr>
+  <tr><td><b>Village Name : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Village_Na]</td></tr>
+  <tr><td><b>Taluka : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Taluka]</td></tr>
+  <tr><td><b>District : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/District]</td></tr>
+  <tr><td><b>Circle : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Circle]</td></tr>
+  <tr><td><b>Division : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Division]</td></tr>
+  <tr><td><b>Range : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Range]</td></tr>
+  <tr><td><b>Survey No : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Survey_No]</td></tr>
+  <tr><td><b>Gut No : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Gut_No]</td></tr>
+  <tr><td><b>Proposed Area : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Proposed_a]</td></tr>
+  <tr><td><b>Legel Status : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Legel_Stat]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00b800</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor2">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>SL NO : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/SL_NO]</td></tr>
+  <tr><td><b>Component Name : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Component_]</td></tr>
+  <tr><td><b>Village Name : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Village_Na]</td></tr>
+  <tr><td><b>Taluka : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Taluka]</td></tr>
+  <tr><td><b>District : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/District]</td></tr>
+  <tr><td><b>Circle : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Circle]</td></tr>
+  <tr><td><b>Division : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Division]</td></tr>
+  <tr><td><b>Range : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Range]</td></tr>
+  <tr><td><b>Survey No : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Survey_No]</td></tr>
+  <tr><td><b>Gut No : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Gut_No]</td></tr>
+  <tr><td><b>Area in Ha : - </b></td><td>$[Bhivpuri_PSP_NonForest_data_Update/Area_in_Ha]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffaaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor3">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>SL NO : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/SL_NO]</td></tr>
+  <tr><td><b>Component Name : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Component_]</td></tr>
+  <tr><td><b>Village Name : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Village_Na]</td></tr>
+  <tr><td><b>Taluka : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Taluka]</td></tr>
+  <tr><td><b>District : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/District]</td></tr>
+  <tr><td><b>Circle : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Circle]</td></tr>
+  <tr><td><b>Division : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Division]</td></tr>
+  <tr><td><b>Range : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Range]</td></tr>
+  <tr><td><b>Survey No : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Survey_No]</td></tr>
+  <tr><td><b>Gut No : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Gut_No]</td></tr>
+  <tr><td><b>Proposed Area : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Proposed_a]</td></tr>
+  <tr><td><b>Legel Status : - </b></td><td>$[Bhivpuri_PSP_Forest_data_Update/Legel_Stat]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00b800</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Pune Division</name>
+		<open>1</open>
+		<Folder id="layer 0">
+			<name>NonForest</name>
+			<Placemark>
+				<name>A53</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A53</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">177</SimpleData>
+						<SimpleData name="Area_in_Ha">0.0954138</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48453732998074,18.93740293547431,0 73.48450982766816,18.93740087090847,0 73.48448239498939,18.93739809129769,0 73.48442617106299,18.93727055369381,0 73.48445526512467,18.93727571431514,0 73.48448452423588,18.93727994646041,0 73.48451391568324,18.93728324539781,0 73.48454340660531,18.93728560743898,0 73.48457296402965,18.93728702994285,0 73.48460255490924,18.93728751131907,0 73.4846321461597,18.93728705102934,0 73.48466170469631,18.93728564958822,0 73.48469119747081,18.93728330856261,0 73.48472059150858,18.93728003056989,0 73.48527641733362,18.93708159747838,0 73.48537296427014,18.93704712943032,0 73.48565002614367,18.93701773801558,0 73.48456488134805,18.93740428345036,0 73.48453732998074,18.93740293547431,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A46</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A46</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">76</SimpleData>
+						<SimpleData name="Area_in_Ha">0.01</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48408507868177,18.93795613704642,0 73.48413811007408,18.93794150180352,0 73.48413756350662,18.93795407956447,0 73.48408507868177,18.93795613704642,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A50</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A50</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">176</SimpleData>
+						<SimpleData name="Area_in_Ha">0.0696897</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48627122024,18.93715408332138,0 73.48623604298676,18.93717981582487,0 73.48592129334925,18.93720464694835,0 73.48588273961697,18.93703093897031,0 73.48609569605337,18.93699763785088,0 73.48627254624034,18.93709577089462,0 73.48627122024,18.93715408332138,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A55</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A55</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">379</SimpleData>
+						<SimpleData name="Area_in_Ha">0.181016</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48336100982407,18.93585193867563,0 73.48333809573104,18.93560048825175,0 73.48332447592948,18.93534842716403,0 73.48332016718103,18.93509606639739,0 73.48332517475974,18.93484371730508,0 73.48333949244547,18.93459169122455,0 73.48346479919292,18.93457176355344,0 73.48344956180129,18.93482214383052,0 73.48344366871687,18.93507288089546,0 73.48344712740094,18.93532365905954,0 73.48345993354089,18.93557416258091,0 73.48348207105498,18.93582407606221,0 73.48336100982407,18.93585193867563,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A54</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A54</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">175</SimpleData>
+						<SimpleData name="Area_in_Ha">0.276889</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48448239498939,18.93739809129769,0 73.48444760111424,18.93739352091925,0 73.48441299558824,18.93738780040155,0 73.48437862038507,18.93738093668324,0 73.48434451719901,18.93737293808949,0 73.48431072739449,18.93736381432199,0 73.48427729195566,18.93735357644716,0 73.48424425143703,18.93734223688279,0 73.4842116459139,18.93732980938288,0 73.48417951493407,18.93731630902098,0 73.48414789746954,18.93730175217205,0 73.48411683186957,18.93728615649226,0 73.48408635581406,18.93726954089804,0 73.48405650626766,18.93725192554271,0 73.48402731943519,18.93723333179225,0 73.48399883071761,18.93721378219938,0 73.48397107466899,18.93719330047606,0 73.48394408495476,18.93717191146506,0 73.48391789431095,18.9371496411093,0 73.48389253450405,18.93712651642094,0 73.48386803629303,18.93710256544817,0 73.48384442939168,18.93707781724153,0 73.48382174243268,18.93705230181844,0 73.48380000293285,18.93702605012681,0 73.48377923725982,18.93699909400772,0 73.48375947059999,18.93697146615651,0 73.48374072692806,18.93694320008327,0 73.48369802161874,18.93687584492694,0 73.48365764294529,18.93680720270012,0 73.48361963369838,18.93673734615041,0 73.48358403415735,18.93666634931236,0 73.48355088204757,18.93659428742878,0 73.48352021250058,18.93652123687118,0 73.48349205801664,18.93644727505874,0 73.48346644843046,18.93637248037621,0 73.4834434108796,18.93629693209111,0 73.48342296977563,18.93622071026925,0 73.48340514677835,18.93614389569031,0 73.48338996077283,18.93606656976205,0 73.4833774278494,18.935988814434,0 73.48336100982407,18.93585193867563,0 73.48348207105498,18.93582407606221,0 73.48349982430385,18.93597363129573,0 73.48351177414565,18.93604760955277,0 73.48352624838334,18.93612117843544,0 73.48354323167814,18.93619425996311,0 73.48356270603156,18.93626677667179,0 73.48358465080467,18.93633865169592,0 73.48360904273994,18.93640980885013,0 73.48363585598565,18.93648017270983,0 73.48366506212368,18.93654966869116,0 73.48369663019928,18.93661822313016,0 73.48373052675396,18.93668576336073,0 73.48376671586107,18.93675221779169,0 73.48380515916369,18.93681751598282,0 73.48384581591549,18.93688158871926,0 73.48386202615664,18.93690609693108,0 73.48387911222517,18.93693006036939,0 73.48389705392269,18.93695345070522,0 73.48391583003935,18.93697624028704,0 73.48393541837875,18.93699840217349,0 73.48395579578431,18.93701991016531,0 73.48397693816675,18.93704073883618,0 73.48399882053211,18.93706086356295,0 73.484021417012,18.93708026055448,0 73.48404470089351,18.93709890688008,0 73.48406864465107,18.93711678049635,0 73.48409321997917,18.93713386027354,0 73.48411839782545,18.93715012602021,0 73.48414414842539,18.93716555850722,0 73.48417044133724,18.93718013949064,0 73.48419724547823,18.93719385173299,0 73.48422452916098,18.93720667902393,0 73.48425226013141,18.93721860619918,0 73.48428040560657,18.93722961915865,0 73.48430893231337,18.93723970488298,0 73.4843378065281,18.93724885144893,0 73.48436699411633,18.93725704804361,0 73.48439646057284,18.93726428497702,0 73.48442617106299,18.93727055369381,0 73.48448239498939,18.93739809129769,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A52</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A52</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">176</SimpleData>
+						<SimpleData name="Area_in_Ha">0.101221</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48583403551109,18.93722810912679,0 73.4857185201527,18.93727856346381,0 73.48570914947562,18.93723366435355,0 73.48570761856779,18.93722850659348,0 73.48570590010557,18.93722340261009,0 73.48570399616749,18.9372183585771,0 73.4857019090566,18.93721338059551,0 73.48569964129734,18.93720847468651,0 73.48569719563278,18.93720364678419,0 73.4856945750211,18.93719890272817,0 73.4856917826321,18.93719424825672,0 73.48568882184344,18.93718968899971,0 73.48568569623639,18.93718523047188,0 73.48568240959152,18.93718087806612,0 73.48567896588436,18.93717663704695,0 73.48567536928022,18.93717251254417,0 73.48567162412947,18.93716850954659,0 73.48566773496212,18.93716463289616,0 73.48566370648246,18.9371608872819,0 73.48565954356316,18.93715727723439,0 73.48565525123951,18.9371538071202,0 73.48565083470341,18.93715048113667,0 73.48564629929692,18.93714730330687,0 73.48564165050597,18.93714427747445,0 73.48563689395354,18.93714140729943,0 73.48563203539302,18.93713869625348,0 73.48562708070112,18.93713614761578,0 73.48562203587097,18.9371337644691,0 73.48561690700448,18.93713154969589,0 73.48561170030545,18.93712950597518,0 73.48560642207168,18.93712763577895,0 73.48560107868758,18.93712594136933,0 73.48559567661627,18.93712442479579,0 73.48559022239192,18.93712308789272,0 73.4855847226118,18.93712193227724,0 73.48557918392822,18.9371209593471,0 73.48557361304059,18.93712017027909,0 73.48556801668724,18.93711956602768,0 73.4855624016373,18.93711914732377,0 73.48555677468264,18.93711891467379,0 73.48555114262929,18.93711886835911,0 73.4855455122897,18.93711900843579,0 73.48553989047404,18.93711933473437,0 73.48553428398226,18.9371198468602,0 73.48552869959586,18.93712054419379,0 73.48552314406942,18.9371214258917,0 73.48551762412272,18.93712249088747,0 73.48551214643258,18.93712373789289,0 73.4855067176245,18.9371251653996,0 73.48550134426506,18.93712677168095,0 73.48549603285367,18.93712855479413,0 73.48549078981479,18.93713051258222,0 73.48475129252175,18.93739451786718,0 73.48472040563234,18.93739842737006,0 73.4846894065665,18.93740142705648,0 73.48465832491405,18.93740351406316,0 73.48462719034366,18.93740468639799,0 73.48459603257453,18.93740494294202,0 73.48456488134801,18.93740428345036,0 73.48539716578003,18.93710851318592,0 73.48565002614367,18.93701773801558,0 73.48565930574908,18.93702112203332,0 73.48566845590842,18.93702481145097,0 73.48567746552573,18.93702880179459,0 73.48568632367541,18.93703308822528,0 73.4856950196157,18.93703766554512,0 73.48570354280137,18.9370425282034,0 73.48571188289675,18.93704767030339,0 73.4857200297882,18.93705308560951,0 73.48572797359633,18.9370587675549,0 73.48573570468805,18.93706470924936,0 73.4857432136882,18.93707090348764,0 73.48575049149095,18.93707734275828,0 73.48575752927083,18.93708401925267,0 73.48576431849341,18.93709092487463,0 73.48577085092565,18.93709805124996,0 73.485777118646,18.93710538973682,0 73.4857831140538,18.9371129314362,0 73.4857888298787,18.93712066720267,0 73.48579425918933,18.93712858765532,0 73.48579939540171,18.93713668318949,0 73.48580423228749,18.93714494398805,0 73.48580876398098,18.93715336003351,0 73.48581298498685,18.93716192112007,0 73.48581689018641,18.93717061686615,0 73.48582047484395,18.9371794367268,0 73.48582373461248,18.93718837000655,0 73.48582666553894,18.93719740587237,0 73.4858292640691,18.93720653336697,0 73.48583403551109,18.93722810912679,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A51</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A51</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">74</SimpleData>
+						<SimpleData name="Area_in_Ha">0.0791513</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48570595371881,18.93780216374807,0 73.48571546411519,18.93775916669954,0 73.48572345273972,18.93771589015775,0 73.48572991059369,18.93767238287769,0 73.48573483040296,18.9376286938742,0 73.48573820662607,18.93758487236694,0 73.48574003546064,18.93754096772469,0 73.48574031484746,18.93749702940987,0 73.48573904447309,18.93745310692286,0 73.48573622576987,18.93740924974605,0 73.48573186191459,18.93736550728839,0 73.48572595782461,18.93732192882936,0 73.4857185201527,18.93727856346381,0 73.48583403551109,18.93722810912679,0 73.48584316288563,18.93727505193563,0 73.48585063449444,18.93732225907623,0 73.48585644196866,18.93736967768051,0 73.48586057880286,18.9374172546436,0 73.48586304036273,18.93746493668315,0 73.4858638238901,18.93751267039913,0 73.48586292850605,18.93756040233366,0 73.48586035521187,18.93760807903065,0 73.48585610688806,18.93765564709593,0 73.48585018829101,18.93770305325701,0 73.4858426060477,18.93775024442251,0 73.48583336864822,18.9377971677419,0 73.48570595371881,18.93780216374807,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A49</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A49</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">72</SimpleData>
+						<SimpleData name="Area_in_Ha">0.0349</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									73.48623604298676,18.93717981582491,0 73.48627122024,18.93715408332142,0 73.4862679766012,18.93729672569889,0 73.48623604298676,18.93717981582491,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									73.48610039876267,18.93809115310675,0 73.48589698148585,18.93830371003789,0 73.48589027396515,18.93843243076656,0 73.48575543995024,18.93843399391373,0 73.48602350382885,18.93816111125119,0 73.48620938277685,18.93789299127245,0 73.48625793135061,18.93773847184655,0 73.48625320258007,18.93794642029993,0 73.48610039876267,18.93809115310675,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>A48</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A48</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">73</SimpleData>
+						<SimpleData name="Area_in_Ha">0.428491</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48575543995024,18.93843399391373,0 73.4856399668207,18.93843533252975,0 73.48564122566216,18.93829085377795,0 73.48566874617244,18.93827435574561,0 73.4859756391521,18.93765460248006,0 73.48595204917298,18.93754400035112,0 73.48598262260739,18.93748097187277,0 73.48592129334925,18.93720464694835,0 73.48623604298676,18.93717981582487,0 73.4862679766012,18.93729672569889,0 73.48625793135061,18.93773847184655,0 73.48620938277685,18.93789299127245,0 73.4860235038288,18.93816111125119,0 73.48575543995024,18.93843399391373,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A47</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A47</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">74</SimpleData>
+						<SimpleData name="Area_in_Ha">0.24084</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48564122566216,18.93829085377795,0 73.48564467473847,18.93789499221921,0 73.48413756350662,18.93795407956447,0 73.48413811007408,18.93794150180352,0 73.48446319297612,18.9378517872405,0 73.48446482970864,18.93785082426128,0 73.48583336864822,18.9377971677419,0 73.48583649834383,18.93778221294462,0 73.48595204917298,18.93754400035112,0 73.4859756391521,18.93765460248006,0 73.48566874617244,18.93827435574561,0 73.48564122566216,18.93829085377795,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A45</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A45</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">175</SimpleData>
+						<SimpleData name="Area_in_Ha">0.155098</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48281893812602,18.9380057670775,0 73.48279038674934,18.93791646057795,0 73.48446482970864,18.93785082426128,0 73.48446319297612,18.9378517872405,0 73.48408507868177,18.93795613704642,0 73.48281893812602,18.9380057670775,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A44</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A44</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">174</SimpleData>
+						<SimpleData name="Area_in_Ha">0.0609087</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.48223981725259,18.93802846449013,0 73.48221386897427,18.93793905591647,0 73.48279038674934,18.93791646057795,0 73.48281893812602,18.9380057670775,0 73.48223981725259,18.93802846449013,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A43</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A43</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">173</SimpleData>
+						<SimpleData name="Area_in_Ha">0.56188</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.47691138334261,18.9381467904986,0 73.48221386897427,18.93793905591647,0 73.48223981725259,18.93802846449013,0 73.47688158454163,18.93823838269271,0 73.47691138334261,18.9381467904986,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A42</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A42</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">172</SimpleData>
+						<SimpleData name="Area_in_Ha">0.180927</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.47526267816544,18.93830177554324,0 73.47515151390463,18.93825418982879,0 73.47513580101612,18.93821631807582,0 73.47691138334261,18.9381467904986,0 73.47688158454163,18.93823838269271,0 73.47526267816544,18.93830177554324,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A41</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A41</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">170</SimpleData>
+						<SimpleData name="Area_in_Ha">0.028746</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.47491453247504,18.93831540631207,0 73.47490025060887,18.93822554038326,0 73.47513580101612,18.93821631807582,0 73.47515151390463,18.93825418982879,0 73.47526267816544,18.93830177554324,0 73.47491453247504,18.93831540631207,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A39</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A39</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">167</SimpleData>
+						<SimpleData name="Area_in_Ha">0.07</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									73.47295248967936,18.93839221285992,0 73.47283954555235,18.9383062085958,0 73.47344184721094,18.93828263332239,0 73.47334520926694,18.93837684104757,0 73.47295248967936,18.93839221285992,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									73.47240456540389,18.93832323335105,0 73.47283232513848,18.9383064912051,0 73.47233296065009,18.93839694191926,0 73.47240456540389,18.93832323335105,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>A40</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A40</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">169</SimpleData>
+						<SimpleData name="Area_in_Ha">0.159578</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.47334520926694,18.93837684104753,0 73.47344184721094,18.93828263332239,0 73.47490025060887,18.93822554038326,0 73.47491453247504,18.93831540631207,0 73.47334520926694,18.93837684104753,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A38</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A38</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">168</SimpleData>
+						<SimpleData name="Area_in_Ha">0.0389387</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.47231324950461,18.93841723217945,0 73.47233296065009,18.93839694191926,0 73.47283232513848,18.9383064912051,0 73.47283954555232,18.93830620859585,0 73.47295248967936,18.93839221285987,0 73.47231324950461,18.93841723217945,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A37</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A37</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">158</SimpleData>
+						<SimpleData name="Area_in_Ha">0.0337313</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.47231324950461,18.93841723217945,0 73.47199318177282,18.93842975852625,0 73.47200806119818,18.93841037551461,0 73.47208986165188,18.93833554994947,0 73.47240456540385,18.93832323335105,0 73.47233296065009,18.93839694191926,0 73.47231324950461,18.93841723217945,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A36</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A36</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">166</SimpleData>
+						<SimpleData name="Area_in_Ha">0.0617938</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.47199318177282,18.93842975852625,0 73.47143583212961,18.93845156994109,0 73.47146955748353,18.93835982529377,0 73.47208986165188,18.93833554994947,0 73.47200806119818,18.93841037551461,0 73.47199318177282,18.93842975852625,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A34</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A34</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">86</SimpleData>
+						<SimpleData name="Area_in_Ha">0.133475</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46559918184278,18.9423162899272,0 73.46569928767448,18.94210707727804,0 73.46608678110078,18.94172058401085,0 73.46612781986501,18.94166483119456,0 73.46632159977992,18.94152246443598,0 73.46639927600653,18.94146312591177,0 73.4663179237743,18.94161129758654,0 73.46618252970723,18.94179523619064,0 73.46562831820489,18.94234801668966,0 73.46559918184278,18.9423162899272,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A29</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A29</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">86</SimpleData>
+						<SimpleData name="Area_in_Ha">0.191044</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.4659786196591,18.94907235874152,0 73.4657685656362,18.94900386444788,0 73.46549379441147,18.94888922364515,0 73.46512445212895,18.94867758027824,0 73.46477953631457,18.94825928349722,0 73.46518501769252,18.94854418704314,0 73.46556368710158,18.94876054105221,0 73.46582379128478,18.94886906239656,0 73.46591527552069,18.94889889354647,0 73.4659786196591,18.94907235874152,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A27</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A27</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">86</SimpleData>
+						<SimpleData name="Area_in_Ha">0.490997</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46300328000105,18.94585710199975,0 73.46307472400105,18.94597970899974,0 73.46310227900101,18.94603660099973,0 73.46313526800105,18.94614272099976,0 73.46317085300105,18.94638866099976,0 73.46324005800102,18.94655023199978,0 73.46333634121413,18.94672687268942,0 73.46314720399265,18.9467235115068,0 73.4631079183593,18.94659937151056,0 73.46305068800105,18.94641931199978,0 73.46301425700103,18.94616752799977,0 73.46298644300106,18.94607805299976,0 73.46296454400104,18.94603283999978,0 73.46289892000104,18.94592022199977,0 73.46279479000106,18.94578322499975,0 73.46270947900103,18.94562390499976,0 73.46266075600104,18.94547617199976,0 73.46267209600103,18.94524492299973,0 73.46273193800106,18.94501491899977,0 73.462951052001,18.94471295299972,0 73.46312483100104,18.94451883499977,0 73.46325494400105,18.94425478299978,0 73.46343581700103,18.94392357499976,0 73.46344653076115,18.9437513617907,0 73.4635368825153,18.94368071475672,0 73.4635926259939,18.94363672851875,0 73.46355557200106,18.94395900699977,0 73.46336563500101,18.94430681399977,0 73.46322955000102,18.94458298499976,0 73.46304907300105,18.94478458499973,0 73.46284633300105,18.94506398599975,0 73.46279483100102,18.94526193599974,0 73.46278507700106,18.94546085899973,0 73.46282415500106,18.94557934999975,0 73.46290042300105,18.94572178099974,0 73.46300328000105,18.94585710199975,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A56</name>
+				<styleUrl>#falseColor</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_NonForest_data_Update_SSSSSSSSSSD">
+						<SimpleData name="SL_NO">A56</SimpleData>
+						<SimpleData name="Component_">Dump Yard</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">379</SimpleData>
+						<SimpleData name="Area_in_Ha">25.0026</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.49159700542145,18.91604641991218,0 73.49185992332291,18.9159121959635,0 73.49208939412759,18.91612720307414,0 73.49229020871583,18.91618075541026,0 73.4925454391706,18.9161267160153,0 73.49278505062088,18.91634661266907,0 73.49328988586053,18.91632846035689,0 73.49348355897375,18.91618985070066,0 73.493565536193,18.91602244761235,0 73.49362296398716,18.91583362718574,0 73.49367899928261,18.91565444322159,0 73.49381452217337,18.91556009707797,0 73.49422162569209,18.91544496092972,0 73.49437670899358,18.91518840975645,0 73.49449252443202,18.91494632606048,0 73.49455664918453,18.91472453043438,0 73.49465099426331,18.91467518953685,0 73.49489795122032,18.91452894369209,0 73.49504446655287,18.91433086437467,0 73.49514649910699,18.91420344428135,0 73.49532110032216,18.9140513942513,0 73.49527462795859,18.91392141861541,0 73.49518205352048,18.91376802701838,0 73.49512386462327,18.91369236313375,0 73.49512984516797,18.91365976491134,0 73.49524213580791,18.91356153102156,0 73.49535797087348,18.91353066494391,0 73.49551716498371,18.9134721779818,0 73.49560750672136,18.91325936904924,0 73.4956674614196,18.91311375358599,0 73.49576289320731,18.91301871759568,0 73.49595954614564,18.91299906732638,0 73.49609840471753,18.91294842006396,0 73.49626198841624,18.91297953682992,0 73.49646786380821,18.91312168308353,0 73.49661990079305,18.91309389157847,0 73.49672893258249,18.91298284395905,0 73.49683706078663,18.9129170877483,0 73.49697549615077,18.91296092226304,0 73.49704432418025,18.91300501817208,0 73.49715078683509,18.9129083952953,0 73.49717943147655,18.91279578282655,0 73.49723436381791,18.91268915700066,0 73.49735094930594,18.91258202234383,0 73.49760006679929,18.9124393934999,0 73.4976486321424,18.91245453020311,0 73.49780295557527,18.91249280280196,0 73.49779894871007,18.91264276500674,0 73.49785138257371,18.91272744830898,0 73.49773653143603,18.91287796493007,0 73.49764607647109,18.9129478026211,0 73.4975430916694,18.91308508475049,0 73.49750966219972,18.91322493925335,0 73.4974025447279,18.91328894559537,0 73.49732246898036,18.9133153142364,0 73.49729727794882,18.91345592454692,0 73.49724015527063,18.91353123724507,0 73.49720147696854,18.91361203769904,0 73.49718742097721,18.91360724171192,0 73.49703265413639,18.91359753806775,0 73.49689214606754,18.91348620851737,0 73.49679661312693,18.91347893837045,0 73.49678185628555,18.91353642041213,0 73.49685320747714,18.91365645393225,0 73.4969157126616,18.91374181669859,0 73.49691437345366,18.91382481666793,0 73.49701962726861,18.91396859510664,0 73.49703884358239,18.9140540319765,0 73.4971442308764,18.91418137693172,0 73.49727123883675,18.91422256686958,0 73.49751772213668,18.91424340073605,0 73.49773203761424,18.91429513775668,0 73.49801608705577,18.91425435332957,0 73.49824936471492,18.91423993081411,0 73.49881191043973,18.91422788739768,0 73.49897074134347,18.91415341515223,0 73.49907458199851,18.9141162595398,0 73.49929409049425,18.91390805797969,0 73.49969918103879,18.91394429993001,0 73.49983870114802,18.91400122429563,0 73.4999698193496,18.91393932867277,0 73.50014092422323,18.913837287166,0 73.50041291829069,18.91376150470585,0 73.50043450423217,18.91365237768004,0 73.50016236787552,18.91348874480983,0 73.50019041182948,18.91340009784326,0 73.50038529207438,18.9132263581099,0 73.5005231814569,18.91312546991754,0 73.50060913804127,18.91300060756876,0 73.50067696536762,18.91277380201366,0 73.5007663210924,18.91255104196829,0 73.50086746652563,18.91259185603478,0 73.5009626611598,18.91272441880925,0 73.5010586572058,18.91282803676031,0 73.50122857522025,18.91289832386521,0 73.50147569072968,18.91294923457981,0 73.50169918223961,18.91333868141608,0 73.50192179818492,18.91340478451435,0 73.50212797166749,18.91343816492155,0 73.50227059484116,18.91342177645648,0 73.5023950944511,18.91327472492821,0 73.50243499849142,18.91316663199025,0 73.50244265559385,18.91295184861072,0 73.50230102155992,18.91281579033476,0 73.50225556549695,18.9126671288998,0 73.5023597619081,18.91252967202935,0 73.50249673488003,18.9122398630943,0 73.50252448860842,18.91206123479423,0 73.50235108486349,18.91191162440559,0 73.50214084011964,18.91186100482802,0 73.50213796236561,18.91165437045753,0 73.50228437037065,18.91156361319606,0 73.50241248876058,18.91143293090004,0 73.50238609904169,18.91125834779818,0 73.50232109665269,18.91112740831177,0 73.50240914166218,18.91096567205478,0 73.50253216568116,18.91083435693209,0 73.50247618574183,18.91062958059628,0 73.50253747903324,18.91038812364109,0 73.50254447497362,18.91015689532439,0 73.50260843835301,18.90998041019472,0 73.5026768360833,18.90979792674333,0 73.50264656242148,18.90960376912315,0 73.5026308670087,18.90959776867857,0 73.50254858246636,18.90955606569674,0 73.50253235822142,18.90955601027228,0 73.50238089170544,18.90955563940686,0 73.50237007251707,18.90955561647017,0 73.50223932668395,18.90956138911225,0 73.5022284955822,18.9095613785581,0 73.50201624842424,18.90956719843152,0 73.50200295343664,18.9095494927297,0 73.50184452301835,18.90941063157032,0 73.50168648058916,18.90924263390047,0 73.50176229456027,18.90896972207557,0 73.50190790479066,18.90884642981677,0 73.50225041209401,18.90855635598865,0 73.50261382065453,18.90870135863578,0 73.50265980466197,18.90882586042166,0 73.50274764064278,18.90885264771896,0 73.50292976076742,18.90883652193785,0 73.50309535316065,18.90875654991417,0 73.50323062370302,18.90863386146692,0 73.50330944875346,18.90853837131666,0 73.50343049829421,18.90850465570771,0 73.50359522572603,18.90849963446497,0 73.50380768150451,18.9084715171463,0 73.50396528742299,18.90842532636378,0 73.50405886905951,18.90847653915499,0 73.50410052217819,18.90863360191362,0 73.50406657325124,18.90875134368084,0 73.5040067191777,18.90887742196601,0 73.50398683368736,18.90900744837865,0 73.50408115361239,18.90912467196161,0 73.504212492147,18.90930805065752,0 73.50434708881693,18.90948756648892,0 73.50442162898777,18.90961587502348,0 73.50446919585002,18.90973647179057,0 73.5043740867758,18.90982315676173,0 73.50434887780045,18.90992047305951,0 73.50434462385122,18.91002731621787,0 73.50445413433954,18.91008799257989,0 73.50467192772618,18.91011483199993,0 73.50479337543088,18.9101929802544,0 73.50485683108745,18.91031523395201,0 73.50478442569992,18.91054693355903,0 73.50461949170686,18.91074048045521,0 73.50441982108758,18.91099404258679,0 73.50411344560476,18.91116889183107,0 73.5038556116987,18.9112170090241,0 73.50370623796942,18.9113156093339,0 73.50356233329181,18.91149670461639,0 73.50334665543164,18.91163967264532,0 73.50306472478225,18.91171775924107,0 73.5029658161385,18.91183555309722,0 73.50297663752148,18.91201462404257,0 73.5029932316434,18.91223694317803,0 73.5033811551492,18.91217577051186,0 73.50363931353563,18.9121863387541,0 73.50387176797868,18.91218660738346,0 73.50412143531261,18.91208554473981,0 73.50419468478366,18.91218198506897,0 73.50424494918606,18.91243469913029,0 73.50414995917828,18.91249921560761,0 73.50406660828764,18.91257857139595,0 73.50398037610809,18.91266204445218,0 73.50396039775336,18.91275466078698,0 73.50401751923843,18.91287357778267,0 73.5041249060388,18.91296429960196,0 73.5041644151686,18.91304991819474,0 73.50405235458511,18.91313174258297,0 73.50396470365963,18.91325200471498,0 73.50395568505577,18.91342186449898,0 73.50395534651325,18.91356690080774,0 73.50386090177587,18.91354065977195,0 73.50371114757347,18.91334804104271,0 73.50363875132778,18.91325491820914,0 73.50356521699041,18.91314487725339,0 73.5034866322391,18.91305605418809,0 73.50337945201812,18.91295094840162,0 73.50327830320285,18.91291948285293,0 73.5031208734339,18.91287052537286,0 73.50302893871866,18.91281770257325,0 73.50291550018325,18.91283086730107,0 73.50277780830775,18.91292231855421,0 73.50265033138442,18.91308910238459,0 73.50255885156461,18.91320263524327,0 73.50265371175595,18.91330393876008,0 73.50283591450301,18.91335851987843,0 73.50302573903679,18.91341829208909,0 73.50325873364727,18.91353513042889,0 73.50317160982779,18.91373458807137,0 73.50312014864367,18.91393597448752,0 73.50293196914618,18.91405340989999,0 73.50287522516493,18.91416299362764,0 73.50305350954207,18.91425049038408,0 73.50325052393471,18.91433416104792,0 73.50337994410553,18.91426634271369,0 73.50356609900108,18.9141876220242,0 73.50377839510213,18.91419929903644,0 73.50399454897354,18.91423009745058,0 73.50422542258464,18.91417359069539,0 73.50443299663287,18.91405733779932,0 73.50454469937685,18.91395333547013,0 73.50467716013561,18.91393919130709,0 73.50479348955406,18.91405245853912,0 73.5048017562733,18.91424600476461,0 73.50479114588917,18.91443085320329,0 73.50486947888102,18.91462766596729,0 73.50503568147526,18.91480870460565,0 73.5050468092231,18.91491297696372,0 73.50498853728688,18.91512694209913,0 73.50494809365775,18.91524300019107,0 73.50479289932908,18.91531740233767,0 73.50451981692707,18.91536759862955,0 73.50430656047804,18.91531713561786,0 73.50413681620881,18.91527341517955,0 73.50405549706403,18.91522997063631,0 73.50405115588298,18.91505923903649,0 73.50402007797076,18.91481499815565,0 73.50384913383313,18.91475015264369,0 73.50363266936581,18.91487024029284,0 73.50340367108775,18.9151379188667,0 73.50316583404566,18.91534775391056,0 73.50305181544222,18.91516471309086,0 73.50266002386955,18.91462534601014,0 73.5023097977345,18.91445621596909,0 73.50121754851655,18.91464084310831,0 73.50086402452115,18.91476986959944,0 73.50029849516621,18.91458396503825,0 73.49960962323082,18.91453226132618,0 73.49955986895948,18.91429893993374,0 73.49943136013837,18.91418211861907,0 73.49876093652232,18.91455811565454,0 73.49801483170755,18.91505634296079,0 73.49732212669795,18.91500747337382,0 73.49706452512667,18.91488719157997,0 73.49635114581442,18.91478674610927,0 73.49508550036082,18.91493767907048,0 73.49471937647769,18.91544459196977,0 73.49360425305524,18.91642590083702,0 73.49268809062993,18.9167606547323,0 73.49133267903795,18.91642831261832,0 73.49124121375201,18.91630869465634,0 73.49159700542145,18.91604641991218,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder id="layer 0">
+			<name>Forest</name>
+			<Placemark>
+				<name>A35</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A35</SimpleData>
+						<SimpleData name="Component_">Underground HRT</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">150</SimpleData>
+						<SimpleData name="Proposed_a">0.450994</SimpleData>
+						<SimpleData name="Legel_Stat">Reserved Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46717622142353,18.93861821057202,0 73.46717232240918,18.9385279384345,0 73.47146955748353,18.93835982529377,0 73.47143583212961,18.93845156994109,0 73.46717622142353,18.93861821057202,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A31</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A31</SimpleData>
+						<SimpleData name="Component_">Adit</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">150</SimpleData>
+						<SimpleData name="Proposed_a">0.115949</SimpleData>
+						<SimpleData name="Legel_Stat">Reserved Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46679548273856,18.93954074299699,0 73.46681708234286,18.93946892011347,0 73.46681793014049,18.93946423208335,0 73.46707114102075,18.93942645260113,0 73.46708608974677,18.93942396829296,0 73.46710093875284,18.93942099132441,0 73.46711567011317,18.93941752528928,0 73.46713026604395,18.93941357437172,0 73.46714470892489,18.93940914334142,0 73.46715898132047,18.93940423754741,0 73.46717306600097,18.93939886291211,0 73.46718694596335,18.9393930259237,0 73.46720060445153,18.93938673362865,0 73.46721402497707,18.93937999362306,0 73.46722719133854,18.93937281404349,0 73.46724008764153,18.93936520355717,0 73.46725269831755,18.93935717135151,0 73.46726500814299,18.93934872712299,0 73.46727700225738,18.93933988106554,0 73.46728866618145,18.93933064385823,0 73.46729998583446,18.93932102665215,0 73.46731094755135,18.93931104105728,0 73.46732153809914,18.93930069912825,0 73.46733174469296,18.93929001334987,0 73.4673415550114,18.9392789966221,0 73.46735095721149,18.9392676622443,0 73.46735993994294,18.93925602389941,0 73.46736849236187,18.93924409563727,0 73.46737660414388,18.93923189185777,0 73.46738426549642,18.93921942729323,0 73.46739146717084,18.93920671699094,0 73.46739820047335,18.93919377629486,0 73.46740445727563,18.93918062082695,0 73.46741023002447,18.93916726646857,0 73.46741551175121,18.93915372934111,0 73.46742029607982,18.93914002578662,0 73.46742457723474,18.93912617234794,0 73.46742835004791,18.93911218574906,0 73.46743160996498,18.93909808287459,0 73.46743435305056,18.93908388074952,0 73.46743657599347,18.93906959651864,0 73.46743827611024,18.93905524742581,0 73.4674394513486,18.93904085079336,0 73.46744010028998,18.9390264240008,0 73.46745128779349,18.93860745264955,0 73.46752734903816,18.93860447780058,0 73.46751603326769,18.93902825993716,0 73.46751527147453,18.93904519573796,0 73.46751389185435,18.93906209613369,0 73.46751189607249,18.93907894072221,0 73.46750928653799,18.93909570916876,0 73.46750606640099,18.93911238123042,0 73.46750223954855,18.9391289367807,0 73.46749781060038,18.93914535583374,0 73.46749278490289,18.93916161856846,0 73.46748716852296,18.93917770535245,0 73.46748096824048,18.93919359676571,0 73.46747419154036,18.93920927362408,0 73.46746684660322,18.9392247170025,0 73.46745894229581,18.93923990825759,0 73.46745048816001,18.93925482905051,0 73.46744149440156,18.93926946136879,0 73.46743197187767,18.93928378754823,0 73.46742193208375,18.93929779029428,0 73.46741138713992,18.93931145270272,0 73.46740034977582,18.93932475828028,0 73.46738883331571,18.93933769096432,0 73.46737685166228,18.93935023514254,0 73.46736441927972,18.93936237567152,0 73.46735155117641,18.93937409789515,0 73.46733826288663,18.93938538766232,0 73.46732457045208,18.93939623134395,0 73.46731049040227,18.93940661584949,0 73.46729603973465,18.93941652864267,0 73.46728123589413,18.9394259577568,0 73.46726609675191,18.93943489180894,0 73.46725064058408,18.93944332001383,0 73.46723488604937,18.93945123219698,0 73.46721885216671,18.93945861880666,0 73.46720255829226,18.93946547092582,0 73.46718602409616,18.93947178028241,0 73.46716926953854,18.93947753925983,0 73.46715231484566,18.93948274090574,0 73.46713518048533,18.93948737894082,0 73.46711788714225,18.93949144776585,0 73.46710045569313,18.93949494246906,0 73.46708290718124,18.93949785883153,0 73.46679548273856,18.93954074299699,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A32</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A32</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">150</SimpleData>
+						<SimpleData name="Proposed_a">0.243107</SimpleData>
+						<SimpleData name="Legel_Stat">Reserved Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46672646964208,18.93977022446954,0 73.46659816405464,18.94012728455983,0 73.46651707116808,18.94032030458036,0 73.46647188438897,18.94041570511403,0 73.46634483451757,18.94039809788276,0 73.46640344705381,18.94027435243219,0 73.46648238676856,18.94008645775825,0 73.46660866356119,18.93973504423673,0 73.46669657379168,18.93944272678225,0 73.46672847450371,18.93926632723959,0 73.46673016454547,18.93896571454378,0 73.46673528316107,18.93878081558232,0 73.46685894345524,18.93877406838416,0 73.46685358668469,18.93896757533918,0 73.46685184917708,18.93927667117442,0 73.46681708234286,18.93946892011347,0 73.46672646964208,18.93977022446954,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A33</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A33</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">14P</SimpleData>
+						<SimpleData name="Proposed_a">0.172395</SimpleData>
+						<SimpleData name="Legel_Stat">Private Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46651310573493,18.9410661584304,0 73.46648678885427,18.94120867009703,0 73.46639927600653,18.94146312591177,0 73.46632159977992,18.94152246443598,0 73.46612781986501,18.94166483119456,0 73.46630059267295,18.94138909191935,0 73.46636649510877,18.94118143245361,0 73.46638914205145,18.94105879478375,0 73.46638244921866,18.9409295955914,0 73.46633635537951,18.94064864309481,0 73.46632678459734,18.9404362056503,0 73.46634483451757,18.94039809788276,0 73.46647188438897,18.94041570511403,0 73.46645135862219,18.94045904007137,0 73.46645937773461,18.9406370330331,0 73.46650541058534,18.94091761251775,0 73.46651310573493,18.9410661584304,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A28</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A28</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">14P</SimpleData>
+						<SimpleData name="Proposed_a">0.423785</SimpleData>
+						<SimpleData name="Legel_Stat">Private Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46477953631457,18.94825928349722,0 73.46512445212895,18.94867758027824,0 73.46493478237925,18.94854845826991,0 73.464488158847,18.9482078877357,0 73.46396432870993,18.94773592942662,0 73.46372825215632,18.94751862139849,0 73.46349909952812,18.94727783824316,0 73.4631807361913,18.94680333951253,0 73.46314720399265,18.9467235115068,0 73.46333634121413,18.94672687268942,0 73.46336222733035,18.94680520100313,0 73.46362028061324,18.94718981108907,0 73.46383749237407,18.94741804713589,0 73.46417121992022,18.94772524225839,0 73.46447603586027,18.94800319024966,0 73.46477953631457,18.94825928349722,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A26</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A26</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">14P</SimpleData>
+						<SimpleData name="Proposed_a">0.77727</SimpleData>
+						<SimpleData name="Legel_Stat">Private Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46368638100101,18.94171795399976,0 73.46357218500104,18.94186413399974,0 73.46346705400106,18.94209389299977,0 73.46338226800107,18.94231658299977,0 73.46335037100103,18.94261604199972,0 73.46343314400104,18.94289435599977,0 73.46355224500103,18.94319314699975,0 73.46359936200105,18.94350933799977,0 73.46359262599394,18.94363672851871,0 73.46344653076115,18.9437513617907,0 73.46342813285803,18.94351865937469,0 73.46338569963409,18.94323389814277,0 73.46327071411402,18.94294543097878,0 73.4631770486139,18.94263049119209,0 73.46321436730361,18.94228013501266,0 73.46330820353867,18.94203367524023,0 73.46342331887389,18.94178209640099,0 73.46355840722084,18.94160917269647,0 73.46374802239863,18.94144047107164,0 73.46382726243233,18.94131064375762,0 73.46383109590488,18.94119096344141,0 73.46382329186977,18.94104966289482,0 73.46377725647248,18.94092249170604,0 73.46370952251611,18.94070997152899,0 73.46365443550569,18.94052395573154,0 73.46361407547505,18.94030983964604,0 73.46359469451944,18.94017698034668,0 73.46359125746081,18.94002251597147,0 73.46359249816322,18.94001664275839,0 73.4637625947701,18.94004021821502,0 73.46376535000103,18.94016403499976,0 73.46378289300104,18.94028429399976,0 73.46382118900105,18.94048745899974,0 73.46387356300103,18.94066431299975,0 73.46393988200104,18.94087239299974,0 73.46399270200102,18.94101830599978,0 73.46400213900104,18.94118916999973,0 73.46399677200104,18.94135673199976,0 73.46388315500103,18.94154288299974,0 73.46368638100101,18.94171795399976,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A30</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A30</SimpleData>
+						<SimpleData name="Component_">Adit</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">150</SimpleData>
+						<SimpleData name="Proposed_a">0.245428</SimpleData>
+						<SimpleData name="Legel_Stat">Reserved Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46378659391645,18.93992304609253,0 73.46378681237675,18.93992308417391,0 73.46378703208336,18.93992311508866,0 73.46378725277674,18.93992313880021,0 73.46378747419611,18.93992315528051,0 73.46378769607986,18.93992316451021,0 73.46378791816589,18.93992316647823,0 73.46378814019188,18.93992316118243,0 73.46378836189538,18.93992314862895,0 73.46378858301455,18.93992312883263,0 73.46378880328811,18.93992310181692,0 73.46378902245583,18.93992306761368,0 73.46378924025885,18.93992302626335,0 73.46378945643971,18.93992297781479,0 73.46378967074313,18.93992292232518,0 73.4637898829158,18.93992285986014,0 73.4637900927072,18.93992279049343,0 73.46379029986936,18.93992271430701,0 73.46379050415754,18.9399226313909,0 73.46379070533042,18.93992254184309,0 73.46379090315038,18.93992244576934,0 73.46379109738358,18.93992234328316,0 73.46379128780062,18.93992223450562,0 73.46379147417657,18.93992211956524,0 73.46379165629109,18.93992199859784,0 73.46379183392916,18.93992187174631,0 73.46379200688089,18.93992173916053,0 73.46379217494194,18.93992160099713,0 73.46379233791373,18.93992145741934,0 73.46379249560376,18.93992130859683,0 73.46379264782563,18.93992115470537,0 73.46379279439962,18.93992099592682,0 73.46379293515251,18.93992083244871,0 73.46379306991804,18.93992066446424,0 73.46379319853691,18.93992049217182,0 73.46379332085722,18.93992031577508,0 73.46379343673449,18.93992013548238,0 73.46379354603174,18.93991995150667,0 73.46379364861991,18.9399197640654,0 73.46379374437777,18.93991957337994,0 73.4637938331922,18.93991937967564,0 73.46379391495823,18.93991918318134,0 73.4637939895793,18.93991898412913,0 73.46379405696723,18.93991878275425,0 73.46379411704243,18.93991857929456,0 73.46379416973387,18.93991837399047,0 73.46379421497936,18.9399181670845,0 73.46379425272541,18.93991795882113,0 73.46379428292745,18.93991774944637,0 73.46379430554975,18.93991753920766,0 73.46379432056563,18.93991732835333,0 73.46379432795739,18.93991711713249,0 73.46379432771617,18.9399169057947,0 73.46379431984235,18.93991669458965,0 73.46379430434523,18.93991648376685,0 73.46379428124307,18.93991627357535,0 73.46379425056317,18.93991606426354,0 73.4666841015307,18.93948419938504,0 73.46666106560825,18.93956079807563,0 73.46377206739959,18.9399918125216,0 73.46378659391645,18.93992304609253,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A25</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A25</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">150</SimpleData>
+						<SimpleData name="Proposed_a">0.179218</SimpleData>
+						<SimpleData name="Legel_Stat">Reserved Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46382446400105,18.93974377399976,0 73.46380016900103,18.93985878399972,0 73.46378914064533,18.93991099018478,0 73.46378892126062,18.93991095195828,0 73.46378870062023,18.9399109209592,0 73.46378847898696,18.93991089722446,0 73.46378825662487,18.93991088078237,0 73.46378803379895,18.93991087165251,0 73.46378781077463,18.93991086984576,0 73.46378758781758,18.93991087536423,0 73.46378736519358,18.9399108882014,0 73.46378714316774,18.93991090834197,0 73.46378692200466,18.93991093576192,0 73.46378670196782,18.93991097042858,0 73.46378648331937,18.93991101230069,0 73.46378626631979,18.93991106132831,0 73.46378605122764,18.93991111745306,0 73.46378583829924,18.93991118060806,0 73.46378562778824,18.93991125071802,0 73.46378541994538,18.93991132769948,0 73.46378521501842,18.93991141146071,0 73.46378501325142,18.93991150190189,0 73.46378481488482,18.93991159891529,0 73.46378462015491,18.93991170238532,0 73.46378442929374,18.93991181218865,0 73.46378424252869,18.93991192819453,0 73.46378406008228,18.93991205026468,0 73.46378388217187,18.93991217825374,0 73.46378370900946,18.93991231200915,0 73.46378354080133,18.93991245137163,0 73.46378337774793,18.93991259617508,0 73.46378322004348,18.93991274624696,0 73.46378306787588,18.93991290140848,0 73.46378292142643,18.93991306147484,0 73.46378278086962,18.93991322625527,0 73.46378264637296,18.93991339555345,0 73.46378251809658,18.93991356916769,0 73.46378239619345,18.93991374689112,0 73.46378228080867,18.93991392851204,0 73.46378217207985,18.93991411381402,0 73.46378207013639,18.9399143025763,0 73.46378197509985,18.93991449457396,0 73.46378188708346,18.93991468957829,0 73.46378180619205,18.93991488735693,0 73.46378173252197,18.93991508767425,0 73.4637816661611,18.93991529029161,0 73.46378160718835,18.93991549496753,0 73.46378155567407,18.93991570145823,0 73.46378151167967,18.93991590951764,0 73.46378147525748,18.93991611889792,0 73.46378144645097,18.93991632934957,0 73.46378142529444,18.93991654062185,0 73.46378141181303,18.93991675246308,0 73.4637814060229,18.93991696462085,0 73.4637814079325,18.9399171769,0 73.46378141754212,18.93991738898983,0 73.46378143484029,18.93991760063765,0 73.46378145980644,18.93991781159106,0 73.4637814924108,18.93991802159859,0 73.46378153261452,18.93991823040996,0 73.46378158036964,18.9399184377762,0 73.4637816356192,18.93991864345012,0 73.46378169829738,18.93991884718655,0 73.46378176832953,18.9399190487426,0 73.46378184563206,18.93991924787807,0 73.46378193011287,18.93991944435546,0 73.46378202167124,18.93991963794065,0 73.46378212019802,18.93991982840282,0 73.46378222557577,18.93992001551494,0 73.46378233767889,18.93992019905401,0 73.46378245637366,18.93992037880114,0 73.46378258151873,18.93992055454213,0 73.46378271296477,18.93992072606744,0 73.46378285055523,18.93992089317265,0 73.46378299412595,18.93992105565852,0 73.46378314350586,18.93992121333135,0 73.4637832985169,18.93992136600318,0 73.46378345897419,18.93992151349205,0 73.4637836246866,18.93992165562207,0 73.46378379545648,18.93992179222392,0 73.4637839710803,18.93992192313465,0 73.4637841513487,18.93992204819828,0 73.46378433604677,18.93992216726572,0 73.46378452495433,18.93992228019495,0 73.46378471784628,18.93992238685143,0 73.46378491449254,18.93992248710803,0 73.46378511465875,18.93992258084517,0 73.46378531810632,18.93992266795117,0 73.46378552459271,18.93992274832216,0 73.46378573387175,18.93992282186234,0 73.46378594569399,18.93992288848405,0 73.46378615980687,18.93992294810783,0 73.46378637595529,18.93992300066263,0 73.46378659388141,18.93992304608582,0 73.46376186310738,18.94004011680666,0 73.46359249816322,18.94001664275839,0 73.46363261562914,18.93982673520803,0 73.46366215722671,18.93968688898626,0 73.46376365765929,18.93951317417713,0 73.46393784972821,18.93928780237566,0 73.463963729371,18.93922621172324,0 73.46415206778994,18.93921602750218,0 73.46408844500102,18.93936744299976,0 73.46390775900102,18.93960121699972,0 73.46382446400105,18.93974377399976,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A21</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A21</SimpleData>
+						<SimpleData name="Component_">Surface Penstock</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">150</SimpleData>
+						<SimpleData name="Proposed_a">10.6647</SimpleData>
+						<SimpleData name="Legel_Stat">Reserved Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46652757102115,18.93879214866043,0 73.46626766717259,18.93894762139648,0 73.46471397851469,18.93900837090946,0 73.46470147150875,18.93918631791327,0 73.45959422542906,18.93946243420838,0 73.45769786068929,18.93919954420869,0 73.45795460246573,18.93820889801837,0 73.46016148516192,18.93812268396523,0 73.46067184079891,18.93830087083238,0 73.46073864548642,18.93830245636991,0 73.46467316155879,18.93814867346798,0 73.46468474592582,18.93833133005332,0 73.46623842828947,18.93827058032367,0 73.46651086108415,18.93840523589585,0 73.46708307705592,18.93839174799169,0 73.46717232240918,18.9385279384345,0 73.46717622142353,18.93861821057202,0 73.46710279666938,18.93876076293158,0 73.46652757102115,18.93879214866043,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A20</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A20</SimpleData>
+						<SimpleData name="Component_">Surface Penstock</SimpleData>
+						<SimpleData name="Village_Na">Sawle</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">14P</SimpleData>
+						<SimpleData name="Proposed_a">0.43053</SimpleData>
+						<SimpleData name="Legel_Stat">Private Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.45757317547354,18.93957166024611,0 73.45769736813065,18.93919947592347,0 73.45959422542906,18.93946243420838,0 73.45757317547354,18.93957166024611,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A22</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A22</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">150</SimpleData>
+						<SimpleData name="Proposed_a">0.0375512</SimpleData>
+						<SimpleData name="Legel_Stat">Reserved Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46067184079891,18.93830087083238,0 73.4606318669468,18.93782257784308,0 73.46069786069175,18.93781446265832,0 73.46073864548642,18.93830245636991,0 73.46067184079891,18.93830087083238,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A23</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A23</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">380(Staff Quarter &amp; Pipeline)</SimpleData>
+						<SimpleData name="Proposed_a">0.0288237</SimpleData>
+						<SimpleData name="Legel_Stat">Reserved Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.4606318669468,18.93782257784308,0 73.4606009792289,18.93745300077029,0 73.46066675946604,18.93744233268312,0 73.46069786069175,18.93781446265832,0 73.4606318669468,18.93782257784308,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A24</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A24</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">150</SimpleData>
+						<SimpleData name="Proposed_a">0.0597948</SimpleData>
+						<SimpleData name="Legel_Stat">Reserved Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.46066675946604,18.93744233268312,0 73.4606009792289,18.93745300077029,0 73.46059230406415,18.93734920071314,0 73.46065053922797,18.93703945382421,0 73.4606707745814,18.93680322309571,0 73.46067045337021,18.93668196023779,0 73.46073691484078,18.93668180081104,0 73.46073724312866,18.93680571678317,0 73.46071652279218,18.93704761038787,0 73.46065923601597,18.93735231354729,0 73.46066675946604,18.93744233268312,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>A19</name>
+				<styleUrl>#falseColor4</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_Bhivpuri_PSP_Forest_data_Update_SSSSSSSSSSDS">
+						<SimpleData name="SL_NO">A19</SimpleData>
+						<SimpleData name="Component_">Approach Road to Project Components</SimpleData>
+						<SimpleData name="Village_Na">Khand</SimpleData>
+						<SimpleData name="Taluka">Maval</SimpleData>
+						<SimpleData name="District">Pune</SimpleData>
+						<SimpleData name="Circle">Pune</SimpleData>
+						<SimpleData name="Division">Pune</SimpleData>
+						<SimpleData name="Range">Shirawta</SimpleData>
+						<SimpleData name="Survey_No">-</SimpleData>
+						<SimpleData name="Gut_No">150</SimpleData>
+						<SimpleData name="Proposed_a">0.0874402</SimpleData>
+						<SimpleData name="Legel_Stat">Reserved Forest</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								73.45808314975187,18.93774951374731,0 73.45810423735178,18.93767415355206,0 73.45820415020565,18.93763784860881,0 73.45839053251738,18.93668568558475,0 73.45845587034354,18.93669726658918,0 73.45826266580305,18.93768428370997,0 73.45808314975187,18.93774951374731,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

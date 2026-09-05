@@ -1,0 +1,2447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+<Folder>
+	<name>Temporary Places</name>
+	<Folder>
+		<name>Temporary Places</name>
+		<open>1</open>
+		<Document id="Transm_Line" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>Transm_Line</name>
+			<Snippet maxLines="0"></Snippet>
+			<Style id="PolyStyle0001">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff000000</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffbebeff</color>
+				</PolyStyle>
+			</Style>
+			<Style id="PolyStyle011">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff6e6e6e</color>
+					<width>0.4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0055ff</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="FeatureLayer0">
+				<name>Transm_Line</name>
+				<Snippet maxLines="0"></Snippet>
+				<Placemark id="ID_00000">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>3.523</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.33167001548078,19.6286272016148,0 80.33879371618762,19.62808780677259,0 80.35009880290798,19.62723121666261,0 80.35018771113327,19.6272258057969,0 80.35034135374381,19.6272164551567,0 80.35019444444454,19.62730555555565,0 80.35025186785592,19.62738467035371,0 80.35020128922208,19.62738662546134,0 80.34242680350505,19.62797578186202,0 80.33176323792421,19.62878332035378,0 80.33163218144588,19.6287932411067,0 80.33162500960536,19.62879349878635,0 80.33162314420224,19.62879347264886,0 80.33155916024894,19.62879191696049,0 80.33165514937312,19.62872014920741,0 80.33167001548078,19.6286272016148,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>1.54</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.22903813779655,19.60335832973253,0 80.22903317094152,19.60346480903875,0 80.22765774061347,19.60225785490129,0 80.22802440569919,19.60195403729819,0 80.22815125548043,19.59953173311343,0 80.22839209308864,19.59759090671593,0 80.22801929475224,19.59544472984127,0 80.22801706929398,19.59484984854035,0 80.22793693159724,19.59374488636986,0 80.22728377517531,19.59120091072482,0 80.22709418376579,19.59034018179823,0 80.22715848859606,19.59003275951332,0 80.22761812406445,19.58884228342693,0 80.2276987086461,19.5888702304926,0 80.22724136480677,19.59005477270846,0 80.22718175235038,19.59033976287046,0 80.22736748352787,19.59118296459812,0 80.22802204342108,19.59373242953021,0 80.22809885079971,19.59479146484565,0 80.22810508357382,19.59543793733242,0 80.22847873416454,19.59758901385368,0 80.22823682230388,19.59953850571148,0 80.22810831202489,19.60199254250855,0 80.22778602521727,19.60225958870062,0 80.22903813779655,19.60335832973253,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00002">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.284</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.2457595817753,19.6168161623122,0 80.24570144467772,19.61697436207358,0 80.24425603710642,19.6168414917112,0 80.24421355790018,19.61667455691967,0 80.24421345326195,19.61667415656565,0 80.24512187079391,19.61675754757205,0 80.24556496521961,19.61679822111133,0 80.24572623397871,19.61681302438808,0 80.2457595817753,19.6168161623122,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00003">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>1.369</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.25292555817639,19.61749031284193,0 80.25296561084988,19.61765869884755,0 80.25294053582549,19.61765517588917,0 80.25124568991458,19.61749575698006,0 80.24997556968013,19.61737627756646,0 80.24823829216953,19.61721283821556,0 80.24580057810648,19.61698347456941,0 80.24570144467772,19.61697436207358,0 80.2457595817753,19.6168161623122,0 80.24654430184488,19.61689000022237,0 80.24678023434855,19.61691219951411,0 80.24790922672685,19.6170184239837,0 80.24804844315497,19.61703152206034,0 80.24822436088435,19.61704807299585,0 80.25005548293611,19.61722034078488,0 80.25055518065795,19.6172673479206,0 80.25219417928176,19.61742152050096,0 80.25281231408086,19.61747966147914,0 80.25292555817639,19.61749031284193,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00004">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>2.115</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.26552521901007,19.61948621238131,0 80.26644132641984,19.62006004026334,0 80.26648538118923,19.62008855323276,0 80.27176043954815,19.62248282469866,0 80.27705977858439,19.62344373424615,0 80.27703092253633,19.62353387775122,0 80.27701563357321,19.62356728915436,0 80.27700724914747,19.62359946477568,0 80.27698786458184,19.6235956063041,0 80.27170633712636,19.6226386210853,0 80.26935711406779,19.62157205894387,0 80.26915354533938,19.62147963536939,0 80.26643864042187,19.62024282713773,0 80.26637798409668,19.62021519372871,0 80.26542036085391,19.61961546568769,0 80.26552521901007,19.61948621238131,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00005">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.594</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.28011177332442,19.62405118175036,0 80.28011463105769,19.62421793092578,0 80.28011393140399,19.62421781649559,0 80.27700724914747,19.62359946477568,0 80.27701563357321,19.62356728915436,0 80.27703092253633,19.62353387775122,0 80.2770597843995,19.62344371608031,0 80.28011177332442,19.62405118175036,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00006">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>1.439</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.28773188334158,19.62530272255155,0 80.28773732785714,19.62537945423661,0 80.28769076172908,19.62545685869582,0 80.28011463105769,19.62421793092578,0 80.28011177332442,19.62405118175036,0 80.28014774892364,19.62405834197387,0 80.28773188334158,19.62530272255155,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00007">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.217</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.2889455215529,19.62546791910223,0 80.28883593386409,19.62564409992212,0 80.28834257333378,19.62556343401214,0 80.28769076172908,19.62545685869582,0 80.28773732785714,19.62537945423661,0 80.28773188334158,19.62530272255155,0 80.28886427903963,19.62548849351177,0 80.2889455215529,19.62546791910223,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00008">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>1.815</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.29821544217312,19.62328927943673,0 80.29818533993212,19.62329605643233,0 80.29619005192578,19.62380146210785,0 80.29363800196093,19.62444785818961,0 80.28891899788626,19.62564300139578,0 80.28888294157484,19.62565178574786,0 80.28883593386409,19.62564409992212,0 80.2889455215529,19.62546791910223,0 80.29089361699742,19.62497455742457,0 80.29215969925147,19.62465390482621,0 80.29364072848398,19.62427880093814,0 80.29495967970497,19.62394473511113,0 80.29699785789015,19.62342848054096,0 80.29772818726009,19.62324348735394,0 80.29813950229251,19.62313929932518,0 80.29821544217312,19.62328927943673,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00009">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.152</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.29923510617473,19.62305509000886,0 80.29906442994674,19.62309647056145,0 80.29896786551522,19.62311988258334,0 80.29821544217312,19.62328927943673,0 80.29813950229251,19.62313929932518,0 80.29814216680248,19.62313862438874,0 80.29814449336884,19.62313806795415,0 80.29868362272146,19.62301669577508,0 80.29923510617473,19.62305509000886,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00010">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>1.923</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.30880909666205,19.62079445740138,0 80.30763228628713,19.62104079496407,0 80.30697426077286,19.62117853341461,0 80.303247857518,19.62208214287279,0 80.30194916819254,19.62239703925434,0 80.29923510617473,19.62305509000886,0 80.29868362272146,19.62301669577508,0 80.29892674829073,19.62296196123035,0 80.30015398194175,19.62266441335502,0 80.30086627767288,19.6224917099307,0 80.30253337391009,19.62208749273635,0 80.30351467900066,19.62184954959294,0 80.3045840464209,19.62159024648069,0 80.30693307944715,19.62102062113827,0 80.30693584554454,19.62101999643068,0 80.30870483124144,19.62064970480138,0 80.30884258936838,19.62062086787614,0 80.30884654217729,19.62062013217029,0 80.3088614512875,19.62061895382637,0 80.30887634983418,19.62062024658217,0 80.30892002332084,19.62063827644707,0 80.30889166006106,19.62067411613683,0 80.30878536442299,19.62074902234577,0 80.30880909666205,19.62079445740138,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00011">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.691</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.31223750411702,19.62201168517508,0 80.31218443722672,19.62216722498941,0 80.31179859203442,19.6220072215262,0 80.31174342031456,19.62198434265622,0 80.31167289397412,19.62195509642585,0 80.31159270471831,19.62192184308138,0 80.31151200585825,19.62188837836191,0 80.31134554603966,19.62181934958297,0 80.31130766870275,19.62180364230155,0 80.31113775553295,19.62173318119524,0 80.31106964295684,19.62170493560399,0 80.31089151960545,19.62163106949838,0 80.31084547083489,19.62161197346003,0 80.31062044119574,19.62151865532687,0 80.31054888396906,19.62148898099151,0 80.31035244625753,19.62140751929821,0 80.31029543165468,19.6213838755851,0 80.31013083245304,19.62131561685818,0 80.31004481330231,19.62127994492797,0 80.30988986558094,19.62121568834717,0 80.30979482497482,19.62117627506418,0 80.30966738557488,19.62112342591272,0 80.30957443251658,19.62108487817797,0 80.3093579862701,19.62099511742852,0 80.30932538934752,19.62098159937989,0 80.30910742687058,19.62089120943198,0 80.30907414258866,19.62087740626968,0 80.30885231096293,19.62078541134235,0 80.30880909666205,19.62079445740138,0 80.30878536442299,19.62074902234577,0 80.30889166006106,19.62067411613683,0 80.30892002332084,19.62063827644707,0 80.31016598209729,19.62115264348859,0 80.31098224071835,19.62149114254882,0 80.31170921504304,19.62179261151429,0 80.31223750411702,19.62201168517508,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00012">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.388</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.31418605806746,19.62285178486053,0 80.31397345895665,19.62294034974718,0 80.31380066642414,19.62286564999189,0 80.3131623535787,19.62258969963067,0 80.31284257909743,19.62245145606244,0 80.31254185556686,19.6223214477949,0 80.31251361854113,19.62230924037749,0 80.31230913518591,19.62222083804585,0 80.31220124949149,19.62217419672497,0 80.31218443722672,19.62216722498941,0 80.31223750411702,19.62201168517508,0 80.31227128891388,19.62202569515812,0 80.31408473456113,19.62280967417455,0 80.31418605806746,19.62285178486053,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00013">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.343</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.31578704520985,19.6235171547963,0 80.3156966069139,19.62365717966109,0 80.31522564651272,19.62346145021167,0 80.31484495535246,19.62330323509907,0 80.31430315577666,19.62307806148166,0 80.31422922961644,19.62304733736231,0 80.3140146312624,19.6229581488684,0 80.31397345895665,19.62294034974718,0 80.31418605806746,19.62285178486053,0 80.31520363253044,19.62327469086499,0 80.31578704520985,19.6235171547963,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00014">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.78</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.31960570413092,19.62504703227825,0 80.31948586534553,19.62517755252722,0 80.31854869469853,19.6248016535921,0 80.31807779270689,19.62461277243092,0 80.3157285189164,19.62367044211347,0 80.3156966069139,19.62365717966109,0 80.31578704520985,19.6235171547963,0 80.31579645461323,19.62352106528472,0 80.31654031230745,19.62381944186525,0 80.31829189800581,19.62452202248258,0 80.31958380194402,19.62504020490666,0 80.31960570413092,19.62504703227825,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00015">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.28</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.32099768962009,19.62548093834348,0 80.32096986020198,19.62554963202507,0 80.32089645186994,19.6256206091347,0 80.32034019774653,19.62544721827687,0 80.31971775860308,19.62525319432166,0 80.31952678806582,19.62519366531638,0 80.31952393286063,19.62519272216684,0 80.31952015210886,19.62519130481573,0 80.31948586534553,19.62517755252722,0 80.31960570413092,19.62504703227825,0 80.3197061303798,19.62507833720765,0 80.32031709687129,19.62526878658464,0 80.32031857676594,19.62526924789331,0 80.32097469688124,19.6254737696818,0 80.32099768962009,19.62548093834348,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00016">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.982</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.3259018897663,19.62703036281706,0 80.32588112926192,19.62719512541816,0 80.32586455280577,19.62719002613336,0 80.32585312978865,19.62718641715451,0 80.32551499007724,19.62707958516704,0 80.32391855676356,19.62657519702195,0 80.32355543994402,19.62646046899406,0 80.32218125344804,19.62602628192709,0 80.32205147594237,19.62598527685373,0 80.32192249344806,19.62594452286321,0 80.32176583696383,19.62589502470195,0 80.32162431903936,19.62585030967242,0 80.32151929845462,19.62581712651974,0 80.32130862933396,19.62575056157788,0 80.32096302205296,19.62564135969335,0 80.32089645186994,19.6256206091347,0 80.32096986020198,19.62554963202507,0 80.32099768962009,19.62548093834348,0 80.32101699394681,19.62548695703158,0 80.3212814843266,19.62557052431238,0 80.32222812815817,19.62586963125136,0 80.32266720911583,19.62600836467353,0 80.32369021984249,19.62633159263303,0 80.32406015894414,19.62644847604086,0 80.32545925658324,19.62689051688726,0 80.32549853438036,19.62690292640444,0 80.3259018897663,19.62703036281706,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00017">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>1.135</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.33167001548078,19.6286272016148,0 80.33165514937312,19.62872014920741,0 80.33155916024894,19.62879191696049,0 80.33155717403947,19.62879186866797,0 80.33143933258805,19.62878900344231,0 80.33104282993587,19.62877936221361,0 80.33102979580367,19.62877809740951,0 80.33101852997976,19.62877541520606,0 80.33095867751176,19.62875700530615,0 80.33028473901192,19.6285497082719,0 80.33022356758136,19.62853089237499,0 80.32920291206945,19.62821694231548,0 80.32757709135797,19.62771683119993,0 80.32727905067838,19.62762515038474,0 80.32707088945455,19.62756111719463,0 80.32588112926192,19.62719512541816,0 80.3259018897663,19.62703036281706,0 80.32591820731703,19.62703551817357,0 80.32706504832615,19.62738830715442,0 80.32716182048932,19.62741807561572,0 80.327252527479,19.6274459782887,0 80.32731961776481,19.62746661611499,0 80.3295070447508,19.62813948005301,0 80.3298371823071,19.6282410293114,0 80.33017590878964,19.62834521973995,0 80.33067134859478,19.62849761295693,0 80.33105968627936,19.62861706129528,0 80.33119663835636,19.62862039146253,0 80.33156357643526,19.62862931352343,0 80.33162302267334,19.62863075888201,0 80.33167001548078,19.6286272016148,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00018">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.283</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.24354877086952,19.61405439481995,0 80.24366356209245,19.6145068357598,0 80.24367004564856,19.61453239013423,0 80.24369463959279,19.61462932496313,0 80.24370465237668,19.61466878942217,0 80.24371133920023,19.61469514490681,0 80.24373177597035,19.61477569445832,0 80.24375317936315,19.6148600537769,0 80.24377178245696,19.61493337593014,0 80.24377407159075,19.61494239830768,0 80.24377941300365,19.61496345091536,0 80.24381432581004,19.61510105587744,0 80.24381651665503,19.61510969084301,0 80.24382137474821,19.6151288384598,0 80.24384801314098,19.61523383055055,0 80.24386388310928,19.61529638010104,0 80.2438873790244,19.61538898630834,0 80.24389649315047,19.61542490846747,0 80.24392645010948,19.61554297987212,0 80.24393711913521,19.61558503039047,0 80.2439642565212,19.61569198862324,0 80.24396821112035,19.6157075751145,0 80.24400176029336,19.6158398043018,0 80.24400798706374,19.61586434618902,0 80.24403935173576,19.61598796525931,0 80.24404478746618,19.61600938934315,0 80.24408041799576,19.61614982138433,0 80.24408133236989,19.61615342524068,0 80.2440823773797,19.61615754397622,0 80.24408480645545,19.61616711778098,0 80.24408577808585,19.6161709473029,0 80.24409263578278,19.61619797578637,0 80.24409496606779,19.61620716021908,0 80.24410428257673,19.61624387968733,0 80.24410653455021,19.61625275546318,0 80.24411599659284,19.61629004850794,0 80.24411934186929,19.6163032333467,0 80.24413007233157,19.61634552562681,0 80.24413138403528,19.61635069548105,0 80.244144298816,19.616401596847,0 80.24414563060023,19.61640684584156,0 80.24415756413534,19.61645387976807,0 80.24415914844916,19.61646012405989,0 80.24417069667874,19.61650563934404,0 80.24417222907097,19.6165116789925,0 80.24417778679388,19.6165335837543,0 80.24417894059023,19.61653813123366,0 80.24418004465512,19.61654248270529,0 80.24418236739476,19.61655163736161,0 80.24418319032225,19.61655488078073,0 80.24418423482959,19.61655899751621,0 80.24418581009317,19.6165652061304,0 80.24418659104396,19.61656828410547,0 80.24418935140849,19.61657916357731,0 80.24419013751145,19.61658226185831,0 80.24419265796625,19.61659219576774,0 80.24419352001611,19.61659559337938,0 80.24419609415469,19.61660573887005,0 80.24419682964862,19.61660863768632,0 80.24419958386572,19.61661949291176,0 80.24420037611776,19.61662261543897,0 80.24420384902811,19.61663630314399,0 80.24420430516902,19.61663810106556,0 80.24420747615645,19.61665059830894,0 80.2442080884756,19.61665301226387,0 80.24421004831981,19.61666073505998,0 80.2442110033832,19.61666450082752,0 80.24421345621498,19.61667415592348,0 80.24421355790018,19.61667455691967,0 80.24425603710642,19.6168414917112,0 80.24421918006981,19.61683810446818,0 80.24421071642911,19.61683732155212,0 80.2441812148984,19.61683461443616,0 80.24416552837037,19.61683317374479,0 80.24414776716397,19.6167631706191,0 80.24414430284027,19.61674951661925,0 80.24412307729962,19.61666585997501,0 80.24410970652245,19.61661316142315,0 80.24410559881846,19.61659697162827,0 80.24407145213966,19.61646238836137,0 80.24389242610899,19.61575678450253,0 80.24381167338376,19.61543850798762,0 80.24359304660202,19.6145768125128,0 80.24354575580682,19.61439041943868,0 80.2434722012899,19.61410050908189,0 80.24354877086952,19.61405439481995,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00019">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.061</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.24340533881062,19.61343942918986,0 80.2434105704609,19.61345865525172,0 80.24341888860985,19.61348922403784,0 80.2434733496975,19.6137264197459,0 80.2435157997698,19.61391130312739,0 80.24354754459701,19.6140495615462,0 80.24354877086952,19.61405439481995,0 80.2434722012899,19.61410050908189,0 80.24346388081889,19.6140677144223,0 80.2433703049237,19.61366016124972,0 80.24333537491293,19.61350802929974,0 80.24333187743775,19.61349517622803,0 80.24336074887582,19.6134917692826,0 80.24340533881062,19.61343942918986,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00020">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.64</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.24066397863756,19.60738842358803,0 80.2406742461161,19.60738323169986,0 80.24069988711339,19.60736590463522,0 80.24077151098355,19.60745195634856,0 80.24139036963608,19.60819547239521,0 80.24167273691781,19.60853471432106,0 80.24168107248616,19.60854472881853,0 80.24187385881746,19.60894422549948,0 80.24190961067077,19.60901702083828,0 80.24207009396918,19.60934378446262,0 80.2423062695252,19.60982466420948,0 80.24241654704365,19.6100492004752,0 80.24251412803591,19.61024788476288,0 80.24257018460844,19.6104278520265,0 80.24265496977721,19.61070005048596,0 80.24269422067579,19.61082606318721,0 80.24279197193245,19.61118530485197,0 80.24287643697502,19.61149571764616,0 80.24292448832132,19.61167230796881,0 80.24300726418195,19.61197651117946,0 80.24310505284579,19.61233588536115,0 80.24322156815093,19.61276407808928,0 80.24328794714381,19.61300801932518,0 80.24340533881062,19.61343942918986,0 80.24336074887582,19.6134917692826,0 80.24333187743775,19.61349517622803,0 80.24326701416157,19.61325680610359,0 80.24311429109416,19.61269555182779,0 80.24295435115526,19.61210777164245,0 80.24284594391466,19.61170937206138,0 80.24271640242968,19.61123330105742,0 80.24261733016695,19.61086920403401,0 80.24261148824935,19.61084773455644,0 80.2424336442821,19.61027677445707,0 80.24235526669482,19.61011783662414,0 80.24213787423439,19.60967699600736,0 80.24210094649126,19.60960211160389,0 80.24203976130941,19.60947803627475,0 80.24191811998134,19.60923136339648,0 80.24191508513378,19.60922520910789,0 80.24183763455848,19.60906471469247,0 80.24173631027605,19.60885474825713,0 80.24166206390257,19.6087008928987,0 80.24160730984845,19.60858742985565,0 80.24151540364616,19.60847701197997,0 80.24145970365051,19.60841009284178,0 80.24113676166552,19.60802210219499,0 80.24104368661611,19.60791027903935,0 80.24065986749191,19.60744914513633,0 80.24062551533011,19.60740787306675,0 80.24065909321996,19.60739089396462,0 80.24066397863756,19.60738842358803,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00021">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>21</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.595</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.23643528318956,19.60574095022357,0 80.23623926811571,19.60571703462667,0 80.23484971704504,19.60554749064339,0 80.23484056357053,19.60554587326795,0 80.23485044691462,19.60546488713895,0 80.23486313879894,19.6054671296599,0 80.23641374112938,19.60565632330917,0 80.23644458059333,19.60566008598557,0 80.2369412369721,19.60570209245481,0 80.23703873024226,19.60571033813001,0 80.23719786886527,19.60572239781926,0 80.23756828101951,19.60575046748511,0 80.2380815901586,19.60567712601668,0 80.23862185071209,19.60555277057184,0 80.23891204885454,19.60564069689142,0 80.23954037056048,19.60607559420788,0 80.2395404221393,19.60607565160542,0 80.23954718855775,19.60608317576888,0 80.23954962311969,19.60608588298296,0 80.23955420248799,19.60609097521321,0 80.23955775708049,19.60609494213648,0 80.23956019185192,19.60609761910553,0 80.23956478906749,19.60610272816218,0 80.23956707328065,19.60610526556625,0 80.23957069180834,19.60610928644367,0 80.23957386399439,19.60611281122592,0 80.23957808475549,19.6061175012229,0 80.23958021408988,19.60611986728153,0 80.23958383086273,19.60612388614209,0 80.23958679745473,19.60612718253891,0 80.23959060086868,19.60613140878948,0 80.23959291428248,19.60613397939205,0 80.23959778577745,19.60613939246466,0 80.23959942518685,19.60614121413162,0 80.23960307160645,19.60614526593339,0 80.23960400317186,19.60614630106332,0 80.23960799414884,19.60615073572743,0 80.23961018913985,19.60615317474108,0 80.23961386873815,19.60615726340926,0 80.23961729088285,19.60616106600189,0 80.23962039874013,19.6061645193668,0 80.23962223488866,19.60616655964409,0 80.23962447038285,19.6061690436631,0 80.23962676912672,19.60617159796328,0 80.2396278246968,19.60617277088332,0 80.23963519427636,19.60618095975402,0 80.23964574322345,19.60619268144711,0 80.23965353181381,19.60620133590811,0 80.23965887475234,19.60620727282924,0 80.23967167496498,19.60622149605884,0 80.23967864094794,19.60622923645813,0 80.23968871657173,19.60624043219879,0 80.23969605772879,19.60624858947811,0 80.23971110393573,19.60626530838043,0 80.2397156329726,19.60627034091191,0 80.23972859913088,19.60628474852051,0 80.23973458143762,19.60629139588025,0 80.23974559755288,19.60630363665512,0 80.23974764945925,19.60630591667121,0 80.23975194758141,19.60631069261404,0 80.23975263503142,19.60631145648754,0 80.23979259702232,19.60635586101933,0 80.23980880016889,19.60637386544678,0 80.23983277122511,19.60640050132159,0 80.23983717742932,19.60640539735417,0 80.23985365111648,19.60642370238277,0 80.23993748344429,19.60651685406963,0 80.23997223386722,19.60655546753858,0 80.24000297185557,19.60658962250836,0 80.24002526211969,19.60661439065255,0 80.24006783270828,19.60666169353967,0 80.24007083189332,19.60666502612346,0 80.24022846670117,19.60684018384741,0 80.24033576838295,19.60695941305129,0 80.24047469749826,19.60711378500601,0 80.24058601042491,19.60723747077595,0 80.24067884796035,19.60734062735322,0 80.24069988711339,19.60736590463522,0 80.24067726400098,19.60738119234563,0 80.2406742461161,19.60738323169986,0 80.24062551533011,19.60740787306675,0 80.24061248361609,19.60739221623407,0 80.24057644010081,19.60735216642534,0 80.24043002840158,19.60718948056276,0 80.24024470722638,19.60698355967507,0 80.24013462532591,19.60686124108891,0 80.2394816134603,19.606135635449,0 80.23887266426266,19.60571414686099,0 80.2386186791055,19.60563719261265,0 80.23832231611127,19.60570540867709,0 80.23809814776061,19.60575700680057,0 80.23757129741612,19.60583228301464,0 80.23749193484674,19.60582626902277,0 80.23739784035072,19.60581913861902,0 80.23734272978307,19.60581496236233,0 80.2373393022456,19.60581470262437,0 80.23726631137795,19.60580917137813,0 80.23720033430484,19.60580417161136,0 80.23718456589015,19.60580297667151,0 80.23703149520247,19.60579137681118,0 80.2369220548665,19.60578212068534,0 80.2365239645442,19.60574845086669,0 80.23643713198031,19.60574110328883,0 80.23643528318956,19.60574095022357,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00022">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>22</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>0.601</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.22903813779655,19.60335832973253,0 80.22909104656908,19.60340475718647,0 80.2303294745666,19.60428729259079,0 80.23150185736525,19.60494171938219,0 80.23231128831499,19.60501622569778,0 80.23485044691462,19.60546488713895,0 80.23484056357053,19.60554587326795,0 80.23229938599304,19.60509684013491,0 80.23147466221357,19.60502092608233,0 80.23028175732206,19.60435504376019,0 80.22903596079009,19.60346725713084,0 80.22903317094152,19.60346480903875,0 80.22903813779655,19.60335832973253,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00023">
+					<name>Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>2.115</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0001</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.26467439867777,19.61913974845431,0 80.2645357599915,19.61928445695986,0 80.26397347337925,19.61920517550382,0 80.26351716687401,19.61914083572097,0 80.26105120805721,19.61879450941483,0 80.25845996178597,19.61843054956655,0 80.25552282539259,19.61801796001964,0 80.25296561084988,19.61765869884755,0 80.25292555817639,19.61749031284193,0 80.25295955171964,19.61749351014734,0 80.26414906632303,19.61906594266429,0 80.26467439867777,19.61913974845431,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00024">
+					<name>Non-Forest</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>24</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Category</td>
+
+<td>Non-Forest</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area_Ha</td>
+
+<td>2.115</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle011</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										80.26552521901007,19.61948621238131,0 80.26542036085391,19.61961546568769,0 80.26499527727366,19.61934924675979,0 80.2645357599915,19.61928445695986,0 80.26467439867777,19.61913974845431,0 80.26503940394292,19.61919102838983,0 80.26504201159318,19.61919143588464,0 80.26505644563272,19.61919516393964,0 80.26506997720355,19.61920121040683,0 80.26507407289598,19.61920362202304,0 80.26508761836079,19.61921210670543,0 80.26552521901007,19.61948621238131,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="SURAJGARH MINE" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+			<name>SURAJGARH MINE</name>
+			<Snippet maxLines="0"></Snippet>
+			<StyleMap id="PolyStyle20">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#PolyStyle200</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#PolyStyle201</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="PolyStyle200">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>66ff5500</color>
+				</PolyStyle>
+			</Style>
+			<Style id="PolyStyle201">
+				<LabelStyle>
+					<color>00000000</color>
+					<scale>0</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>66ff5500</color>
+				</PolyStyle>
+			</Style>
+			<Folder id="GroupLayer0">
+				<name>SURAJGARH MINE</name>
+				<Snippet maxLines="0"></Snippet>
+				<Folder id="FeatureLayer2">
+					<name>LEASE_BOUNDARY</name>
+					<Snippet maxLines="0"></Snippet>
+					<Placemark id="ID_20000">
+						<Snippet maxLines="0"></Snippet>
+						<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>FID_</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Entity</td>
+
+<td>LWPolyline</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Layer</td>
+
+<td>LEASE BOUNDARY</td>
+
+</tr>
+
+<tr>
+
+<td>Color</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Linetype</td>
+
+<td>Continuous</td>
+
+</tr>
+
+<tr>
+
+<td>Elevation</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LineWt</td>
+
+<td>100</td>
+
+</tr>
+
+<tr>
+
+<td>RefName</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>AREA IN HA.</td>
+
+<td>348.09</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+						<styleUrl>#PolyStyle20</styleUrl>
+						<MultiGeometry>
+							<Polygon>
+								<outerBoundaryIs>
+									<LinearRing>
+										<coordinates>
+											80.34959237736571,19.63513040976581,0 80.34998781721862,19.63487788653521,0 80.35038325585026,19.63462536239336,0 80.35077869326065,19.6343728373402,0 80.35117422121363,19.63412044032744,0 80.35156956441769,19.6338677845,0 80.35196506703299,19.63361535355342,0 80.3523604306898,19.633362728015,0 80.35275586199401,19.63311019840583,0 80.35315138382012,19.63285779680584,0 80.35354672093881,19.63260513645417,0 80.35388274184753,19.63239054319929,0 80.35361270883091,19.63201813811408,0 80.35334260472564,19.63164577974388,0 80.35307247786008,19.63127343661065,0 80.3528023923255,19.63090106697721,0 80.35253230802152,19.63052869695855,0 80.35226216868186,19.63015636318761,0 80.35199214310506,19.62978395576575,0 80.35172206249254,19.62941158459158,0 80.35145198311045,19.62903921303229,0 80.35118172663988,19.62866695714594,0 80.35091164542071,19.62829458761228,0 80.35064175234633,19.62792209604402,0 80.35037167788556,19.62754972294449,0 80.35019456195019,19.62730551801368,0 80.35059619152007,19.62706195062421,0 80.35099774782047,19.62681827564346,0 80.35139933896463,19.62657465305279,0 80.3518009289148,19.62633102952511,0 80.35220263409319,19.62608757727524,0 80.35260413038074,19.62584381687212,0 80.35300569160147,19.62560015332043,0 80.35340739319875,19.62535669825914,0 80.35380897717671,19.62511307004278,0 80.35421044354246,19.62486926868406,0 80.35461202513487,19.62462563859839,0 80.35501360553336,19.624382007576,0 80.35541518473791,19.62413837561695,0 80.35587275096334,19.62386077516442,0 80.35627476346913,19.62361690787945,0 80.35667656427488,19.6233731673521,0 80.35707794292534,19.62312968125286,0 80.35747974134213,19.62288593885138,0 80.35788195952151,19.62264194014487,0 80.35828375554688,19.62239819586745,0 80.35868555037715,19.6221544506526,0 80.35908692305844,19.62191095987095,0 80.35948901296224,19.6216672138405,0 80.35989050674613,19.6214234647564,0 80.36018032303643,19.62124764568641,0 80.36058589055524,19.62100122464564,0 80.36099145685448,19.62075480264985,0 80.36139339548102,19.62051083696358,0 80.36179515863036,19.62026661272154,0 80.36219679740381,19.62002264410631,0 80.36259831180386,19.61977893111883,0 80.36299994818674,19.61953496063102,0 80.36340128591563,19.61929098815525,0 80.36380279673234,19.6190472723605,0 80.36420455270375,19.6188030424992,0 80.36460618430431,19.61855906826674,0 80.36500781470916,19.61831509309804,0 80.36540944391835,19.61807111699313,0 80.36581065130508,19.61782739547119,0 80.36621227812418,19.61758341749496,0 80.36661348312334,19.61733969410363,0 80.36701540500687,19.61709571530172,0 80.36741673078581,19.61685173347279,0 80.36781835282358,19.61660775175337,0 80.36819739707661,19.61637748430721,0 80.36845866337453,19.61675563375738,0 80.36871942554198,19.61713391055208,0 80.36898066558558,19.6175124477138,0 80.36924154840217,19.61789046514684,0 80.36950261164105,19.61826874190364,0 80.36976367608587,19.61864701829995,0 80.37002474173663,19.61902529433592,0 80.37028610605226,19.61940357105165,0 80.37054705587757,19.61978210500906,0 80.37080794592499,19.62016012028091,0 80.37106901639993,19.62053839487491,0 80.37133008808102,19.62091666910836,0 80.37159116096828,19.62129494298124,0 80.37185223506174,19.62167321649352,0 80.37211313113507,19.62205122996398,0 80.37237450510479,19.62242950379206,0 80.37263546457972,19.62280803486642,0 80.37289654349838,19.62318630693606,0 80.37315744439373,19.62356431896477,0 80.37341852572439,19.62394259031311,0 80.3736796082615,19.62432086130077,0 80.37394087123729,19.62469939160709,0 80.37420177695526,19.62507740219368,0 80.37446286311199,19.62545567209881,0 80.37472412970997,19.62583420132187,0 80.37498503904531,19.62621221082662,0 80.37524612882196,19.62659047964917,0 80.37550704056821,19.62696848843282,0 80.37577141633808,19.62735151374332,0 80.3754059576634,19.62764063626236,0 80.37504387084128,19.62793464500448,0 80.37468187533595,19.62822875542254,0 80.37431969326217,19.62852266016636,0 80.37395760250514,19.62881666658605,0 80.37359551043645,19.62911067223163,0 80.37323341705607,19.62940467710287,0 80.37287132236399,19.62969868119983,0 80.37251259947668,19.62999757157807,0 80.37209799016884,19.63033421074505,0 80.37162442447679,19.6304046088722,0 80.37115520549264,19.6304851640224,0 80.37068501209309,19.63056044673254,0 80.37021484065828,19.63063585372448,0 80.36974464645593,19.63071113395417,0 80.36927445185222,19.63078641294268,0 80.36880423448115,19.63086156516123,0 80.36833403907491,19.6309368416655,0 80.36786384326741,19.63101211692846,0 80.36739364705872,19.63108739095028,0 80.36687507206425,19.63117040844997,0 80.36651047045329,19.63146195439192,0 80.36614604069956,19.63175336108155,0 80.36578160963782,19.63204476698733,0 80.36541717726804,19.63233617210914,0 80.36505261772808,19.63262743519479,0 80.36468843440359,19.63291912129966,0 80.36432387231035,19.63321038277017,0 80.36395943470825,19.63350178475572,0 80.36359486619052,19.633793040502,0 80.36323055557968,19.63408458637425,0 80.36286611405315,19.63437598600723,0 80.36250167121845,19.63466738485587,0 80.36213722707555,19.6349587829203,0 80.36177278162441,19.6352501802004,0 80.36140833486506,19.63554157669606,0 80.36104388679745,19.63583297240739,0 80.36067943742157,19.63612436733428,0 80.36042480960911,19.6363279535161,0 80.35998178001864,19.63649513695054,0 80.35953322914038,19.63664775948985,0 80.35908466219686,19.63680033585689,0 80.35863609441498,19.63695291101588,0 80.35818752583759,19.63710548509336,0 80.35773895600626,19.63725805673497,0 80.35728509744104,19.63739588674512,0 80.35684181433014,19.63756319787501,0 80.35638742793213,19.6377012048188,0 80.35594466936531,19.63786833437217,0 80.35548506211227,19.63799177919552,0 80.35504170706359,19.63815890480587,0 80.35459894639432,19.63832603230921,0 80.35414508208804,19.63846385339074,0 80.35369650519921,19.63861641547443,0 80.35324218197314,19.63875459537946,0 80.35279360331987,19.63890715476369,0 80.35235024327505,19.63907427386494,0 80.35190166311867,19.63922683136698,0 80.35168446934853,19.63930069622526,0 80.35142842867999,19.63891951575046,0 80.35118278386054,19.63853241722446,0 80.35095783078233,19.63813352167063,0 80.3506912874729,19.63775833220603,0 80.35044553858798,19.63737129052522,0 80.35019979086218,19.63698424852564,0 80.3499540442953,19.63659720620756,0 80.34971840045704,19.6362042352913,0 80.34947265700974,19.63581719190952,0 80.34919693629152,19.63538293208493,0 80.34959237736571,19.63513040976581,0 
+										</coordinates>
+									</LinearRing>
+								</outerBoundaryIs>
+							</Polygon>
+						</MultiGeometry>
+					</Placemark>
+				</Folder>
+			</Folder>
+		</Document>
+	</Folder>
+	<Document id="Diverted_Road" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+		<name>Diverted_Road</name>
+		<Snippet maxLines="0"></Snippet>
+		<Style id="PolyStyle00">
+			<LabelStyle>
+				<color>00000000</color>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffc500ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+		</Style>
+		<Folder id="FeatureLayer0">
+			<name>Diverted_Road</name>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_00000">
+				<name>0</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Area_Ha</td>
+
+<td>6.046</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									80.36540659555148,19.61807587819209,0 80.36539227899605,19.61760366600176,0 80.36561291900175,19.61707189399947,0 80.36573497100289,19.61675328000274,0 80.36607221499648,19.61604525699814,0 80.36599478885502,19.6151571859239,0 80.36600793830225,19.61423549428443,0 80.36593369299845,19.6134623989966,0 80.36574743100114,19.61261233199922,0 80.3657726559984,19.61225526600238,0 80.36568916699569,19.6116731070039,0 80.36566284200428,19.61128257000177,0 80.36554928599854,19.61118371899937,0 80.36538961700296,19.61117556999845,0 80.36442514400012,19.61119930599813,0 80.36354116351238,19.61101878540499,0 80.36301725540993,19.61087234723935,0 80.36271203399836,19.61088934098512,0 80.36244520562789,19.61084321358218,0 80.36225491431023,19.61073410025197,0 80.36179804508764,19.61051560275185,0 80.36116138663157,19.60994403749597,0 80.36045769593467,19.6094445252602,0 80.35972414400011,19.60879341699973,0 80.35925590300074,19.60851805100084,0 80.35900239799811,19.60852842500224,0 80.35805082500153,19.60876499799871,0 80.35758567999993,19.60877961800421,0 80.35722034599981,19.60878065299696,0 80.35620758320078,19.60870645584021,0 80.35531793399763,19.60858408400275,0 80.35452136860742,19.60829377351839,0 80.35384416585413,19.60819014396414,0 80.35354994799796,19.60814512000077,0 80.35271112604134,19.60789870330604,0 80.35209188134985,19.60775189125082,0 80.35173920381337,19.60771447605299,0 80.35089059580007,19.60769334732252,0 80.35059531099608,19.60759373399559,0 80.35062285900408,19.60736329800273,0 80.35096697800148,19.60700730800201,0 80.35184833233544,19.6066575824749,0 80.35217723399657,19.60644870099935,0 80.35247643800211,19.60606724100091,0 80.35261519963113,19.60565727296334,0 80.35267613299632,19.60528805299839,0 80.35267930199906,19.60438285900099,0 80.35295114199629,19.60350268599573,0 80.35337869600151,19.60272582199635,0 80.35390657199957,19.60199233000348,0 80.35453729399579,19.60127018800437,0 80.35514301646796,19.60066003761316,0 80.35576134800432,19.60003016999564,0 80.35656841453277,19.59949940480914,0 80.35738045453412,19.59911372614235,0 80.35819249075185,19.59872804369068,0 80.35893658100235,19.59828784299965,0 80.35966511600222,19.59765919399732,0 80.36033495073563,19.59707291573512,0 80.36103728798513,19.59646355898349,0 80.36076118000452,19.59573207099651,0 80.36041005043131,19.59495860445914,0 80.36005079204314,19.59418017680384,0 80.3595928710014,19.59339793299596,0 80.35903547300059,19.59274830400032,0 80.35855045600208,19.59198636199637,0 80.35820046756413,19.59122103546287,0 80.35780613186863,19.59035872486827,0 80.35750417544963,19.58956242307433,0 80.35731688847619,19.58870327291712,0 80.35718691840461,19.58781721689165,0 80.35708040600383,19.58700190799791,0 80.35718340800236,19.58701752800325,0 80.35728812499734,19.58780278799661,0 80.3574503732677,19.58870374865397,0 80.35761905499628,19.58949238300224,0 80.3579091679979,19.59030210700226,0 80.35830850390893,19.59116246197518,0 80.35865629800031,19.5919117639963,0 80.35912607200439,19.59269898999811,0 80.35966914400137,19.59332086099774,0 80.36016185700183,19.59414659899879,0 80.36053407683951,19.59494097116277,0 80.36088665399717,19.59568356599901,0 80.36117050884835,19.59647292553586,0 80.36039169735443,19.59719059364165,0 80.35973480923538,19.597744277677,0 80.35900434427138,19.5983875400827,0 80.35825884321211,19.59882768312704,0 80.35747534063678,19.59923154089174,0 80.3566156598207,19.59960801325701,0 80.35583585200337,19.600136382997,0 80.35518054576156,19.60081379486788,0 80.35461587098783,19.60133589891178,0 80.35398365125256,19.60205656507318,0 80.35348376600034,19.60274440599891,0 80.35305285000148,19.60350773000305,0 80.35277176400203,19.60437511999906,0 80.35275982430632,19.60526018050611,0 80.35270475099843,19.60566224099709,0 80.35256564136441,19.60612699999388,0 80.35223983768239,19.60652344093459,0 80.35190529301524,19.60672104382244,0 80.35100745319031,19.60708831390633,0 80.35070127399545,19.60738303699654,0 80.35067564299682,19.60754054399756,0 80.35089088583537,19.60762105530754,0 80.35172045821221,19.6076330788988,0 80.35210808299735,19.60767767300053,0 80.35271148757261,19.6078083382566,0 80.35358348700032,19.60805702899677,0 80.35388411985069,19.60810972755383,0 80.35452165703006,19.60822148145614,0 80.3553596888722,19.60850461781803,0 80.35622366503817,19.60861336002035,0 80.35721780672934,19.60867985565913,0 80.35755216764649,19.60870221912701,0 80.35804610899896,19.60867015300196,0 80.35899318453522,19.60842721623143,0 80.359307901493,19.60841929909113,0 80.35976447523595,19.60871009482972,0 80.36049619657057,19.60935429549556,0 80.36121892308736,19.60986291172402,0 80.36184604552633,19.61043444299752,0 80.36227872101091,19.61065712202876,0 80.36246463365306,19.61075291588805,0 80.36271231880204,19.61081704882745,0 80.36300800413684,19.61080002135729,0 80.36354040699663,19.61094192500395,0 80.36443287301856,19.61112224367817,0 80.36539208299951,19.61108354199701,0 80.36562156100111,19.61110965399651,0 80.36575681600191,19.6112585040002,0 80.36580785500225,19.61166961200345,0 80.36589269300228,19.6122586369987,0 80.36589013288101,19.61266270292139,0 80.36605886799939,19.61343957300129,0 80.36614627199712,19.61422723600234,0 80.36613776106017,19.6151757624489,0 80.36622011635177,19.61606164355239,0 80.3658587460046,19.61677750000221,0 80.3657206630036,19.61713102600359,0 80.36552733682399,19.61763158025632,0 80.36553108380711,19.61800033750942,0 80.36540659555148,19.61807587819209,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

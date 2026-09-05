@@ -1,0 +1,20 @@
+{
+  "score_components": {
+    "CNN_Signal_Max_20": "max_cnn_score * 20",
+    "Spatial_Concentration_Max_20": "min(patch_count / 10.0, 1.0) * 20",
+    "DW_Evidence_Max_30": "30 if suspicious_dw else 0",
+    "NDVI_Evidence_Max_30": "30 if ndvi<=-0.10 else (20 if ndvi<=-0.05 else (10 if ndvi<0 else 0))"
+  },
+  "priority_levels": {
+    "HIGH_PRIORITY": "score >= 60 AND evidence_score >= 30",
+    "MEDIUM_PRIORITY": "score >= 40 AND evidence_score >= 20",
+    "LOW_PRIORITY": "score < 40 AND evidence_score > 0",
+    "UNSUPPORTED": "evidence_score == 0"
+  },
+  "actions": {
+    "HIGH PRIORITY": "Prioritize independent field/regulatory verification",
+    "MEDIUM PRIORITY": "Review satellite evidence and historical imagery",
+    "LOW PRIORITY": "Monitor / retain for future analysis",
+    "UNSUPPORTED / MONITOR": "No independent evidence; do not escalate without additional evidence"
+  }
+}

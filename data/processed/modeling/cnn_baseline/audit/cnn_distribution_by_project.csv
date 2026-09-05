@@ -1,0 +1,10 @@
+project_id,cnn_spatial_split,total_samples,positive_samples,negative_samples,positive_prevalence
+MH-001,cnn_train,10966,828,10138,0.075506
+MH-001,cnn_val,2747,267,2480,0.097197
+MH-001,cnn_test,4364,953,3411,0.218378
+MH-002,cnn_train,34439,4205,30234,0.1221
+MH-002,cnn_val,3820,415,3405,0.108639
+MH-002,cnn_test,3192,314,2878,0.098371
+MH-003,cnn_train,4510,1101,3409,0.244124
+MH-003,cnn_val,53,0,53,0.0
+MH-003,cnn_test,565,0,565,0.0

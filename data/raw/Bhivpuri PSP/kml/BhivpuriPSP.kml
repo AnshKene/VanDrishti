@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Alt6.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Temporary Places</name>
+		<open>1</open>
+		<Placemark>
+			<name>HRT</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							73.44615124359045,18.94201072593534,0 73.44937254157021,18.93863956355759,0 73.45102990761069,18.93859149837565,0 73.45116750855004,18.93876364147819,0 73.46051280503696,18.93833555021122,0 73.46675994268162,18.93833555570686,0 73.46677666223756,18.93824323530959,0 73.48309692490733,18.93780541580835,0 73.48606205819739,18.93770094007907,0 73.48631880247514,18.9375469130799,0 73.48728443082001,18.93755117778079,0 73.48731496391524,18.93773362281116,0 73.48635601450255,18.93785468728696,0 73.48611077280606,18.93774981821838,0 73.46666435044162,18.93847008390962,0 73.46619731683644,18.93875703873971,0 73.44984827609035,18.93965157842128,0 73.44692459354488,18.94260969118984,0 73.44615124359045,18.94201072593534,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Lower Reservoir</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							73.44359624047348,18.94408088203062,0 73.44320358144303,18.94327404426765,0 73.44317291774925,18.9429497937024,0 73.44487261382851,18.94166097501149,0 73.44574850126298,18.94116303439868,0 73.45029983745475,18.94317987304229,0 73.45022492029437,18.94330828549138,0 73.45011819702384,18.94347502251852,0 73.45007264156212,18.94354919095283,0 73.44997914841737,18.94368180698339,0 73.44990072363922,18.94379808366374,0 73.44983815533612,18.94389483490019,0 73.44974331247236,18.94403059534206,0 73.44965023986154,18.94418344686446,0 73.44950214973832,18.94432144193637,0 73.44947194492315,18.94437726979845,0 73.4493074493294,18.94453494229044,0 73.44922504414322,18.94461403572022,0 73.44905603232903,18.94473822552252,0 73.44903792770241,18.9447403802943,0 73.44886899637235,18.94488563472753,0 73.44873886158115,18.94506351649192,0 73.44361518264853,18.94444817085198,0 73.44359624047348,18.94408088203062,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,12 @@
+Check,Status,Details
+Feature 8 & 9 checksums unchanged,PASS,
+No CNN retraining occurred,PASS,
+No modification of Feature 9 predictions,PASS,
+No duplicate candidate IDs,PASS,
+Coordinates match authoritative metadata,PASS,
+Project IDs match authoritative metadata,PASS,
+No 2026 data present,PASS,Only 2021-2025 used
+Missing satellite evidence explicitly represented,PASS,INSUFFICIENT_DATA used
+Feature 7.2 not treated as independent truth,PASS,Used only NDVI and DW
+No fabricated NDVI/DW values,PASS,
+Evidence rules reproducible,PASS,

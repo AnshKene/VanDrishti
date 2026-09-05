@@ -1,0 +1,4 @@
+Experiment,held_out_project,xgboost_pr_auc_from_F86,cnn_temporal_pr_auc,cnn_beats_xgb,f86_spatial_cnn_pr_auc,cnn_temporal_beats_spatial,diff_from_reported,Status
+A,MH-001,0.091,0.26185959372191375,True,0.2121,True,5.551115123125783e-17,PASS
+B,MH-002,0.1408,0.26539824511163795,True,0.3381,False,5.551115123125783e-17,PASS
+C,MH-003,0.1145,0.4069814004794018,True,0.147,True,0.0,PASS

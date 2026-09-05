@@ -1,0 +1,4 @@
+project_id,project_name,total_inference_patches,candidate_patch_count,candidate_percentage,mean_probability,max_probability,hotspot_count
+MH-001,MH-001,2424,2345,96.74,0.1825,0.4636,73
+MH-002,MH-002,7549,7216,95.59,0.2075,0.625,28
+MH-003,MH-003,779,443,56.87,0.1108,0.2165,56

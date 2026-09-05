@@ -1,0 +1,4 @@
+Held_Out_Project,F87C_Delta_CNN_PR_AUC,F87C_CNN_F1,F86_XGBoost_PR_AUC,F86_Spatial_CNN_PR_AUC,Delta_beats_XGB,Delta_beats_Spatial,Comparison_vs_Spatial,Comparison_vs_XGB
+MH-001,0.2618595937219137,0.1888888888888888,0.091,0.2121,True,True,CONDITIONAL (population differs),VALID LOPO comparison (conditional on sample filter)
+MH-002,0.2653982451116379,0.3572139303482587,0.1408,0.3381,True,False,CONDITIONAL (population differs),VALID LOPO comparison (conditional on sample filter)
+MH-003,0.4069814004794018,0.4314789687924016,0.1145,0.147,True,True,CONDITIONAL (population differs),VALID LOPO comparison (conditional on sample filter)

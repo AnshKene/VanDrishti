@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches & Testing
+.pytest_cache/
+dashboard/backend/.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.hypothesis/
+
+# Node / Frontend Dependencies & Build Outputs
+node_modules/
+dashboard/frontend/node_modules/
+dashboard/frontend/dist/
+dashboard/frontend/vite.config.ts.timestamp-*.mjs
+
+# Environments & Local Configs
+.env
+.env.*
+!.env.example
+venv/
+env/
+.venv/
+
+# Temporary / Scratch Output Folders
+scratch/pilot_tiles/
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

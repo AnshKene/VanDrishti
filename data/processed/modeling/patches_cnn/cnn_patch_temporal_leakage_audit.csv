@@ -1,0 +1,5 @@
+metric_name,metric_value
+unique_spatial_coordinates,17540
+multi_year_repeat_locations,17178
+cnn_temporal_split_inconsistency_count,0
+temporal_leakage_status,PASS (0 Split Inconsistencies)

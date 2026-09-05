@@ -1,0 +1,7 @@
+metric_dimension,cnn_value,xgboost_value,relative_gain,verdict
+Overall Test PR-AUC,0.197685,0.156534,+26.3%,CNN ADVANTAGE
+Overall Test F1 (Fixed Threshold),0.2834,0.0047,+0.2787 (Absolute),CNN ADVANTAGE
+Spatial Block Winner Count,7 / 12 Blocks,2 / 12 Blocks,58.3%,CNN MAJORITY WINS
+Spatial Bootstrap Paired PR-AUC Gain,+0.047466,Baseline,"95% CI [-0.0076, 0.1452]",PRESENT BUT UNCERTAIN (CI INCLUDES 0)
+Project Generalization (MH-001),0.3285 (PR-AUC),0.2189 (PR-AUC),+50.1%,CNN ADVANTAGE
+Project Generalization (MH-002),0.0895 (PR-AUC),0.0984 (PR-AUC),-9.0%,XGBOOST SLIGHT ADVANTAGE

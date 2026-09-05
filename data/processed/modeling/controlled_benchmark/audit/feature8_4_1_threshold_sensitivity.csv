@@ -1,0 +1,33 @@
+diagnostic_threshold,model_architecture,f1_score,precision,recall,balanced_accuracy,true_positives,false_positives
+0.05,Logistic Regression (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.05,Random Forest (Set C),0.0047,0.3000,0.0024,0.5007,3,7
+0.05,XGBoost Baseline (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.05,Compact 2D CNN (Feature 8.3),0.2795,0.1682,0.8264,0.5354,1047,5178
+0.1,Logistic Regression (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.1,Random Forest (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.1,XGBoost Baseline (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.1,Compact 2D CNN (Feature 8.3),0.2834,0.1740,0.7624,0.5467,966,4585
+0.15,Logistic Regression (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.15,Random Forest (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.15,XGBoost Baseline (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.15,Compact 2D CNN (Feature 8.3),0.2893,0.1804,0.7309,0.5585,926,4208
+0.2,Logistic Regression (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.2,Random Forest (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.2,XGBoost Baseline (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.2,Compact 2D CNN (Feature 8.3),0.2921,0.1847,0.6985,0.5642,885,3907
+0.25,Logistic Regression (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.25,Random Forest (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.25,XGBoost Baseline (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.25,Compact 2D CNN (Feature 8.3),0.2942,0.1886,0.6677,0.5684,846,3639
+0.3,Logistic Regression (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.3,Random Forest (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.3,XGBoost Baseline (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.3,Compact 2D CNN (Feature 8.3),0.2963,0.1929,0.6385,0.5724,809,3384
+0.4,Logistic Regression (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.4,Random Forest (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.4,XGBoost Baseline (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.4,Compact 2D CNN (Feature 8.3),0.2993,0.2013,0.5833,0.5777,739,2933
+0.5,Logistic Regression (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.5,Random Forest (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.5,XGBoost Baseline (Set C),0.0047,0.3750,0.0024,0.5008,3,5
+0.5,Compact 2D CNN (Feature 8.3),0.2973,0.2074,0.5249,0.5771,665,2541
