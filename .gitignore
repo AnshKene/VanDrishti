@@ -34,3 +34,9 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Internal Audit Artifacts & Audit PDF Reports
+AUDIT_*.md
+AUDIT_*.csv
+FINAL_PROJECT_AUDIT_REPORT*.pdf
+
